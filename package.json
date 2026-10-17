@@ -1,0 +1,12 @@
+{
+  "name": "recipe-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A cookbook where every recipe is one table: ingredients down the left, each step spanning what it combines.",
+  "scripts": {
+    "build": "node tools/build-data.mjs",
+    "validate": "node tools/validate.mjs data/batches/*.json",
+    "test": "node --test test/*.test.cjs",
+    "start": "python3 -m http.server 8000"
+  }
+}

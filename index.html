@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipe Grid Cookbook</title>
+  <meta name="description" content="A cookbook where every recipe is a single table: ingredients on the left, steps spanning what they combine.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/">Recipe Grid</a>
+    <nav>
+      <a href="#/">Recipes</a>
+      <a href="#/new" class="button primary">+ New recipe</a>
+    </nav>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer">
+    Recipes are adapted into table form from the linked sources. Your own recipes are saved in this browser.
+  </footer>
+
+  <script src="data/recipes.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/editor.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
