@@ -1,0 +1,1554 @@
+[
+  {
+    "id": "chicken-noodle-soup",
+    "title": "Chicken Noodle Soup",
+    "category": "Soups & Stews",
+    "servings": "about 6 servings",
+    "tree": {
+      "do": "return shredded chicken; stir in",
+      "in": [
+        {
+          "do": "remove chicken; add noodles, cook 6-10 min.",
+          "in": [
+            {
+              "do": "simmer partially covered 20 min.",
+              "in": [
+                {
+                  "do": "bring to gentle simmer; season",
+                  "in": [
+                    {
+                      "do": "sauté 1 min.",
+                      "in": [
+                        {
+                          "do": "sauté 5 min.",
+                          "in": [
+                            "2 Tbs. (28 g) butter",
+                            {
+                              "do": "chop",
+                              "in": [
+                                "1 large onion"
+                              ]
+                            },
+                            {
+                              "do": "chop",
+                              "in": [
+                                "2 large carrots"
+                              ]
+                            },
+                            {
+                              "do": "chop",
+                              "in": [
+                                "2 ribs celery"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "do": "mince",
+                          "in": [
+                            "4 garlic cloves"
+                          ]
+                        },
+                        "2 bay leaves",
+                        "3 sprigs fresh thyme (or 1/2 tsp. dried)"
+                      ]
+                    },
+                    "8 cups (1.9 L) low-sodium chicken stock",
+                    "salt and pepper to taste"
+                  ]
+                },
+                "1 lb. (450 g) boneless, skinless chicken thighs"
+              ]
+            },
+            "5 oz. (140 g) egg noodles"
+          ]
+        },
+        {
+          "do": "finely chop",
+          "in": [
+            "1/4 cup (15 g) fresh parsley"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Shred the chicken with two forks while the noodles cook.",
+      "Add a splash of stock if the soup reduces too much."
+    ],
+    "source": {
+      "name": "Inspired Taste",
+      "url": "https://www.inspiredtaste.net/37475/homemade-chicken-noodle-soup-recipe/"
+    }
+  },
+  {
+    "id": "tomato-soup",
+    "title": "Tomato Soup",
+    "category": "Soups & Stews",
+    "servings": "about 8 cups",
+    "tree": {
+      "do": "stir in; simmer; season to taste",
+      "in": [
+        {
+          "do": "blend smooth",
+          "in": [
+            {
+              "do": "boil, then simmer partially covered 10 min.",
+              "in": [
+                {
+                  "do": "sauté 1 min.",
+                  "in": [
+                    {
+                      "do": "sauté 10-12 min. until golden",
+                      "in": [
+                        "4 Tbs. (57 g) unsalted butter",
+                        {
+                          "do": "finely chop",
+                          "in": [
+                            "2 yellow onions"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "do": "mince",
+                      "in": [
+                        "3 garlic cloves"
+                      ]
+                    }
+                  ]
+                },
+                "2 cans (28 oz./794 g each) crushed tomatoes",
+                "2 cups (475 mL) chicken stock",
+                {
+                  "do": "chop",
+                  "in": [
+                    "1/4 cup (10 g) fresh basil"
+                  ]
+                },
+                "1 Tbs. (12 g) sugar",
+                "1/2 tsp. (1 g) black pepper"
+              ]
+            }
+          ]
+        },
+        "1/2 cup (120 mL) heavy cream",
+        {
+          "do": "grate",
+          "in": [
+            "1/3 cup (30 g) Parmesan"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Use a nonreactive pot.",
+      "Skip blending for a chunky soup. Top with extra Parmesan and basil."
+    ],
+    "source": {
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com/tomato-soup-recipe/"
+    }
+  },
+  {
+    "id": "minestrone",
+    "title": "Minestrone",
+    "category": "Soups & Stews",
+    "servings": "about 6 servings",
+    "tree": {
+      "do": "stir in; season to taste",
+      "in": [
+        {
+          "do": "purée 1 cup; stir back in",
+          "in": [
+            {
+              "do": "boil, then simmer covered 15 min.",
+              "in": [
+                {
+                  "do": "boil, then simmer covered 20 min.",
+                  "in": [
+                    {
+                      "do": "sauté 1 min.",
+                      "in": [
+                        {
+                          "do": "sauté 6-8 min.",
+                          "in": [
+                            "2 Tbs. (28 g) unsalted butter",
+                            "2 Tbs. (30 mL) extra-virgin olive oil",
+                            {
+                              "do": "chop",
+                              "in": [
+                                "1 large yellow onion"
+                              ]
+                            },
+                            {
+                              "do": "dice",
+                              "in": [
+                                "2 medium celery stalks"
+                              ]
+                            },
+                            {
+                              "do": "dice",
+                              "in": [
+                                "2 medium carrots"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "do": "mince",
+                          "in": [
+                            "4 garlic cloves"
+                          ]
+                        }
+                      ]
+                    },
+                    "6 cups (1.4 L) chicken stock",
+                    "1 can (14.5 oz./411 g) diced tomatoes",
+                    "2 Tbs. (32 g) tomato paste",
+                    {
+                      "do": "drain & rinse",
+                      "in": [
+                        "1 can (15 oz./425 g) cannellini beans"
+                      ]
+                    },
+                    {
+                      "do": "peel; cut 1/2 in. (1 cm) cubes",
+                      "in": [
+                        "1 large russet potato"
+                      ]
+                    },
+                    "1-1/2 tsp. (9 g) salt",
+                    "1/2 tsp. (2 g) sugar",
+                    "1 tsp. (1 g) dried thyme",
+                    "1/2 tsp. (0.5 g) dried oregano",
+                    "1/4 tsp. (0.5 g) black pepper"
+                  ]
+                },
+                "3/4 cup (85 g) small pasta (ditalini or elbows)",
+                {
+                  "do": "dice",
+                  "in": [
+                    "1 medium zucchini"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "1 Tbs. (15 mL) extra-virgin olive oil, to finish",
+        "1/3 cup (30 g) grated Pecorino Romano or Parmesan",
+        {
+          "do": "chop",
+          "in": [
+            "2 Tbs. (5 g) fresh basil"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "The purée gives the broth more body.",
+      "Serve topped with more grated cheese."
+    ],
+    "source": {
+      "name": "Once Upon a Chef",
+      "url": "https://www.onceuponachef.com/recipes/minestrone-soup.html"
+    }
+  },
+  {
+    "id": "french-onion-soup",
+    "title": "French Onion Soup",
+    "category": "Soups & Stews",
+    "servings": "about 6 servings",
+    "prep": [
+      "Preheat oven to 400°F (205°C)"
+    ],
+    "tree": {
+      "do": "ladle into bowls; top with cheese & toasts",
+      "in": [
+        {
+          "do": "season to taste",
+          "in": [
+            {
+              "do": "simmer partially covered 30 min.",
+              "in": [
+                {
+                  "do": "deglaze; cook 3 min.",
+                  "in": [
+                    {
+                      "do": "sauté 1 min.",
+                      "in": [
+                        {
+                          "do": "caramelize 30-40 min.",
+                          "in": [
+                            {
+                              "do": "sauté uncovered 10 min.",
+                              "in": [
+                                "2 Tbs. (30 mL) olive oil",
+                                "2 Tbs. (28 g) unsalted butter",
+                                {
+                                  "do": "halve; thinly slice",
+                                  "in": [
+                                    "3 lb. (1.4 kg) yellow onions (about 6 large)"
+                                  ]
+                                }
+                              ]
+                            },
+                            "1/2 tsp. (2 g) sugar"
+                          ]
+                        },
+                        {
+                          "do": "mince",
+                          "in": [
+                            "2 garlic cloves"
+                          ]
+                        }
+                      ]
+                    },
+                    "1/2 cup (120 mL) dry sherry"
+                  ]
+                },
+                "8 cups (1.9 L) beef stock",
+                "1 bay leaf",
+                "3 sprigs fresh thyme",
+                "1 tsp. (6 g) salt"
+              ]
+            },
+            "1/2 tsp. (3 g) salt and 1/2 tsp. (1 g) black pepper, to taste"
+          ]
+        },
+        "4 oz. (113 g) Gruyère, shredded, for topping",
+        {
+          "do": "top with cheese; broil 2-3 min.",
+          "in": [
+            {
+              "do": "bake 400°F (205°C) 6-8 min.",
+              "in": [
+                {
+                  "do": "brush both sides",
+                  "in": [
+                    "12 slices (1/2 in./1 cm thick) baguette",
+                    "about 2 Tbs. (30 mL) olive oil, for brushing"
+                  ]
+                }
+              ]
+            },
+            "4 oz. (113 g) Gruyère, shredded, for toasts"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Stir the onions more often near the end of caramelizing.",
+      "Dry vermouth or dry white wine can replace the sherry."
+    ],
+    "source": {
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com/french-onion-soup/"
+    }
+  },
+  {
+    "id": "beef-chili",
+    "title": "Beef Chili",
+    "category": "Soups & Stews",
+    "servings": "about 6 servings",
+    "tree": {
+      "do": "skim fat; stir in; adjust seasoning",
+      "in": [
+        {
+          "do": "boil, then simmer covered 2 hr.",
+          "in": [
+            {
+              "do": "cook 1-2 min. until fragrant",
+              "in": [
+                {
+                  "do": "brown on high 10-12 min.; don't drain",
+                  "in": [
+                    {
+                      "do": "sauté 4-6 min.",
+                      "in": [
+                        "2 Tbs. (30 mL) vegetable oil",
+                        {
+                          "do": "mince",
+                          "in": [
+                            "1 large yellow onion"
+                          ]
+                        },
+                        {
+                          "do": "mince",
+                          "in": [
+                            "4 garlic cloves"
+                          ]
+                        },
+                        {
+                          "do": "mince",
+                          "in": [
+                            "1 red bell pepper"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "do": "mix; rest 20 min.",
+                      "in": [
+                        "2-1/2 lb. (1.1 kg) 85% lean ground beef",
+                        "2 tsp. (12 g) salt",
+                        "3/4 tsp. (3.5 g) baking soda",
+                        "1 Tbs. (15 mL) water"
+                      ]
+                    }
+                  ]
+                },
+                "2 Tbs. (16 g) ancho chile powder",
+                "1 Tbs. (8 g) chipotle chile powder",
+                "1 Tbs. (6 g) ground cumin",
+                "1 tsp. (1 g) dried oregano",
+                "1/2 tsp. (1 g) ground coriander",
+                "1 tsp. (2 g) smoked paprika"
+              ]
+            },
+            "2 Tbs. (18 g) cornmeal",
+            "3 cups (710 mL) beef broth",
+            "1 can (28 oz./794 g) crushed tomatoes",
+            "1/4 cup (65 g) tomato paste"
+          ]
+        },
+        "1 Tbs. (15 mL) fresh lime juice"
+      ]
+    },
+    "notes": [
+      "Optional: 1/4 tsp. cinnamon with the spices and 1 Tbs. molasses with the tomatoes.",
+      "Serve with cilantro, sour cream, cheese and scallions."
+    ],
+    "source": {
+      "name": "Once Upon a Chef",
+      "url": "https://www.onceuponachef.com/recipes/classic-beef-chili.html"
+    }
+  },
+  {
+    "id": "split-pea-soup",
+    "title": "Split Pea Soup",
+    "category": "Soups & Stews",
+    "servings": "6 to 8 servings",
+    "tree": {
+      "do": "return ham; simmer; season",
+      "in": [
+        {
+          "do": "discard thyme, bay leaves & bacon",
+          "in": [
+            {
+              "do": "simmer covered 30 min.",
+              "in": [
+                {
+                  "do": "remove ham to shred",
+                  "in": [
+                    {
+                      "do": "boil, then simmer covered 45 min.",
+                      "in": [
+                        {
+                          "do": "sauté 30 sec.",
+                          "in": [
+                            {
+                              "do": "sauté 4-5 min.",
+                              "in": [
+                                "2 Tbs. (28 g) unsalted butter",
+                                {
+                                  "do": "finely chop",
+                                  "in": [
+                                    "1 large yellow onion"
+                                  ]
+                                },
+                                "1/2 tsp. (3 g) salt"
+                              ]
+                            },
+                            {
+                              "do": "mince",
+                              "in": [
+                                "2 garlic cloves"
+                              ]
+                            }
+                          ]
+                        },
+                        "4 cups (950 mL) low-sodium chicken broth",
+                        "3 cups (710 mL) water",
+                        {
+                          "do": "remove skin; quarter",
+                          "in": [
+                            "1 lb. (450 g) ham steak"
+                          ]
+                        },
+                        "3 slices (4 oz./113 g) thick-cut bacon, whole",
+                        {
+                          "do": "pick over & rinse",
+                          "in": [
+                            "1 lb. (450 g) green split peas"
+                          ]
+                        },
+                        "3 sprigs fresh thyme",
+                        "2 bay leaves"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "do": "cut 1/2 in. (1 cm) pieces",
+                  "in": [
+                    "2 medium carrots"
+                  ]
+                },
+                {
+                  "do": "cut 1/4 in. (6 mm) pieces",
+                  "in": [
+                    "1 medium stalk celery"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "black pepper to taste"
+      ]
+    },
+    "notes": [
+      "Thin with water if too thick.",
+      "Good with buttery croutons."
+    ],
+    "source": {
+      "name": "Once Upon a Chef",
+      "url": "https://www.onceuponachef.com/recipes/split-pea-soup.html"
+    }
+  },
+  {
+    "id": "new-england-clam-chowder",
+    "title": "New England Clam Chowder",
+    "category": "Soups & Stews",
+    "servings": "6 to 8 servings",
+    "tree": {
+      "do": "cool slightly; garnish",
+      "in": [
+        {
+          "do": "season to taste",
+          "in": [
+            {
+              "do": "boil, then simmer, stirring 15-20 min.",
+              "in": [
+                {
+                  "do": "stir in; cook 5 min.",
+                  "in": [
+                    {
+                      "do": "cook until translucent",
+                      "in": [
+                        {
+                          "do": "melt together",
+                          "in": [
+                            {
+                              "do": "render slowly; strain",
+                              "in": [
+                                "1/3 cup (50 g) cubed salt pork"
+                              ]
+                            },
+                            "4 Tbs. (57 g) butter"
+                          ]
+                        },
+                        {
+                          "do": "finely chop",
+                          "in": [
+                            "1 large onion"
+                          ]
+                        },
+                        {
+                          "do": "finely chop",
+                          "in": [
+                            "4 celery ribs"
+                          ]
+                        },
+                        "1 Tbs. (9 g) chopped garlic"
+                      ]
+                    },
+                    "1/2 cup (63 g) all-purpose flour"
+                  ]
+                },
+                "3 cups (680 g) chopped clams, with juices",
+                {
+                  "do": "peel & dice",
+                  "in": [
+                    "3-4 potatoes"
+                  ]
+                },
+                "10 oz. (300 mL) clam juice",
+                "3 cups (710 mL) milk or half-and-half"
+              ]
+            },
+            "1 tsp. (6 g) celery salt",
+            "5 dashes hot sauce",
+            "salt and pepper to taste"
+          ]
+        },
+        "chopped parsley, for garnish"
+      ]
+    },
+    "notes": [
+      "Grease from 10 strips of bacon can replace the salt pork."
+    ],
+    "source": {
+      "name": "Food Network (Ropewalk)",
+      "url": "https://www.foodnetwork.com/recipes/ropewalk-new-england-clam-chowder-recipe-1946018"
+    }
+  },
+  {
+    "id": "butternut-squash-soup",
+    "title": "Butternut Squash Soup",
+    "category": "Soups & Stews",
+    "servings": "about 6 servings",
+    "tree": {
+      "do": "stir in; adjust seasoning",
+      "in": [
+        {
+          "do": "stir in; bring to simmer",
+          "in": [
+            {
+              "do": "purée until smooth",
+              "in": [
+                {
+                  "do": "boil, then simmer covered 35 min.",
+                  "in": [
+                    "2-1/2 lb. (1.1 kg) butternut squash, cubed (about 8 cups)",
+                    {
+                      "do": "roughly chop",
+                      "in": [
+                        "1 red bell pepper"
+                      ]
+                    },
+                    {
+                      "do": "roughly chop",
+                      "in": [
+                        "1 medium yellow onion"
+                      ]
+                    },
+                    {
+                      "do": "smash & peel",
+                      "in": [
+                        "3 garlic cloves"
+                      ]
+                    },
+                    "5 cups (1.2 L) water",
+                    "2-1/2 tsp. (15 g) salt",
+                    "2 Tbs. (25 g) sugar"
+                  ]
+                }
+              ]
+            },
+            "1 cup (240 mL) heavy cream"
+          ]
+        },
+        {
+          "do": "chop",
+          "in": [
+            "1 Tbs. (3 g) fresh thyme (or 1 Tbs. curry powder)"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "If using a countertop blender, cool slightly and leave the lid vent open.",
+      "Drizzle with extra cream to serve."
+    ],
+    "source": {
+      "name": "Once Upon a Chef",
+      "url": "https://www.onceuponachef.com/recipes/butternut-squash-soup.html"
+    }
+  },
+  {
+    "id": "lentil-soup",
+    "title": "Lentil Soup",
+    "category": "Soups & Stews",
+    "servings": "about 6 servings",
+    "tree": {
+      "do": "ladle; top & drizzle",
+      "in": [
+        {
+          "do": "season to taste",
+          "in": [
+            {
+              "do": "simmer 8 min.",
+              "in": [
+                {
+                  "do": "boil, then simmer covered 30 min.",
+                  "in": [
+                    {
+                      "do": "simmer 8 min.",
+                      "in": [
+                        {
+                          "do": "sauté 5-8 min.",
+                          "in": [
+                            "2 Tbs. (30 mL) olive oil",
+                            {
+                              "do": "chop",
+                              "in": [
+                                "1 medium onion"
+                              ]
+                            },
+                            {
+                              "do": "peel & chop",
+                              "in": [
+                                "2 carrots"
+                              ]
+                            },
+                            {
+                              "do": "chop",
+                              "in": [
+                                "2 celery stalks"
+                              ]
+                            },
+                            {
+                              "do": "chop",
+                              "in": [
+                                "2 garlic cloves"
+                              ]
+                            },
+                            "salt and pepper, for the vegetables"
+                          ]
+                        },
+                        "1 can (14.5 oz./411 g) diced tomatoes"
+                      ]
+                    },
+                    "1 lb. (450 g) dried lentils",
+                    "11 cups (2.6 L) low-salt chicken broth",
+                    "4-6 sprigs fresh thyme"
+                  ]
+                },
+                "2/3 cup (70 g) dried elbow pasta"
+              ]
+            },
+            "salt and pepper to taste"
+          ]
+        },
+        "1 cup (80 g) shredded Parmesan",
+        "olive oil, for drizzling"
+      ]
+    },
+    "notes": [
+      "Simmer the lentils until almost tender before adding the pasta."
+    ],
+    "source": {
+      "name": "Food Network (Giada De Laurentiis)",
+      "url": "https://www.foodnetwork.com/recipes/giada-de-laurentiis/lentil-soup-recipe-1942507"
+    }
+  },
+  {
+    "id": "potato-leek-soup",
+    "title": "Potato Leek Soup",
+    "category": "Soups & Stews",
+    "servings": "about 6 servings",
+    "tree": {
+      "do": "garnish",
+      "in": [
+        {
+          "do": "stir in; simmer; adjust seasoning",
+          "in": [
+            {
+              "do": "purée until smooth",
+              "in": [
+                {
+                  "do": "remove bay leaves & thyme",
+                  "in": [
+                    {
+                      "do": "boil, then simmer covered 15 min.",
+                      "in": [
+                        {
+                          "do": "cook 10 min. without browning",
+                          "in": [
+                            "3 Tbs. (43 g) unsalted butter",
+                            {
+                              "do": "chop; wash well",
+                              "in": [
+                                "4 large leeks, white & light green parts (about 5 cups)"
+                              ]
+                            },
+                            {
+                              "do": "smash & peel",
+                              "in": [
+                                "3 garlic cloves"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "do": "peel; cut 1/2 in. (1 cm) pieces",
+                          "in": [
+                            "2 lb. (900 g) Yukon Gold potatoes"
+                          ]
+                        },
+                        "7 cups (1.7 L) chicken or vegetable broth",
+                        "2 bay leaves",
+                        "3 sprigs fresh thyme",
+                        "1 tsp. (6 g) salt",
+                        "1/4 tsp. (0.5 g) black pepper"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "1 cup (240 mL) heavy cream"
+          ]
+        },
+        {
+          "do": "finely chop",
+          "in": [
+            "fresh chives, for serving"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Thin with broth if too thick, or simmer longer if too thin.",
+      "Freezes well before the cream is added."
+    ],
+    "source": {
+      "name": "Once Upon a Chef",
+      "url": "https://www.onceuponachef.com/recipes/potato-leek-soup.html"
+    }
+  },
+  {
+    "id": "black-bean-soup",
+    "title": "Black Bean Soup",
+    "category": "Soups & Stews",
+    "servings": "about 4 servings",
+    "tree": {
+      "do": "top each bowl",
+      "in": [
+        {
+          "do": "stir in; season to taste",
+          "in": [
+            {
+              "do": "purée until smooth",
+              "in": [
+                {
+                  "do": "boil, then simmer covered 15 min.",
+                  "in": [
+                    {
+                      "do": "cook 8 min. without browning",
+                      "in": [
+                        "2 Tbs. (30 mL) extra-virgin olive oil",
+                        {
+                          "do": "roughly chop",
+                          "in": [
+                            "2 medium yellow onions"
+                          ]
+                        },
+                        {
+                          "do": "crush & peel",
+                          "in": [
+                            "4 large garlic cloves"
+                          ]
+                        },
+                        {
+                          "do": "peel & roughly chop",
+                          "in": [
+                            "2 carrots"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "do": "drain & rinse",
+                      "in": [
+                        "2 cans (15 oz./425 g each) black beans"
+                      ]
+                    },
+                    "3 cups (710 mL) chicken or vegetable broth",
+                    "3 Tbs. (27 g) cornmeal",
+                    "3/4 tsp. (1 g) dried oregano",
+                    "1 tsp. (2 g) ground coriander",
+                    "1-3/4 tsp. (4 g) ground cumin",
+                    "1/8 tsp. cayenne pepper",
+                    "scant 1/2 tsp. (3 g) salt"
+                  ]
+                }
+              ]
+            },
+            "2 Tbs. (30 mL) fresh lime juice",
+            "salt and pepper to taste"
+          ]
+        },
+        "1/3 cup (80 g) sour cream",
+        {
+          "do": "chop",
+          "in": [
+            "a handful of fresh cilantro"
+          ]
+        }
+      ]
+    },
+    "source": {
+      "name": "Once Upon a Chef",
+      "url": "https://www.onceuponachef.com/recipes/black-bean-soup.html"
+    }
+  },
+  {
+    "id": "beef-stew",
+    "title": "Beef Stew",
+    "category": "Soups & Stews",
+    "servings": "about 6 servings",
+    "prep": [
+      "Preheat oven to 325°F (165°C), rack in lower-middle position"
+    ],
+    "tree": {
+      "do": "remove bay leaf; season; garnish",
+      "in": [
+        {
+          "do": "bake covered 1 hr. more",
+          "in": [
+            {
+              "do": "boil, then braise covered 325°F (165°C) 2 hr.",
+              "in": [
+                {
+                  "do": "stir in paste 1 min.; add flour, stir 1-2 min.",
+                  "in": [
+                    {
+                      "do": "cook 5 min., scraping pan",
+                      "in": [
+                        {
+                          "do": "brown in 3 batches, 5 min. each",
+                          "in": [
+                            {
+                              "do": "pat dry; season",
+                              "in": [
+                                {
+                                  "do": "cut 1-1/2 in. (4 cm) pieces",
+                                  "in": [
+                                    "3 lb. (1.4 kg) boneless beef chuck"
+                                  ]
+                                },
+                                "2 tsp. (12 g) salt",
+                                "1 tsp. (2 g) black pepper"
+                              ]
+                            },
+                            "3 Tbs. (45 mL) olive oil"
+                          ]
+                        },
+                        {
+                          "do": "cut 1 in. (2.5 cm) chunks",
+                          "in": [
+                            "2 medium yellow onions"
+                          ]
+                        },
+                        {
+                          "do": "smash & peel",
+                          "in": [
+                            "7 garlic cloves"
+                          ]
+                        },
+                        "2 Tbs. (30 mL) balsamic vinegar"
+                      ]
+                    },
+                    "1-1/2 Tbs. (24 g) tomato paste",
+                    "1/4 cup (31 g) all-purpose flour"
+                  ]
+                },
+                "2 cups (475 mL) dry red wine",
+                "2 cups (475 mL) beef broth",
+                "2 cups (475 mL) water",
+                "1 bay leaf",
+                "1/2 tsp. (0.5 g) dried thyme",
+                "1-1/2 tsp. (6 g) sugar"
+              ]
+            },
+            {
+              "do": "peel; cut 1 in. (2.5 cm) diagonal chunks",
+              "in": [
+                "4 large carrots"
+              ]
+            },
+            {
+              "do": "halve",
+              "in": [
+                "1 lb. (450 g) small boiling potatoes (baby Yukon Golds)"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "chop",
+          "in": [
+            "fresh parsley, for serving"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Set the browned beef aside between batches, then cook the onions in the same pot.",
+      "Tastes even better made a day ahead."
+    ],
+    "source": {
+      "name": "Once Upon a Chef",
+      "url": "https://www.onceuponachef.com/recipes/beef-stew-with-carrots-potatoes.html"
+    }
+  },
+  {
+    "id": "caesar-salad",
+    "title": "Caesar Salad",
+    "category": "Salads & Sides",
+    "servings": "4 side salads",
+    "prep": [
+      "Preheat oven to 350°F (175°C)"
+    ],
+    "tree": {
+      "do": "drizzle; toss gently",
+      "in": [
+        {
+          "do": "top",
+          "in": [
+            {
+              "do": "rinse, dry & chop",
+              "in": [
+                "1 large head romaine (or 2 small)"
+              ]
+            },
+            "1/3 cup (30 g) shaved Parmesan",
+            {
+              "do": "cool",
+              "in": [
+                {
+                  "do": "bake 350°F (175°C) 10-12 min.",
+                  "in": [
+                    {
+                      "do": "drizzle & toss",
+                      "in": [
+                        {
+                          "do": "slice 1/4 in. (6 mm) thick",
+                          "in": [
+                            "1/2 French baguette"
+                          ]
+                        },
+                        {
+                          "do": "stir together",
+                          "in": [
+                            "3 Tbs. (45 mL) extra-virgin olive oil, for croutons",
+                            "1 tsp. (3 g) minced garlic, for croutons"
+                          ]
+                        },
+                        "2 Tbs. (10 g) grated Parmesan, for croutons"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "season",
+          "in": [
+            {
+              "do": "drizzle in, whisking constantly",
+              "in": [
+                {
+                  "do": "whisk",
+                  "in": [
+                    {
+                      "do": "mince",
+                      "in": [
+                        "2 small garlic cloves, for dressing"
+                      ]
+                    },
+                    "2 tsp. (10 g) Dijon mustard",
+                    "1 tsp. (5 mL) Worcestershire sauce",
+                    "2 tsp. (10 mL) fresh lemon juice",
+                    "1-1/2 tsp. (7 mL) red wine vinegar"
+                  ]
+                },
+                "1/3 cup (80 mL) extra-virgin olive oil, for dressing"
+              ]
+            },
+            "1/2 tsp. (3 g) sea salt",
+            "1/8 tsp. black pepper"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Dress just before serving."
+    ],
+    "source": {
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com/caesar-salad-recipe/"
+    }
+  },
+  {
+    "id": "greek-salad",
+    "title": "Greek Salad",
+    "category": "Salads & Sides",
+    "servings": "3 to 4 servings",
+    "tree": {
+      "do": "nestle feta on top; sprinkle",
+      "in": [
+        {
+          "do": "toss; drizzle",
+          "in": [
+            {
+              "do": "toss; rest 5 min.",
+              "in": [
+                {
+                  "do": "cut bite-size",
+                  "in": [
+                    "8 oz. (225 g) ripe tomatoes"
+                  ]
+                },
+                {
+                  "do": "slice into half moons",
+                  "in": [
+                    "1/2 large English cucumber (6 oz./170 g)"
+                  ]
+                },
+                {
+                  "do": "soak in cold water 10 min.; drain",
+                  "in": [
+                    {
+                      "do": "thinly slice",
+                      "in": [
+                        "1/2 small red onion (2 oz./57 g)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "do": "slice",
+                  "in": [
+                    "1 medium green bell pepper"
+                  ]
+                },
+                "3/4 cup (113 g) Kalamata olives",
+                "3/4 tsp. (1 g) dried oregano",
+                "1/4 tsp. (1.5 g) fine sea salt",
+                "black pepper to taste"
+              ]
+            },
+            "2 Tbs. (30 mL) red wine vinegar",
+            "3 Tbs. (45 mL) olive oil"
+          ]
+        },
+        {
+          "do": "cut into thick slices",
+          "in": [
+            "4 oz. (113 g) feta cheese"
+          ]
+        },
+        "dried oregano, for serving"
+      ]
+    },
+    "notes": [
+      "Resting lets the salted vegetables release juices into the dressing."
+    ],
+    "source": {
+      "name": "Inspired Taste",
+      "url": "https://www.inspiredtaste.net/45107/greek-salad/"
+    }
+  },
+  {
+    "id": "coleslaw",
+    "title": "Coleslaw",
+    "category": "Salads & Sides",
+    "servings": "6 to 8 servings",
+    "tree": {
+      "do": "cover; chill until serving",
+      "in": [
+        {
+          "do": "toss; adjust seasoning",
+          "in": [
+            {
+              "do": "whisk",
+              "in": [
+                "3/4 cup (175 g) mayonnaise",
+                "1/4 cup (60 g) sour cream",
+                "2 Tbs. (30 mL) apple cider vinegar",
+                "2 Tbs. (25 g) sugar",
+                "2 tsp. (10 g) Dijon mustard",
+                "1/2 tsp. (1 g) celery seed",
+                "1/2 tsp. (3 g) salt",
+                "1/2 tsp. (1 g) black pepper"
+              ]
+            },
+            "1 lb. (450 g) shredded coleslaw mix (about 7 cups)",
+            {
+              "do": "thinly slice",
+              "in": [
+                "2 scallions, dark green parts only"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Keeps refrigerated up to 24 hours."
+    ],
+    "source": {
+      "name": "Once Upon a Chef",
+      "url": "https://www.onceuponachef.com/recipes/classic-coleslaw.html"
+    }
+  },
+  {
+    "id": "potato-salad",
+    "title": "Potato Salad",
+    "category": "Salads & Sides",
+    "servings": "about 6 servings",
+    "tree": {
+      "do": "chill 1 hr.",
+      "in": [
+        {
+          "do": "fold gently",
+          "in": [
+            {
+              "do": "combine",
+              "in": [
+                {
+                  "do": "peel & dice",
+                  "in": [
+                    {
+                      "do": "drain; air dry",
+                      "in": [
+                        {
+                          "do": "boil until just tender, about 20 min.",
+                          "in": [
+                            "5 medium Yukon Gold potatoes, unpeeled"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "do": "peel & dice",
+                  "in": [
+                    {
+                      "do": "hard-boil; cool",
+                      "in": [
+                        "5 large eggs"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "do": "dice",
+                  "in": [
+                    "4 small dill pickles (not sweet)"
+                  ]
+                },
+                {
+                  "do": "slice",
+                  "in": [
+                    "3-4 green onions"
+                  ]
+                },
+                {
+                  "do": "chop",
+                  "in": [
+                    "1 Tbs. (3 g) fresh dill"
+                  ]
+                }
+              ]
+            },
+            {
+              "do": "whisk",
+              "in": [
+                "1/2 cup (115 g) mayonnaise",
+                "1 Tbs. (15 mL) white wine vinegar",
+                "1 tsp. (5 g) Dijon mustard",
+                "1 Tbs. (15 mL) water",
+                "1/2 tsp. (1 g) black pepper"
+              ]
+            },
+            "salt to taste"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Use waxy potatoes so the cubes hold their shape.",
+      "Salt after the dressing goes on."
+    ],
+    "source": {
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com/classic-potato-salad/"
+    }
+  },
+  {
+    "id": "macaroni-salad",
+    "title": "Macaroni Salad",
+    "category": "Salads & Sides",
+    "servings": "about 6 servings",
+    "prep": [
+      "Bring a large pot of salted water to a boil"
+    ],
+    "tree": {
+      "do": "stir; season to taste",
+      "in": [
+        {
+          "do": "combine",
+          "in": [
+            {
+              "do": "rinse & drain",
+              "in": [
+                {
+                  "do": "cook about 10 min.",
+                  "in": [
+                    "2 cups (225 g) dry elbow macaroni"
+                  ]
+                }
+              ]
+            },
+            {
+              "do": "dice",
+              "in": [
+                "1/3 cup (40 g) celery"
+              ]
+            },
+            {
+              "do": "soak in cold water 5 min.; drain",
+              "in": [
+                {
+                  "do": "mince",
+                  "in": [
+                    "1/4 cup (40 g) red onion"
+                  ]
+                }
+              ]
+            },
+            {
+              "do": "mince",
+              "in": [
+                "1 Tbs. (4 g) flat-leaf parsley"
+              ]
+            },
+            {
+              "do": "dice",
+              "in": [
+                "1/2 cup (90 g) vine-ripened tomato (optional)"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "whisk",
+          "in": [
+            "1/2 cup (115 g) mayonnaise",
+            "3/4 tsp. (2 g) dry mustard",
+            "1-1/2 tsp. (6 g) sugar",
+            "1-1/2 Tbs. (22 mL) cider vinegar",
+            "3 Tbs. (45 g) sour cream",
+            "1/2 tsp. (2 g) kosher salt"
+          ]
+        },
+        "salt and black pepper to taste"
+      ]
+    },
+    "notes": [
+      "Keeps covered in the refrigerator up to 3 days."
+    ],
+    "source": {
+      "name": "Food Network Kitchen",
+      "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/american-macaroni-salad-recipe-2011554"
+    }
+  },
+  {
+    "id": "caprese-salad",
+    "title": "Caprese Salad",
+    "category": "Salads & Sides",
+    "servings": "about 6 side servings",
+    "prep": [
+      "Let tomatoes and mozzarella sit at room temperature 15-20 min."
+    ],
+    "tree": {
+      "do": "drizzle",
+      "in": [
+        {
+          "do": "season just before serving",
+          "in": [
+            {
+              "do": "layer on platter, alternating",
+              "in": [
+                {
+                  "do": "slice 1/4 in. (6 mm) thick",
+                  "in": [
+                    "1-1/2 lb. (680 g) ripe tomatoes"
+                  ]
+                },
+                {
+                  "do": "slice 1/4 in. (6 mm) thick",
+                  "in": [
+                    "12-16 oz. (340-450 g) fresh mozzarella"
+                  ]
+                },
+                {
+                  "do": "pick leaves",
+                  "in": [
+                    "1 bunch fresh basil"
+                  ]
+                }
+              ]
+            },
+            "1/2 tsp. (3 g) sea salt",
+            "1/4 tsp. (0.5 g) black pepper"
+          ]
+        },
+        "3 Tbs. (45 mL) extra-virgin olive oil",
+        "balsamic glaze, to taste (optional)"
+      ]
+    },
+    "notes": [
+      "Salting early draws moisture from the tomatoes, so season right before serving."
+    ],
+    "source": {
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com/caprese-salad-recipe/"
+    }
+  },
+  {
+    "id": "mashed-potatoes",
+    "title": "Mashed Potatoes",
+    "category": "Salads & Sides",
+    "servings": "about 6 servings",
+    "tree": {
+      "do": "season; rest 5 min.",
+      "in": [
+        {
+          "do": "mash until creamy",
+          "in": [
+            {
+              "do": "drain; cover in hot pot 5 min.",
+              "in": [
+                {
+                  "do": "simmer 15-20 min. until fork-tender",
+                  "in": [
+                    {
+                      "do": "cover with cold water; boil",
+                      "in": [
+                        {
+                          "do": "dice evenly",
+                          "in": [
+                            "2 lb. (900 g) Yukon Gold or red potatoes"
+                          ]
+                        },
+                        "1 Tbs. (18 g) salt, for the water"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "do": "warm until butter melts",
+              "in": [
+                "1 cup (235 mL) whole milk or broth",
+                "3 Tbs. (40 g) butter"
+              ]
+            },
+            "1/4 tsp. (0.5 g) black pepper",
+            "heavy cream or sour cream (optional)"
+          ]
+        },
+        "salt and pepper to taste"
+      ]
+    },
+    "notes": [
+      "Use a masher or ricer, not a blender, to avoid gluey potatoes."
+    ],
+    "source": {
+      "name": "Inspired Taste",
+      "url": "https://www.inspiredtaste.net/25025/mashed-potatoes-recipe/"
+    }
+  },
+  {
+    "id": "roasted-vegetables",
+    "title": "Roasted Vegetables",
+    "category": "Salads & Sides",
+    "servings": "about 10 side servings",
+    "prep": [
+      "Preheat oven to 450°F (230°C), rack in center",
+      "Line two 9x13 in. (23x33 cm) pans with foil; grease each with about 1 Tbs. oil"
+    ],
+    "tree": {
+      "do": "sprinkle cheese; broil 1-2 min.",
+      "in": [
+        {
+          "do": "spread on top; roast 20-25 min.",
+          "in": [
+            {
+              "do": "divide between pans; roast 10 min.",
+              "in": [
+                {
+                  "do": "toss",
+                  "in": [
+                    {
+                      "do": "cut 3/4-1 in. (2-2.5 cm) slices",
+                      "in": [
+                        "6 medium yellow potatoes, unpeeled"
+                      ]
+                    },
+                    {
+                      "do": "peel, seed; cut 3/4-1 in. slices",
+                      "in": [
+                        "1 medium butternut squash"
+                      ]
+                    },
+                    {
+                      "do": "peel; cut 1/2 in. (1 cm) rounds",
+                      "in": [
+                        "2 large carrots"
+                      ]
+                    },
+                    {
+                      "do": "finely chop",
+                      "in": [
+                        "2 garlic cloves, for first batch"
+                      ]
+                    },
+                    "2 Tbs. (30 mL) olive or avocado oil, for first batch",
+                    "1 Tbs. (18 g) garlic salt, for first batch",
+                    "black pepper to taste, for first batch"
+                  ]
+                }
+              ]
+            },
+            {
+              "do": "toss",
+              "in": [
+                {
+                  "do": "cut 3/4 in. (2 cm) rounds",
+                  "in": [
+                    "1 large or 2 medium zucchini"
+                  ]
+                },
+                {
+                  "do": "cut 1 in. (2.5 cm) pieces",
+                  "in": [
+                    "2 red, yellow or orange bell peppers"
+                  ]
+                },
+                {
+                  "do": "finely chop",
+                  "in": [
+                    "2 garlic cloves, for second batch"
+                  ]
+                },
+                "1 Tbs. (15 mL) olive or avocado oil, for second batch",
+                "1/2 Tbs. (9 g) garlic salt, for second batch",
+                "black pepper to taste, for second batch"
+              ]
+            }
+          ]
+        },
+        "1/2 cup (50 g) shredded Parmesan or mozzarella"
+      ]
+    },
+    "notes": [
+      "Roast until the potatoes and squash are fork-tender.",
+      "Firm vegetables go in first; softer ones join for the last 20-25 min."
+    ],
+    "source": {
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com/roasted-vegetables-recipe/"
+    }
+  }
+]

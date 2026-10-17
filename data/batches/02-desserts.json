@@ -1,0 +1,1053 @@
+[
+  {
+    "id": "chocolate-chip-cookies",
+    "title": "Chocolate Chip Cookies",
+    "category": "Baking & Desserts",
+    "servings": "about 60 cookies",
+    "prep": ["Preheat oven to 375°F (190°C)"],
+    "tree": {
+      "do": "cool on wire racks",
+      "in": [{
+        "do": "cool 2 min. on sheets",
+        "in": [{
+          "do": "bake 375°F (190°C) 9–11 min.",
+          "in": [{
+            "do": "drop by rounded Tbs. onto ungreased sheets",
+            "in": [{
+              "do": "stir in",
+              "in": [
+                {
+                  "do": "gradually beat in",
+                  "in": [
+                    {
+                      "do": "beat in one at a time",
+                      "in": [
+                        {
+                          "do": "beat until creamy",
+                          "in": [
+                            "1 cup (227 g) butter, softened",
+                            "3/4 cup (150 g) granulated sugar",
+                            "3/4 cup (165 g) packed brown sugar",
+                            "1 tsp. (5 mL) vanilla extract"
+                          ]
+                        },
+                        "2 large eggs"
+                      ]
+                    },
+                    {
+                      "do": "whisk",
+                      "in": [
+                        "2-1/4 cups (281 g) all-purpose flour",
+                        "1 tsp. (4.6 g) baking soda",
+                        "1 tsp. (6 g) salt"
+                      ]
+                    }
+                  ]
+                },
+                "2 cups (340 g) semi-sweet chocolate chips",
+                "1 cup (120 g) chopped nuts"
+              ]
+            }]
+          }]
+        }]
+      }]
+    },
+    "notes": ["The nuts are optional."],
+    "source": { "name": "Nestlé Toll House (Very Best Baking)", "url": "https://www.verybestbaking.com/toll-house/recipes/chocolate-chip-cookies/" }
+  },
+  {
+    "id": "fudgy-brownies",
+    "title": "Fudgy Brownies",
+    "category": "Baking & Desserts",
+    "servings": "24 brownies",
+    "prep": ["Preheat oven to 350°F (175°C)", "Grease a 9 x 13 in. (23 x 33 cm) pan, line with parchment and grease the parchment"],
+    "tree": {
+      "do": "cut into squares",
+      "in": [{
+        "do": "cool on rack",
+        "in": [{
+          "do": "bake 350°F (175°C) 28–32 min.",
+          "in": [{
+            "do": "spread in pan",
+            "in": [{
+              "do": "stir in, scraping bowl",
+              "in": [
+                {
+                  "do": "stir until smooth",
+                  "in": [
+                    {
+                      "do": "beat 1 min.",
+                      "in": [
+                        "4 large eggs",
+                        "1-1/4 cups (106 g) Dutch-process cocoa",
+                        "1 tsp. (6 g) salt",
+                        "1 tsp. (4 g) baking powder",
+                        "1 tsp. (2 g) espresso powder (optional)",
+                        "1 Tbs. (15 mL) vanilla extract"
+                      ]
+                    },
+                    {
+                      "do": "stir in, heat to 110–120°F (43–49°C)",
+                      "in": [
+                        { "do": "melt", "in": ["16 Tbs. (227 g) unsalted butter"] },
+                        "2-1/4 cups (447 g) sugar"
+                      ]
+                    }
+                  ]
+                },
+                "1-1/2 cups (180 g) all-purpose flour",
+                "2 cups (340 g) chocolate chips"
+              ]
+            }]
+          }]
+        }]
+      }]
+    },
+    "notes": ["Pull when a toothpick shows moist crumbs, not wet batter; the hot butter-sugar mixture gives the shiny top."],
+    "source": { "name": "King Arthur Baking", "url": "https://www.kingarthurbaking.com/recipes/fudge-brownies-recipe" }
+  },
+  {
+    "id": "oatmeal-raisin-cookies",
+    "title": "Oatmeal Raisin Cookies",
+    "category": "Baking & Desserts",
+    "servings": "about 48 cookies",
+    "prep": ["Preheat oven to 350°F (175°C)"],
+    "tree": {
+      "do": "cool on wire rack",
+      "in": [{
+        "do": "cool 1 min. on sheets",
+        "in": [{
+          "do": "bake 350°F (175°C) 8–10 min.",
+          "in": [{
+            "do": "drop by rounded Tbs. onto ungreased sheets",
+            "in": [{
+              "do": "stir in",
+              "in": [
+                {
+                  "do": "mix in",
+                  "in": [
+                    {
+                      "do": "beat in",
+                      "in": [
+                        {
+                          "do": "beat until fluffy",
+                          "in": [
+                            "14 Tbs. (200 g) butter, softened",
+                            "3/4 cup (165 g) packed brown sugar",
+                            "1/2 cup (100 g) granulated sugar"
+                          ]
+                        },
+                        "2 large eggs",
+                        "1 tsp. (5 mL) vanilla extract"
+                      ]
+                    },
+                    "1-1/2 cups (190 g) all-purpose flour",
+                    "1 tsp. (4.6 g) baking soda",
+                    "1 tsp. (2.6 g) ground cinnamon",
+                    "1/2 tsp. (3 g) salt (optional)"
+                  ]
+                },
+                "3 cups (240 g) rolled oats, quick or old-fashioned",
+                "1 cup (150 g) raisins"
+              ]
+            }]
+          }]
+        }]
+      }]
+    },
+    "notes": ["For bars, press dough into an ungreased 13 x 9 in. pan and bake 30–35 min."],
+    "source": { "name": "Quaker Oats", "url": "https://www.quakeroats.com/cooking-and-recipes/vanishing-oatmeal-raisin-cookies" }
+  },
+  {
+    "id": "peanut-butter-cookies",
+    "title": "Peanut Butter Cookies",
+    "category": "Baking & Desserts",
+    "servings": "about 24 cookies",
+    "prep": ["Preheat oven to 350°F (175°C)", "Grease or line two baking sheets with parchment"],
+    "tree": {
+      "do": "cool on rack",
+      "in": [{
+        "do": "bake 350°F (175°C) 12–16 min.",
+        "in": [{
+          "do": "flatten to 1/2 in. (1 cm) with fork, crosshatch",
+          "in": [{
+            "do": "scoop by Tbs., 2 in. (5 cm) apart",
+            "in": [{
+              "do": "beat gently until combined",
+              "in": [
+                {
+                  "do": "beat until smooth",
+                  "in": [
+                    "8 Tbs. (113 g) unsalted butter, softened",
+                    "1/2 cup (99 g) granulated sugar",
+                    "1/2 cup (106 g) packed light brown sugar",
+                    "1 large egg",
+                    "1 tsp. (5 mL) vanilla extract",
+                    "3/4 cup (198 g) creamy peanut butter"
+                  ]
+                },
+                "1-1/2 cups (180 g) all-purpose flour",
+                "1 tsp. (4.6 g) baking soda",
+                "1/2 tsp. (3 g) salt"
+              ]
+            }]
+          }]
+        }]
+      }]
+    },
+    "notes": ["Use conventional creamy peanut butter (not natural). 1/3 cup (61 g) shortening can replace the butter for crisper cookies."],
+    "source": { "name": "King Arthur Baking", "url": "https://www.kingarthurbaking.com/recipes/classic-peanut-butter-cookies-recipe" }
+  },
+  {
+    "id": "sugar-cookies",
+    "title": "Sugar Cookies",
+    "category": "Baking & Desserts",
+    "servings": "about 48 cookies",
+    "prep": ["Preheat oven to 375°F (190°C)", "Line two baking sheets with parchment"],
+    "tree": {
+      "do": "cool on pans, then on rack",
+      "in": [{
+        "do": "bake 375°F (190°C) 10 min., rotating halfway",
+        "in": [{
+          "do": "flatten to 1/4 in. (6 mm) with a glass",
+          "in": [{
+            "do": "roll in",
+            "in": [
+              {
+                "do": "shape into Tbs.-size balls",
+                "in": [{
+                  "do": "mix on low",
+                  "in": [
+                    {
+                      "do": "beat in",
+                      "in": [
+                        {
+                          "do": "cream until fluffy",
+                          "in": [
+                            "1 cup (227 g) unsalted butter, softened",
+                            "2 oz. (57 g) cream cheese",
+                            "1-1/4 cups (250 g) sugar"
+                          ]
+                        },
+                        "1 tsp. (5 mL) vanilla extract",
+                        "1/4 tsp. (1.2 mL) almond extract",
+                        "1 large egg"
+                      ]
+                    },
+                    {
+                      "do": "whisk",
+                      "in": [
+                        "3 cups (375 g) all-purpose flour",
+                        "1 tsp. (4 g) baking powder",
+                        "1/4 tsp. (1.2 g) baking soda",
+                        "3/4 tsp. (4.5 g) salt"
+                      ]
+                    }
+                  ]
+                }]
+              },
+              "1/2 cup (100 g) sugar, for rolling"
+            ]
+          }]
+        }]
+      }]
+    },
+    "notes": ["Moisten your hands to shape the slightly sticky dough. Bottoms should be golden, tops pale."],
+    "source": { "name": "Once Upon a Chef", "url": "https://www.onceuponachef.com/recipes/crave-worthy-sugar-cookies.html" }
+  },
+  {
+    "id": "snickerdoodles",
+    "title": "Snickerdoodles",
+    "category": "Baking & Desserts",
+    "servings": "about 56 cookies",
+    "prep": ["Preheat oven to 400°F (205°C) with racks in upper and lower thirds", "Line two baking sheets with parchment"],
+    "tree": {
+      "do": "cool on sheets, then on rack",
+      "in": [{
+        "do": "bake 400°F (205°C) 8–9 min., rotating halfway",
+        "in": [{
+          "do": "coat in",
+          "in": [
+            {
+              "do": "roll into 1 in. (2.5 cm) balls",
+              "in": [{
+                "do": "wrap, chill 30 min.",
+                "in": [{
+                  "do": "mix on low",
+                  "in": [
+                    {
+                      "do": "beat in",
+                      "in": [
+                        {
+                          "do": "beat 1–2 min.",
+                          "in": [
+                            "1 cup (227 g) unsalted butter, softened",
+                            "1-1/2 cups (300 g) sugar"
+                          ]
+                        },
+                        "2 large eggs"
+                      ]
+                    },
+                    {
+                      "do": "whisk",
+                      "in": [
+                        "3 cups (375 g) all-purpose flour",
+                        "2 tsp. (6 g) cream of tartar",
+                        "1 tsp. (4.6 g) baking soda",
+                        "1/2 tsp. (3 g) salt"
+                      ]
+                    }
+                  ]
+                }]
+              }]
+            },
+            {
+              "do": "mix",
+              "in": [
+                "2 Tbs. (25 g) sugar, for coating",
+                "1 Tbs. (8 g) ground cinnamon"
+              ]
+            }
+          ]
+        }]
+      }]
+    },
+    "source": { "name": "Once Upon a Chef", "url": "https://www.onceuponachef.com/recipes/snickerdoodles.html" }
+  },
+  {
+    "id": "apple-pie",
+    "title": "Apple Pie",
+    "category": "Baking & Desserts",
+    "servings": "one 9 in. (23 cm) pie, about 8 slices",
+    "prep": ["Grease a 9 in. (23 cm) pie pan at least 1-1/2 in. (4 cm) deep", "Line a baking sheet with parchment", "Preheat oven to 425°F (220°C) while the dough chills"],
+    "tree": {
+      "do": "cool completely, several hours",
+      "in": [{
+        "do": "bake 425°F (220°C) 20 min., then 375°F (190°C) 40 min.",
+        "in": [{
+          "do": "chill 10 min.; brush and sprinkle top",
+          "in": [
+            {
+              "do": "roll out, line pan, fill, dot, top, crimp, vent",
+              "in": [
+                {
+                  "do": "chill 30 min.",
+                  "in": [{
+                    "do": "fold 3–4 times, pat into 2 disks",
+                    "in": [{
+                      "do": "mix in with fork until dough holds",
+                      "in": [
+                        {
+                          "do": "whisk; cut in fats to dime-size",
+                          "in": [
+                            "2-1/2 cups (300 g) all-purpose flour",
+                            "3/4 tsp. (4.5 g) salt",
+                            "1/3 cup (60 g) vegetable shortening",
+                            { "do": "dice", "in": ["8 Tbs. (113 g) cold unsalted butter"] }
+                          ]
+                        },
+                        "7 to 10 Tbs. (99–142 g) ice water"
+                      ]
+                    }]
+                  }]
+                },
+                {
+                  "do": "toss to coat",
+                  "in": [
+                    {
+                      "do": "toss",
+                      "in": [
+                        { "do": "peel, core, slice 1/8 in. (3 mm)", "in": ["3-1/4 lb. (1.5 kg) apples"] },
+                        "2 Tbs. (28 g) lemon juice"
+                      ]
+                    },
+                    {
+                      "do": "whisk",
+                      "in": [
+                        "3/4 cup (149 g) sugar",
+                        "2 Tbs. (14 g) all-purpose flour",
+                        "2 Tbs. (14 g) cornstarch",
+                        "1/2 tsp. (3 g) salt",
+                        "1 tsp. (2.6 g) ground cinnamon",
+                        "1/4 tsp. (0.5 g) ground nutmeg",
+                        "1/4 tsp. (0.5 g) ground allspice"
+                      ]
+                    }
+                  ]
+                },
+                { "do": "dice", "in": ["2 Tbs. (28 g) butter"] }
+              ]
+            },
+            "milk or egg wash, for brushing",
+            "coarse sparkling sugar, for sprinkling"
+          ]
+        }]
+      }]
+    },
+    "notes": ["Bake on the lined sheet until the filling bubbles vigorously; shield the edges with foil if they brown too fast."],
+    "source": { "name": "King Arthur Baking", "url": "https://www.kingarthurbaking.com/recipes/apple-pie-recipe" }
+  },
+  {
+    "id": "pumpkin-pie",
+    "title": "Pumpkin Pie",
+    "category": "Baking & Desserts",
+    "servings": "one 9 in. (23 cm) pie, about 8 slices",
+    "prep": ["Preheat oven to 425°F (220°C)"],
+    "tree": {
+      "do": "cool on wire rack 2 hr.",
+      "in": [{
+        "do": "bake 350°F (175°C) 40–50 min., until knife comes out clean",
+        "in": [{
+          "do": "bake 425°F (220°C) 15 min.",
+          "in": [{
+            "do": "pour into",
+            "in": [
+              {
+                "do": "gradually stir in",
+                "in": [
+                  {
+                    "do": "stir in",
+                    "in": [
+                      { "do": "beat", "in": ["2 large eggs"] },
+                      "1 can (15 oz./425 g) pure pumpkin",
+                      {
+                        "do": "mix",
+                        "in": [
+                          "3/4 cup (150 g) sugar",
+                          "1 tsp. (2.6 g) ground cinnamon",
+                          "1/2 tsp. (3 g) salt",
+                          "1/2 tsp. (1 g) ground ginger",
+                          "1/4 tsp. (0.5 g) ground cloves"
+                        ]
+                      }
+                    ]
+                  },
+                  "1 can (12 fl. oz./354 mL) evaporated milk"
+                ]
+              },
+              "1 unbaked 9 in. (23 cm) deep-dish pie shell"
+            ]
+          }]
+        }]
+      }]
+    },
+    "notes": ["Serve right away or refrigerate."],
+    "source": { "name": "The Kitchen Magpie (Libby's classic recipe)", "url": "https://www.thekitchenmagpie.com/libbys-famous-pumpkin-pie-recipe/" }
+  },
+  {
+    "id": "new-york-cheesecake",
+    "title": "New York Cheesecake",
+    "category": "Baking & Desserts",
+    "servings": "8 to 10 servings",
+    "prep": ["Preheat oven to 375°F (190°C)", "Wrap a 9 in. (23 cm) springform pan in two seamless layers of heavy-duty foil and grease the inside", "Bring a kettle of water to a boil for the water bath"],
+    "tree": {
+      "do": "unmold, slice, wiping knife between cuts",
+      "in": [{
+        "do": "remove foil, chill covered 8 hr.",
+        "in": [{
+          "do": "cool in water bath 45 min.",
+          "in": [{
+            "do": "bake in water bath 325°F (165°C) 1-1/2–1-3/4 hr.",
+            "in": [{
+              "do": "pour over",
+              "in": [
+                {
+                  "do": "bake 375°F (190°C) 10 min.",
+                  "in": [{
+                    "do": "press firmly into pan",
+                    "in": [{
+                      "do": "mix",
+                      "in": [
+                        "1-1/2 cups (150 g) graham cracker crumbs (12 crackers)",
+                        { "do": "melt", "in": ["5 Tbs. (70 g) unsalted butter"] },
+                        "2 Tbs. (25 g) sugar",
+                        "1/8 tsp. (0.75 g) salt"
+                      ]
+                    }]
+                  }]
+                },
+                {
+                  "do": "beat in on low just until uniform",
+                  "in": [
+                    {
+                      "do": "beat in on low",
+                      "in": [
+                        {
+                          "do": "beat 1 min.",
+                          "in": [
+                            "32 oz. (900 g) cream cheese, room temperature",
+                            "2 cups (400 g) sugar",
+                            "3 Tbs. (24 g) all-purpose flour"
+                          ]
+                        },
+                        "4 tsp. (20 mL) vanilla extract",
+                        "1 tsp. packed lemon zest",
+                        "2 tsp. (10 mL) fresh lemon juice",
+                        "1/4 tsp. (1.5 g) salt"
+                      ]
+                    },
+                    "6 large eggs, added one at a time",
+                    "1/2 cup (120 g) sour cream"
+                  ]
+                }
+              ]
+            }]
+          }]
+        }]
+      }]
+    },
+    "notes": ["Lower the oven to 325°F (165°C) after the crust bakes. Pour boiling water 1 in. (2.5 cm) up the sides of the springform in a roasting pan. It's done with a slight wobble in the center."],
+    "source": { "name": "Once Upon a Chef", "url": "https://www.onceuponachef.com/recipes/new-york-style-cheesecake.html" }
+  },
+  {
+    "id": "carrot-cake",
+    "title": "Carrot Cake with Cream Cheese Frosting",
+    "category": "Baking & Desserts",
+    "servings": "16 servings",
+    "prep": ["Preheat oven to 350°F (175°C)", "Grease two 9 in. (23 cm) round pans and line the bottoms with parchment"],
+    "tree": {
+      "do": "garnish edges",
+      "in": [
+        {
+          "do": "fill and frost",
+          "in": [
+            {
+              "do": "cool 30 min. in pans, then on rack",
+              "in": [{
+                "do": "divide between pans, bake 350°F (175°C) 40 min.",
+                "in": [{
+                  "do": "stir until just combined",
+                  "in": [
+                    {
+                      "do": "whisk in",
+                      "in": [
+                        {
+                          "do": "whisk",
+                          "in": [
+                            "4 large eggs",
+                            "1-1/2 cups (300 g) granulated sugar",
+                            "1/2 cup (110 g) packed dark brown sugar"
+                          ]
+                        },
+                        "1-1/4 cups (300 mL) vegetable oil"
+                      ]
+                    },
+                    {
+                      "do": "toss 1/4 cup (33 g) of it with add-ins",
+                      "in": [
+                        {
+                          "do": "whisk",
+                          "in": [
+                            "2-1/4 cups (281 g) all-purpose flour",
+                            "2 tsp. (9 g) baking soda",
+                            "1 tsp. (6 g) salt",
+                            "1-1/2 tsp. (4 g) ground cinnamon",
+                            "1/4 tsp. (0.5 g) ground nutmeg",
+                            "1/4 tsp. (0.5 g) ground allspice",
+                            "1/4 tsp. (0.5 g) ground cloves"
+                          ]
+                        },
+                        { "do": "soak in hot water 15 min., drain", "in": ["1/2 cup (70 g) dried currants"] },
+                        "3/4 cup (85 g) pecans or walnuts, coarsely chopped"
+                      ]
+                    },
+                    { "do": "shred finely", "in": ["1 lb. (450 g) carrots"] }
+                  ]
+                }]
+              }]
+            },
+            {
+              "do": "gradually beat in, then 1 min. on med.-high",
+              "in": [
+                {
+                  "do": "beat until smooth, then 2 min.",
+                  "in": [
+                    "8 oz. (227 g) cream cheese, room temperature",
+                    "1/2 cup (113 g) unsalted butter, room temperature",
+                    "1 tsp. (5 mL) vanilla extract",
+                    "pinch of salt"
+                  ]
+                },
+                "4 cups (480 g) confectioners' sugar"
+              ]
+            }
+          ]
+        },
+        "1/2 cup (55 g) chopped pecans or walnuts, for garnish (optional)"
+      ]
+    },
+    "notes": ["Refrigerate up to 3 days; bring to room temperature before serving. For a 9 x 13 in. pan, bake about 45 min."],
+    "source": { "name": "Once Upon a Chef", "url": "https://www.onceuponachef.com/recipes/carrot-cake.html" }
+  },
+  {
+    "id": "yellow-cake-chocolate-frosting",
+    "title": "Yellow Cake with Chocolate Frosting",
+    "category": "Baking & Desserts",
+    "servings": "one 9 in. (23 cm) layer, about 8 slices",
+    "prep": ["Preheat oven to 350°F (175°C)", "Grease a 9 in. (23 cm) round pan at least 2 in. (5 cm) deep; line with greased parchment"],
+    "tree": {
+      "do": "let set briefly, slice",
+      "in": [
+        {
+          "do": "cool 10 min., turn out, cool completely",
+          "in": [{
+            "do": "spoon into pan, bake 350°F (175°C) 30–35 min.",
+            "in": [{
+              "do": "add alternately, starting and ending with flour",
+              "in": [
+                {
+                  "do": "mix in",
+                  "in": [
+                    {
+                      "do": "beat in one at a time, then 2 min. high",
+                      "in": [
+                        {
+                          "do": "beat until combined",
+                          "in": [
+                            "1 cup (198 g) sugar",
+                            "8 Tbs. (113 g) unsalted butter, room temperature"
+                          ]
+                        },
+                        "2 large eggs, room temperature"
+                      ]
+                    },
+                    "1 Tbs. (15 mL) vanilla extract",
+                    "1/8 to 1/4 tsp. (0.6–1.2 mL) almond extract",
+                    "3/4 tsp. (4.5 g) salt",
+                    "2 tsp. (8 g) baking powder",
+                    "3/4 tsp. (3.5 g) baking soda"
+                  ]
+                },
+                "1-2/3 cups (200 g) all-purpose flour",
+                "1 cup (227 g) plain yogurt, room temperature"
+              ]
+            }]
+          }]
+        },
+        {
+          "do": "beat until smooth, pour over warm",
+          "in": [
+            { "do": "sift", "in": ["2-1/2 cups (283 g) confectioners' sugar"] },
+            {
+              "do": "off heat, stir in",
+              "in": [
+                {
+                  "do": "bring to a boil",
+                  "in": [{
+                    "do": "stir in",
+                    "in": [
+                      { "do": "melt", "in": ["5 Tbs. (71 g) unsalted butter"] },
+                      "3 Tbs. (14 g) unsweetened cocoa",
+                      "1/4 cup (57 g) plain yogurt"
+                    ]
+                  }]
+                },
+                "1 tsp. (5 mL) vanilla extract",
+                "1/4 tsp. espresso powder (optional)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": ["The warm fudge frosting pours over the cooled cake and sets to a glossy finish."],
+    "source": { "name": "King Arthur Baking", "url": "https://www.kingarthurbaking.com/recipes/classic-yellow-cake-with-fudge-frosting-recipe" }
+  },
+  {
+    "id": "chocolate-cake",
+    "title": "Chocolate Cake",
+    "category": "Baking & Desserts",
+    "servings": "12 servings",
+    "prep": ["Preheat oven to 350°F (175°C)", "Grease and flour two 9 in. (23 cm) round pans"],
+    "tree": {
+      "do": "fill and frost",
+      "in": [
+        {
+          "do": "cool 10 min. in pans, then on racks",
+          "in": [{
+            "do": "divide between pans, bake 350°F (175°C) 30–35 min.",
+            "in": [{
+              "do": "stir in (batter will be thin)",
+              "in": [
+                {
+                  "do": "beat 2 min.",
+                  "in": [
+                    {
+                      "do": "whisk",
+                      "in": [
+                        "2 cups (400 g) sugar",
+                        "1-3/4 cups (220 g) all-purpose flour",
+                        "3/4 cup (64 g) unsweetened cocoa",
+                        "1-1/2 tsp. (6 g) baking powder",
+                        "1-1/2 tsp. (7 g) baking soda",
+                        "1-1/2 tsp. (9 g) salt"
+                      ]
+                    },
+                    "2 large eggs",
+                    "1 cup (240 mL) milk",
+                    "1/2 cup (120 mL) vegetable oil",
+                    "2 tsp. (10 mL) vanilla extract"
+                  ]
+                },
+                "1 cup (240 mL) boiling water"
+              ]
+            }]
+          }]
+        },
+        {
+          "do": "stir in",
+          "in": [
+            {
+              "do": "beat in alternately until spreadable",
+              "in": [
+                {
+                  "do": "stir in",
+                  "in": [
+                    { "do": "melt", "in": ["1/2 cup (113 g) butter"] },
+                    "2/3 cup (57 g) unsweetened cocoa"
+                  ]
+                },
+                "3 cups (360 g) powdered sugar",
+                "1/3 cup (80 mL) milk"
+              ]
+            },
+            "1 tsp. (5 mL) vanilla extract"
+          ]
+        }
+      ]
+    },
+    "notes": ["Hershey's classic \"Perfectly Chocolate\" cake and frosting from the cocoa box."],
+    "source": { "name": "RecipeGirl (Hershey's recipe)", "url": "https://recipegirl.com/hersheys-perfectly-chocolate-chocolate-cake" }
+  },
+  {
+    "id": "lemon-bars",
+    "title": "Lemon Bars",
+    "category": "Baking & Desserts",
+    "servings": "20 squares",
+    "prep": ["Preheat oven to 350°F (175°C)", "Line a 9 x 13 in. (23 x 33 cm) metal pan with foil and spray with nonstick spray"],
+    "tree": {
+      "do": "dust with",
+      "in": [
+        {
+          "do": "cool several hours, lift out, cut",
+          "in": [{
+            "do": "bake 350°F (175°C) 30–35 min., until set",
+            "in": [{
+              "do": "pour over warm crust",
+              "in": [
+                {
+                  "do": "bake 15–20 min., until lightly golden",
+                  "in": [{
+                    "do": "press in pan, 3/4 in. (2 cm) up sides; chill 30 min.",
+                    "in": [{
+                      "do": "pulse; add butter, pulse to coarse meal",
+                      "in": [
+                        "1-3/4 cups (219 g) all-purpose flour, for the crust",
+                        "1/4 cup (32 g) cornstarch",
+                        "1 tsp. (6 g) salt",
+                        "1 cup (120 g) confectioners' sugar",
+                        { "do": "cut in 1/2 in. (13 mm) pieces", "in": ["1 cup (227 g) cold unsalted butter"] }
+                      ]
+                    }]
+                  }]
+                },
+                {
+                  "do": "whisk until no lumps",
+                  "in": [
+                    "6 large eggs",
+                    "3 cups (600 g) sugar",
+                    { "do": "zest (2 Tbs.), then juice (2/3 cup/160 mL)", "in": ["5 to 6 lemons"] },
+                    "2/3 cup (83 g) all-purpose flour, for the filling"
+                  ]
+                }
+              ]
+            }]
+          }]
+        },
+        "confectioners' sugar, for dusting"
+      ]
+    },
+    "notes": ["Refrigerate covered up to 4 days."],
+    "source": { "name": "Once Upon a Chef", "url": "https://www.onceuponachef.com/recipes/luscious-lemon-bars.html" }
+  },
+  {
+    "id": "apple-crisp",
+    "title": "Apple Crisp",
+    "category": "Baking & Desserts",
+    "servings": "6 servings",
+    "prep": ["Preheat oven to 350°F (175°C)", "Generously butter a shallow 2 qt. (2 L) baking dish"],
+    "tree": {
+      "do": "cool 20 min.",
+      "in": [{
+        "do": "bake 350°F (175°C) 40–50 min.",
+        "in": [{
+          "do": "cover with",
+          "in": [
+            {
+              "do": "spread in dish",
+              "in": [{
+                "do": "toss",
+                "in": [
+                  { "do": "peel, core, slice 1/8–1/4 in. (3–6 mm)", "in": ["2-1/2 lb. (1.1 kg) tart baking apples (about 5 large)"] },
+                  "6 Tbs. (75 g) granulated sugar",
+                  "1 tsp. (2.6 g) ground cinnamon"
+                ]
+              }]
+            },
+            {
+              "do": "refrigerate until needed",
+              "in": [{
+                "do": "stir in",
+                "in": [
+                  {
+                    "do": "work in to clumpy crumbs",
+                    "in": [
+                      {
+                        "do": "whisk",
+                        "in": [
+                          "6 Tbs. (47 g) all-purpose flour",
+                          "6 Tbs. (80 g) packed light brown sugar",
+                          "1/4 cup (50 g) granulated sugar",
+                          "1/4 tsp. (0.7 g) ground cinnamon",
+                          "1/8 tsp. (0.75 g) salt"
+                        ]
+                      },
+                      { "do": "cut in 1/2 in. (13 mm) pieces", "in": ["6 Tbs. (85 g) very cold unsalted butter"] }
+                    ]
+                  },
+                  "1/2 cup (45 g) old-fashioned rolled oats",
+                  "1 cup (110 g) chopped pecans"
+                ]
+              }]
+            }
+          ]
+        }]
+      }]
+    },
+    "notes": ["Done when the topping is golden and a knife slides easily into the apples; tent with foil if it browns too fast."],
+    "source": { "name": "Once Upon a Chef", "url": "https://www.onceuponachef.com/recipes/apple-crisp.html" }
+  },
+  {
+    "id": "peach-cobbler",
+    "title": "Peach Cobbler",
+    "category": "Baking & Desserts",
+    "servings": "9 servings",
+    "prep": ["Preheat oven to 375°F (190°C)", "Lightly butter a 9 in. (23 cm) square baking dish"],
+    "tree": {
+      "do": "rest 1 hr.",
+      "in": [{
+        "do": "bake 375°F (190°C) 40–45 min.",
+        "in": [{
+          "do": "sprinkle with",
+          "in": [
+            {
+              "do": "drop over in 6 dollops",
+              "in": [
+                {
+                  "do": "spread in dish",
+                  "in": [{
+                    "do": "toss to coat",
+                    "in": [
+                      { "do": "peel, pit, slice 1/4 in. (6 mm)", "in": ["3 lb. (1.4 kg) yellow peaches (about 7 medium)"] },
+                      "2 Tbs. (30 mL) lemon juice",
+                      "2/3 cup (133 g) sugar",
+                      "3 Tbs. (24 g) cornstarch",
+                      "1-1/4 tsp. (3 g) ground cinnamon",
+                      "1/8 tsp. (0.3 g) ground nutmeg"
+                    ]
+                  }]
+                },
+                {
+                  "do": "fold until just moistened",
+                  "in": [
+                    {
+                      "do": "rub in to coarse crumbs",
+                      "in": [
+                        {
+                          "do": "whisk",
+                          "in": [
+                            "1 cup (125 g) all-purpose flour",
+                            "6 Tbs. (75 g) sugar",
+                            "1-1/4 tsp. (5 g) baking powder",
+                            "1/4 tsp. (1.2 g) baking soda",
+                            "1/2 tsp. (3 g) salt"
+                          ]
+                        },
+                        { "do": "cut in small chunks", "in": ["5 Tbs. (70 g) cold unsalted butter"] }
+                      ]
+                    },
+                    {
+                      "do": "stir together",
+                      "in": [
+                        "2/3 cup (160 mL) buttermilk",
+                        "3/4 tsp. (3.75 mL) vanilla extract"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "1 Tbs. (12.5 g) sugar, for sprinkling"
+          ]
+        }]
+      }]
+    },
+    "notes": ["The batter should look lumpy; don't overmix. Resting lets the filling thicken."],
+    "source": { "name": "Once Upon a Chef", "url": "https://www.onceuponachef.com/recipes/peach-cobbler.html" }
+  },
+  {
+    "id": "garlic-bread",
+    "title": "Garlic Bread",
+    "category": "Salads & Sides",
+    "servings": "4 to 6 servings",
+    "prep": ["Preheat oven to 400°F (200°C)"],
+    "tree": {
+      "do": "slice",
+      "in": [{
+        "do": "unwrap, bake 5 min. until crisp",
+        "in": [{
+          "do": "close, wrap in foil, bake 10 min.",
+          "in": [{
+            "do": "spread over cut sides",
+            "in": [
+              { "do": "halve horizontally", "in": ["1 lb. (450 g) loaf ciabatta"] },
+              {
+                "do": "off heat, stir in",
+                "in": [
+                  {
+                    "do": "cook on low 1–2 min., don't brown",
+                    "in": [
+                      {
+                        "do": "melt together",
+                        "in": [
+                          "6 Tbs. (85 g) unsalted butter",
+                          "2 Tbs. (30 mL) extra-virgin olive oil"
+                        ]
+                      },
+                      { "do": "mince", "in": ["3 cloves garlic"] }
+                    ]
+                  },
+                  "1/2 tsp. (3 g) salt",
+                  "1/4 tsp. (0.5 g) black pepper",
+                  { "do": "chop finely", "in": ["2 Tbs. (8 g) fresh parsley"] }
+                ]
+              }
+            ]
+          }]
+        }]
+      }]
+    },
+    "source": { "name": "Once Upon a Chef", "url": "https://www.onceuponachef.com/recipes/garlic-bread.html" }
+  },
+  {
+    "id": "guacamole",
+    "title": "Guacamole",
+    "category": "Salads & Sides",
+    "servings": "about 5 servings",
+    "tree": {
+      "do": "stir in",
+      "in": [
+        {
+          "do": "season to taste",
+          "in": [
+            {
+              "do": "mash to desired texture",
+              "in": [
+                {
+                  "do": "mash into a juicy paste",
+                  "in": [
+                    "2 Tbs. (20 g) finely chopped white onion",
+                    "1 Tbs. (10 g) finely chopped jalapeño or serrano",
+                    "1/2 tsp. (3 g) salt",
+                    "2 Tbs. chopped cilantro, for the paste"
+                  ]
+                },
+                { "do": "halve, pit, scoop", "in": ["2 medium ripe avocados"] },
+                "2 Tbs. chopped cilantro, to finish"
+              ]
+            },
+            "lime juice to taste (1/4–1/2 lime)"
+          ]
+        },
+        { "do": "peel, seed, chop", "in": ["1 ripe tomato (optional)"] }
+      ]
+    },
+    "notes": ["Make the paste on a board with a fork or in a mortar and pestle. Serve with corn chips."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/best-ever-authentic-guacamole/" }
+  },
+  {
+    "id": "hummus",
+    "title": "Hummus",
+    "category": "Salads & Sides",
+    "servings": "about 1-1/2 cups (6 servings)",
+    "tree": {
+      "do": "garnish",
+      "in": [
+        {
+          "do": "process, slowly adding, to desired consistency",
+          "in": [
+            {
+              "do": "process 1–2 min. until smooth",
+              "in": [
+                {
+                  "do": "process 1 min.",
+                  "in": [
+                    {
+                      "do": "process 1 min., scraping halfway",
+                      "in": [
+                        {
+                          "do": "process 1-1/2 min., scraping once",
+                          "in": [
+                            "1/4 cup (60 mL) tahini, well stirred",
+                            "1/4 cup (60 mL) fresh lemon juice"
+                          ]
+                        },
+                        "2 Tbs. (30 mL) extra-virgin olive oil",
+                        { "do": "mince", "in": ["1 small clove garlic"] },
+                        "1/2 tsp. (1 g) ground cumin",
+                        "1/2 tsp. (3 g) salt"
+                      ]
+                    },
+                    "3/4 cup (125 g) drained chickpeas, first half"
+                  ]
+                },
+                "3/4 cup (125 g) drained chickpeas, second half"
+              ]
+            },
+            "2 to 3 Tbs. (30–45 mL) cold water or aquafaba"
+          ]
+        },
+        "olive oil, for drizzling",
+        "dash of paprika, sumac or za'atar"
+      ]
+    },
+    "notes": ["One 15 oz. (425 g) can of chickpeas gives the 1-1/2 cups. Taste and adjust salt and lemon before serving."],
+    "source": { "name": "Inspired Taste", "url": "https://www.inspiredtaste.net/15938/easy-and-smooth-hummus-recipe/" }
+  },
+  {
+    "id": "pico-de-gallo",
+    "title": "Pico de Gallo",
+    "category": "Salads & Sides",
+    "servings": "6 servings",
+    "tree": {
+      "do": "serve or chill up to 1 hr.",
+      "in": [{
+        "do": "adjust lime and salt to taste",
+        "in": [{
+          "do": "mix",
+          "in": [
+            { "do": "core, dice 1/4 in. (6 mm)", "in": ["2 medium ripe tomatoes (1 lb./454 g)"] },
+            { "do": "chop finely", "in": ["1/4 cup (40 g) white or red onion"] },
+            "1/4 cup (4 g) chopped fresh cilantro",
+            { "do": "stem, seed, mince", "in": ["1 jalapeño"] },
+            "1 Tbs. (15 mL) lime juice",
+            { "do": "mince", "in": ["1 clove garlic"] },
+            "heaping 1/4 tsp. (2 g) salt"
+          ]
+        }]
+      }]
+    },
+    "notes": ["Save the jalapeño seeds and stir some in for more heat. Keeps 1 day refrigerated."],
+    "source": { "name": "Once Upon a Chef", "url": "https://www.onceuponachef.com/recipes/pico-de-gallo.html" }
+  }
+]

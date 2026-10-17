@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "buttermilk-pancakes",
+    "title": "Buttermilk Pancakes",
+    "category": "Breakfast",
+    "servings": "14 to 16 medium (4-inch) pancakes",
+    "prep": [
+      "Heat a griddle to 350°F (175°C) or a skillet over medium heat",
+      "Lightly grease the griddle"
+    ],
+    "tree": {
+      "do": "flip; cook 1–2 min. more",
+      "in": [
+        {
+          "do": "cook until bubbles form, 1–2 min.",
+          "in": [
+            {
+              "do": "scoop 1/4 cup (60 mL) portions",
+              "in": [
+                {
+                  "do": "rest 15 min.",
+                  "in": [
+                    {
+                      "do": "stir until fairly smooth",
+                      "in": [
+                        {
+                          "do": "whisk",
+                          "in": [
+                            "2 cups (240 g) all-purpose flour",
+                            "3 Tbs. (35 g) sugar",
+                            "1 tsp. (4 g) baking powder",
+                            "1 tsp. (6 g) baking soda",
+                            "1/2 tsp. (3 g) salt"
+                          ]
+                        },
+                        {
+                          "do": "whisk",
+                          "in": [
+                            "1 large egg",
+                            "2 cups (454 g) buttermilk",
+                            {
+                              "do": "melt",
+                              "in": [
+                                "2 Tbs. (28 g) butter"
+                              ]
+                            },
+                            "1-1/2 tsp. (7 mL) vanilla extract"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "A few small lumps in the batter are fine.",
+      "Hold finished pancakes in a 250°F (120°C) oven if needed."
+    ],
+    "source": {
+      "name": "King Arthur Baking",
+      "url": "https://www.kingarthurbaking.com/recipes/buttermilk-pancakes-recipe"
+    }
+  },
+  {
+    "id": "belgian-waffles",
+    "title": "Belgian Waffles",
+    "category": "Breakfast",
+    "servings": "8 to 10 (4-inch) waffles",
+    "prep": [
+      "Preheat the waffle iron",
+      "Coat the iron with nonstick cooking spray"
+    ],
+    "tree": {
+      "do": "cook in iron 2–3 min. until golden",
+      "in": [
+        {
+          "do": "fold in gently",
+          "in": [
+            {
+              "do": "whisk until just blended",
+              "in": [
+                {
+                  "do": "sift",
+                  "in": [
+                    "2 cups (228 g) cake flour",
+                    "2 tsp. (8 g) baking powder",
+                    "1/2 tsp. (3 g) salt"
+                  ]
+                },
+                {
+                  "do": "whisk",
+                  "in": [
+                    {
+                      "do": "beat until pale",
+                      "in": [
+                        "yolks of 4 large eggs",
+                        "2 Tbs. (25 g) sugar"
+                      ]
+                    },
+                    "1/2 tsp. (2.5 mL) vanilla extract",
+                    {
+                      "do": "melt",
+                      "in": [
+                        "4 Tbs. (56 g) unsalted butter"
+                      ]
+                    },
+                    "2 cups (480 mL) milk"
+                  ]
+                }
+              ]
+            },
+            {
+              "do": "beat to soft peaks",
+              "in": [
+                "whites of 4 large eggs"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Serve immediately with syrup, fruit or whipped cream."
+    ],
+    "source": {
+      "name": "Food Network",
+      "url": "https://www.foodnetwork.com/recipes/classic-belgian-waffles-3645623"
+    }
+  },
+  {
+    "id": "french-toast",
+    "title": "French Toast",
+    "category": "Breakfast",
+    "servings": "2 to 3 servings",
+    "tree": {
+      "do": "serve topped",
+      "in": [
+        {
+          "do": "fry 2-1/2–3 min. per side, medium",
+          "in": [
+            {
+              "do": "dip, coating both sides",
+              "in": [
+                {
+                  "do": "whisk",
+                  "in": [
+                    "2 large eggs",
+                    "1/2 cup (125 mL) milk",
+                    "1/2 tsp. (1 g) ground cinnamon",
+                    "1 tsp. (5 mL) vanilla extract"
+                  ]
+                },
+                "6 slices slightly stale brioche or white bread"
+              ]
+            },
+            "3 Tbs. (45 g) butter, divided between batches"
+          ]
+        },
+        {
+          "do": "macerate 20 min.",
+          "in": [
+            {
+              "do": "halve",
+              "in": [
+                "8 oz. (250 g) strawberries"
+              ]
+            },
+            "1 Tbs. (12 g) sugar"
+          ]
+        },
+        "maple syrup, to serve"
+      ]
+    },
+    "notes": [
+      "Start the strawberries first so they have time to make a syrup.",
+      "Very fresh bread can be dried in a 350°F (180°C) oven for 3 min. per side."
+    ],
+    "source": {
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com/french-toast/"
+    }
+  },
+  {
+    "id": "creamy-scrambled-eggs",
+    "title": "Creamy Scrambled Eggs",
+    "category": "Breakfast",
+    "servings": "2 servings",
+    "tree": {
+      "do": "serve on toast",
+      "in": [
+        {
+          "do": "fold off heat 10 sec.",
+          "in": [
+            {
+              "do": "fold gently until just set, ~1 min.",
+              "in": [
+                {
+                  "do": "push slowly into soft curds",
+                  "in": [
+                    {
+                      "do": "melt, medium-low heat",
+                      "in": [
+                        "1 Tbs. (15 g) butter"
+                      ]
+                    },
+                    {
+                      "do": "whisk",
+                      "in": [
+                        "4 large eggs",
+                        "2 Tbs. (30 mL) milk",
+                        "1/4 tsp. (1.5 g) salt",
+                        "2 grinds black pepper"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "toast and butter",
+          "in": [
+            "4 slices bread",
+            "butter, for the toast"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Pull the eggs while still slightly underdone; they finish in residual heat."
+    ],
+    "source": {
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com/scrambled-eggs/"
+    }
+  },
+  {
+    "id": "classic-omelette",
+    "title": "Classic Omelette",
+    "category": "Breakfast",
+    "servings": "1 serving",
+    "tree": {
+      "do": "slide onto warm plate",
+      "in": [
+        {
+          "do": "fold in thirds",
+          "in": [
+            {
+              "do": "sprinkle over center",
+              "in": [
+                {
+                  "do": "stir vigorously until just set",
+                  "in": [
+                    {
+                      "do": "melt in 6-in. (15 cm) pan, med.-high",
+                      "in": [
+                        "1 Tbs. (14 g) unsalted butter"
+                      ]
+                    },
+                    {
+                      "do": "whisk well",
+                      "in": [
+                        "2 large eggs",
+                        "2 Tbs. (30 mL) milk",
+                        "pinch of kosher salt",
+                        "freshly ground black pepper"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "do": "chop",
+                  "in": [
+                    "1 Tbs. (3 g) fresh chives or other herbs"
+                  ]
+                },
+                "2 Tbs. (12 g) grated Gruyère cheese"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Lower the heat or lift the pan if the omelette starts to brown."
+    ],
+    "source": {
+      "name": "Food Network",
+      "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/french-omelet-recipe-1940898"
+    }
+  },
+  {
+    "id": "blueberry-muffins",
+    "title": "Blueberry Muffins",
+    "category": "Breakfast",
+    "servings": "12 muffins",
+    "prep": [
+      "Preheat oven to 375°F (190°C)",
+      "Grease or line a 12-cup muffin tin"
+    ],
+    "tree": {
+      "do": "cool 5 min. in tin, then on rack",
+      "in": [
+        {
+          "do": "bake 375°F (190°C) 25–30 min.",
+          "in": [
+            {
+              "do": "scoop into cups; sprinkle tops",
+              "in": [
+                {
+                  "do": "fold in",
+                  "in": [
+                    {
+                      "do": "mix in alternately until just combined",
+                      "in": [
+                        {
+                          "do": "beat in",
+                          "in": [
+                            {
+                              "do": "beat in one at a time",
+                              "in": [
+                                {
+                                  "do": "beat until well combined",
+                                  "in": [
+                                    "8 Tbs. (113 g) unsalted butter, softened",
+                                    "1 cup (198 g) sugar"
+                                  ]
+                                },
+                                "2 large eggs"
+                              ]
+                            },
+                            "2 tsp. (8 g) baking powder",
+                            "1/2 tsp. (3 g) salt",
+                            "1 tsp. (5 mL) vanilla extract"
+                          ]
+                        },
+                        "2 cups (240 g) all-purpose flour",
+                        "1/2 cup (120 mL) milk"
+                      ]
+                    },
+                    {
+                      "do": "mash",
+                      "in": [
+                        "1/2 cup (71 g) blueberries"
+                      ]
+                    },
+                    "2 cups (283 g) whole blueberries"
+                  ]
+                },
+                "1/4 cup (50 g) sugar, for topping"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "If using frozen berries, rinse and pat dry to avoid blue-green batter."
+    ],
+    "source": {
+      "name": "King Arthur Baking (Jordan Marsh muffins)",
+      "url": "https://www.kingarthurbaking.com/recipes/famous-jordan-marsh-blueberry-muffins-recipe"
+    }
+  },
+  {
+    "id": "eggs-benedict",
+    "title": "Eggs Benedict",
+    "category": "Breakfast",
+    "servings": "4 servings",
+    "prep": [
+      "Set oven to 120°F (50°C) to keep components warm",
+      "Bring a deep pan of water to a boil, then lower to barely simmering"
+    ],
+    "tree": {
+      "do": "spoon sauce over; garnish",
+      "in": [
+        {
+          "do": "top with ham, then egg",
+          "in": [
+            {
+              "do": "split and toast",
+              "in": [
+                "4 English muffins"
+              ]
+            },
+            {
+              "do": "warm in skillet",
+              "in": [
+                "7 oz. (200 g) sliced ham or Canadian bacon"
+              ]
+            },
+            {
+              "do": "drain on paper towel",
+              "in": [
+                {
+                  "do": "poach 1-1/2 min. in batches",
+                  "in": [
+                    {
+                      "do": "strain 30 sec. each",
+                      "in": [
+                        "8 large eggs, fridge-cold"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "stream in butter; blend until thick",
+          "in": [
+            {
+              "do": "blitz with stick blender",
+              "in": [
+                "3 large egg yolks",
+                "1-1/2 Tbs. (22 mL) water",
+                "1-1/2 Tbs. (22 mL) lemon juice",
+                "1/4 tsp. (0.5 g) cayenne pepper",
+                "1/4 tsp. (1.5 g) salt"
+              ]
+            },
+            {
+              "do": "melt until hot",
+              "in": [
+                "3/4 cup (175 g) unsalted butter"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "chop",
+          "in": [
+            "1 Tbs. (3 g) fresh chives"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Leave the milky sediment behind when pouring in the butter.",
+      "Thin the hollandaise with a little warm water if needed; it holds about 15 min."
+    ],
+    "source": {
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com/eggs-benedict/"
+    }
+  },
+  {
+    "id": "quiche-lorraine",
+    "title": "Quiche Lorraine",
+    "category": "Breakfast",
+    "servings": "one 9-inch quiche (about 8 slices)",
+    "prep": [
+      "Preheat oven to 425°F (220°C)",
+      "Grease a 9-in. (23 cm) pie pan"
+    ],
+    "tree": {
+      "do": "cool 15 min.",
+      "in": [
+        {
+          "do": "bake 350°F (175°C) 35–40 min.",
+          "in": [
+            {
+              "do": "top",
+              "in": [
+                {
+                  "do": "pour custard over",
+                  "in": [
+                    {
+                      "do": "spread in crust",
+                      "in": [
+                        {
+                          "do": "prebake with weights 15 min.",
+                          "in": [
+                            {
+                              "do": "fit into pan; crimp; dock",
+                              "in": [
+                                "pastry for one 9-in. (23 cm) single-crust pie"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "do": "cook in bacon fat until soft",
+                          "in": [
+                            {
+                              "do": "cook until browned; pour off most fat",
+                              "in": [
+                                {
+                                  "do": "chop",
+                                  "in": [
+                                    "8 slices (170 g) bacon"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "do": "dice",
+                              "in": [
+                                "1 large (227 g) onion"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "do": "temper; combine",
+                      "in": [
+                        {
+                          "do": "whisk",
+                          "in": [
+                            "3 large eggs"
+                          ]
+                        },
+                        {
+                          "do": "heat to just below a simmer",
+                          "in": [
+                            "1 cup (240 mL) milk",
+                            "1 cup (240 mL) heavy cream",
+                            "1/4 tsp. (1.5 g) salt",
+                            "1/4 tsp. (0.5 g) coarsely ground black pepper"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "do": "chop",
+                  "in": [
+                    "2 Tbs. (6 g) fresh chives"
+                  ]
+                },
+                "1 cup (113 g) grated Gruyère or Swiss cheese"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Lower the oven to 350°F (175°C) after prebaking the crust.",
+      "Done when a knife 2 in. (5 cm) from the edge comes out clean; center reads 160–165°F (71–74°C)."
+    ],
+    "source": {
+      "name": "King Arthur Baking",
+      "url": "https://www.kingarthurbaking.com/recipes/quiche-lorraine-recipe"
+    }
+  },
+  {
+    "id": "homemade-granola",
+    "title": "Homemade Granola",
+    "category": "Breakfast",
+    "servings": "about 5 cups",
+    "prep": [
+      "Preheat oven to 300°F (150°C)",
+      "Lightly grease a rimmed baking sheet"
+    ],
+    "tree": {
+      "do": "cool completely on rack",
+      "in": [
+        {
+          "do": "bake 300°F (150°C) 60–70 min., stirring",
+          "in": [
+            {
+              "do": "spread evenly on sheet",
+              "in": [
+                {
+                  "do": "mix well",
+                  "in": [
+                    {
+                      "do": "combine",
+                      "in": [
+                        "3 cups (270 g) old-fashioned rolled oats",
+                        "1 cup (110 g) slivered almonds",
+                        "1 cup (60 g) large unsweetened coconut flakes",
+                        "1 Tbs. (9 g) kosher salt"
+                      ]
+                    },
+                    {
+                      "do": "stir in off heat",
+                      "in": [
+                        {
+                          "do": "heat until sugar dissolves, 2 min.",
+                          "in": [
+                            "1/2 cup (100 g) packed light brown sugar",
+                            "1/3 cup (80 mL) pure maple syrup",
+                            "1/3 cup (80 mL) vegetable oil"
+                          ]
+                        },
+                        "2 tsp. (10 mL) vanilla extract"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Stir less often and leave undisturbed while cooling for bigger clusters.",
+      "Keeps 1 week in an airtight container."
+    ],
+    "source": {
+      "name": "Food Network Kitchen",
+      "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-granola-8051445"
+    }
+  },
+  {
+    "id": "overnight-oats",
+    "title": "Overnight Oats",
+    "category": "Breakfast",
+    "servings": "1 jar (1 serving)",
+    "tree": {
+      "do": "top and serve",
+      "in": [
+        {
+          "do": "stir",
+          "in": [
+            {
+              "do": "seal; refrigerate overnight",
+              "in": [
+                {
+                  "do": "stir in",
+                  "in": [
+                    {
+                      "do": "combine in jar",
+                      "in": [
+                        "1/2 cup (45 g) rolled oats",
+                        "1 Tbs. (7 g) ground flaxseed",
+                        "2/3 cup (160 mL) milk",
+                        "1/3 cup (80 g) plain yogurt",
+                        "2 tsp. (10 mL) maple syrup or brown sugar",
+                        "pinch of salt",
+                        "pinch of ground cinnamon"
+                      ]
+                    },
+                    {
+                      "do": "crush",
+                      "in": [
+                        "1/4 cup (6 g) freeze-dried strawberries"
+                      ]
+                    },
+                    {
+                      "do": "chop",
+                      "in": [
+                        "1/2 banana"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "slice",
+          "in": [
+            "2 or 3 fresh strawberries"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Strawberry-banana variation of the base recipe; keeps up to 5 days refrigerated."
+    ],
+    "source": {
+      "name": "Food Network Kitchen",
+      "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/overnight-oats-4622247"
+    }
+  },
+  {
+    "id": "huevos-rancheros",
+    "title": "Huevos Rancheros",
+    "category": "Breakfast",
+    "servings": "4 servings",
+    "tree": {
+      "do": "top with egg, salsa, cheese, cilantro",
+      "in": [
+        {
+          "do": "spread beans on tortillas",
+          "in": [
+            {
+              "do": "warm",
+              "in": [
+                "4 (6-in./15 cm) corn tortillas"
+              ]
+            },
+            {
+              "do": "warm over low heat; mash lightly",
+              "in": [
+                {
+                  "do": "drain and rinse",
+                  "in": [
+                    "1 can (15.5 oz./439 g) black beans"
+                  ]
+                },
+                {
+                  "do": "smash",
+                  "in": [
+                    "1 garlic clove, for the beans"
+                  ]
+                },
+                "1/2 cup (120 mL) warm water"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "fry sunny-side up",
+          "in": [
+            "4 large eggs",
+            "2 Tbs. (30 mL) olive oil, for the eggs"
+          ]
+        },
+        {
+          "do": "fry over low heat 3 min.",
+          "in": [
+            {
+              "do": "stir together",
+              "in": [
+                {
+                  "do": "grate",
+                  "in": [
+                    "2 small tomatoes"
+                  ]
+                },
+                {
+                  "do": "grate",
+                  "in": [
+                    "1 small onion"
+                  ]
+                },
+                {
+                  "do": "chop",
+                  "in": [
+                    "1 medium jalapeño"
+                  ]
+                },
+                {
+                  "do": "chop",
+                  "in": [
+                    "1 garlic clove, for the salsa"
+                  ]
+                },
+                "1/2 tsp. (2.5 mL) hot sauce",
+                "1 tsp. (2 g) ground cumin",
+                "salt and pepper to taste"
+              ]
+            },
+            "2 tsp. (10 mL) olive oil, for the salsa"
+          ]
+        },
+        "1/2 cup (75 g) crumbled feta cheese",
+        {
+          "do": "chop",
+          "in": [
+            "1/4 cup (4 g) fresh cilantro"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Make the salsa first, then warm the beans in the same pan.",
+      "Serve the remaining salsa on the side."
+    ],
+    "source": {
+      "name": "Food Network (Sunny Anderson)",
+      "url": "https://www.foodnetwork.com/recipes/sunny-anderson/huevos-rancheros-recipe-1972971"
+    }
+  },
+  {
+    "id": "shakshuka",
+    "title": "Shakshuka",
+    "category": "Breakfast",
+    "servings": "2 to 3 servings",
+    "prep": [
+      "Preheat oven to 350°F (180°C)"
+    ],
+    "tree": {
+      "do": "top with herbs; serve with bread",
+      "in": [
+        {
+          "do": "bake 350°F (180°C) 7–12 min.",
+          "in": [
+            {
+              "do": "crack into wells; cook 1 min.",
+              "in": [
+                {
+                  "do": "stir in; simmer 5 min., med.-low",
+                  "in": [
+                    {
+                      "do": "cook 2 min. until pasty",
+                      "in": [
+                        {
+                          "do": "cook 1 min.",
+                          "in": [
+                            {
+                              "do": "sauté 2 min., medium-high",
+                              "in": [
+                                "2 Tbs. (30 mL) olive oil",
+                                {
+                                  "do": "mince",
+                                  "in": [
+                                    "1 garlic clove"
+                                  ]
+                                },
+                                {
+                                  "do": "slice",
+                                  "in": [
+                                    "1 small red onion"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "do": "slice into strips",
+                              "in": [
+                                "1 small red bell pepper"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "do": "dice",
+                          "in": [
+                            "1 medium tomato"
+                          ]
+                        }
+                      ]
+                    },
+                    "1 can (14 oz./400 g) crushed tomatoes",
+                    "1 Tbs. (16 g) tomato paste",
+                    "1/2 cup (125 mL) chicken or vegetable broth",
+                    "1 tsp. (2 g) paprika",
+                    "1 tsp. (2 g) ground cumin",
+                    "1/2 tsp. (3 g) salt",
+                    "1/4 tsp. (0.5 g) black pepper",
+                    "1/4 tsp. (0.5 g) cayenne pepper"
+                  ]
+                },
+                "4 large eggs"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "chop",
+          "in": [
+            "2 Tbs. (8 g) fresh parsley or cilantro"
+          ]
+        },
+        "pita or crusty bread, to serve"
+      ]
+    },
+    "notes": [
+      "Instead of baking, cover and cook on the stovetop about 3 min. for runny yolks.",
+      "Use an ovenproof (cast-iron) skillet."
+    ],
+    "source": {
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com/shakshuka-baked-eggs/"
+    }
+  },
+  {
+    "id": "cinnamon-rolls",
+    "title": "Cinnamon Rolls",
+    "category": "Breakfast",
+    "servings": "16 rolls",
+    "prep": [
+      "Grease two 9-in. (23 cm) round cake pans",
+      "Preheat oven to 375°F (190°C) near the end of the second rise"
+    ],
+    "tree": {
+      "do": "cool 5 min.; spread glaze over",
+      "in": [
+        {
+          "do": "bake 375°F (190°C) about 20 min.",
+          "in": [
+            {
+              "do": "roll up; cut 16; rise in pans 1–2 hr.",
+              "in": [
+                {
+                  "do": "roll 16x12 in. (40x30 cm); brush; fill",
+                  "in": [
+                    {
+                      "do": "rise 1–2 hr. until nearly doubled",
+                      "in": [
+                        {
+                          "do": "knead 7–10 min. until smooth",
+                          "in": [
+                            "3 cups (360 g) all-purpose flour",
+                            "1/4 cup (28 g) nonfat dry milk",
+                            "1/4 cup (46 g) potato flour",
+                            "3 Tbs. (35 g) sugar",
+                            "1-1/4 tsp. (8 g) salt",
+                            "2-1/2 tsp. (8 g) instant yeast",
+                            "6 Tbs. (85 g) unsalted butter, softened",
+                            "7/8–1-1/8 cups (198–255 g) lukewarm water"
+                          ]
+                        }
+                      ]
+                    },
+                    "2 tsp. (10 mL) milk, for brushing",
+                    {
+                      "do": "mix",
+                      "in": [
+                        "1/4 cup (50 g) sugar, for the filling",
+                        "1-1/2 tsp. (4 g) ground cinnamon",
+                        "2 tsp. (5 g) all-purpose flour, for the filling"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "stir until smooth",
+          "in": [
+            "1-1/4 cups (142 g) confectioners' sugar",
+            "1/2 tsp. (2.5 mL) vanilla extract",
+            "4–5 Tbs. (60–75 mL) heavy cream"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Start with the smaller amount of water and add more only as needed."
+    ],
+    "source": {
+      "name": "King Arthur Baking",
+      "url": "https://www.kingarthurbaking.com/recipes/cinnamon-rolls-recipe"
+    }
+  },
+  {
+    "id": "breakfast-burritos",
+    "title": "Breakfast Burritos",
+    "category": "Breakfast",
+    "servings": "4 burritos",
+    "tree": {
+      "do": "fold in sides; roll tightly",
+      "in": [
+        {
+          "do": "warm one at a time in skillet",
+          "in": [
+            "4 large burrito-size flour tortillas"
+          ]
+        },
+        {
+          "do": "slice",
+          "in": [
+            "1 avocado"
+          ]
+        },
+        {
+          "do": "scramble 3 min. until just set",
+          "in": [
+            {
+              "do": "brown 5 min., medium-high; drain",
+              "in": [
+                "2 tsp. (10 mL) vegetable oil",
+                "8 oz. (225 g) fresh Mexican chorizo, casings removed"
+              ]
+            },
+            {
+              "do": "cook in drippings 8–10 min.",
+              "in": [
+                "1 cup (150 g) frozen hash browns with peppers and onions"
+              ]
+            },
+            {
+              "do": "beat until frothy",
+              "in": [
+                "8 large eggs",
+                "salt and pepper, for the eggs",
+                "few dashes hot sauce"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "toss; season",
+          "in": [
+            {
+              "do": "dice",
+              "in": [
+                "2 plum tomatoes"
+              ]
+            },
+            {
+              "do": "seed and dice",
+              "in": [
+                "1/2 jalapeño"
+              ]
+            },
+            {
+              "do": "dice",
+              "in": [
+                "1/2 small red onion"
+              ]
+            },
+            {
+              "do": "chop",
+              "in": [
+                "1/2 cup (8 g) fresh cilantro leaves"
+              ]
+            },
+            "juice of 1/2 lime",
+            "salt and pepper, for the pico"
+          ]
+        },
+        "1/2 cup (55 g) finely shredded Cheddar cheese"
+      ]
+    },
+    "notes": [
+      "Brown the chorizo first, then cook the hash browns in the same skillet.",
+      "Serve extra pico de gallo and hot sauce on the side."
+    ],
+    "source": {
+      "name": "Food Network Kitchen",
+      "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/breakfast-burrito-recipe-2121219"
+    }
+  },
+  {
+    "id": "buttermilk-biscuits",
+    "title": "Buttermilk Biscuits",
+    "category": "Baking & Desserts",
+    "servings": "12 biscuits",
+    "prep": [
+      "Preheat oven to 425°F (220°C) with a rack in the upper third",
+      "Line a baking sheet with parchment (optional)"
+    ],
+    "tree": {
+      "do": "bake 425°F (220°C) 15–20 min.",
+      "in": [
+        {
+          "do": "brush tops",
+          "in": [
+            {
+              "do": "cut 2-3/8 in. (6 cm) rounds; set on sheet",
+              "in": [
+                {
+                  "do": "pat 3/4 in. (2 cm); fold in thirds; re-roll",
+                  "in": [
+                    {
+                      "do": "mix 15 sec. into a dough",
+                      "in": [
+                        {
+                          "do": "work in until crumbly",
+                          "in": [
+                            {
+                              "do": "whisk",
+                              "in": [
+                                "3 cups (360 g) all-purpose flour",
+                                "1 tsp. (6 g) salt",
+                                "1 Tbs. (12 g) baking powder",
+                                "1 Tbs. (12 g) sugar"
+                              ]
+                            },
+                            {
+                              "do": "cut into pieces",
+                              "in": [
+                                "6 Tbs. (85 g) cold butter"
+                              ]
+                            }
+                          ]
+                        },
+                        "1 to 1-1/8 cups (227–255 g) cold buttermilk"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "milk, for brushing"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Cold butter worked in unevenly gives flakier, taller biscuits.",
+      "Chill the cut biscuits 20–30 min. while the oven heats to help them hold their shape."
+    ],
+    "source": {
+      "name": "King Arthur Baking",
+      "url": "https://www.kingarthurbaking.com/recipes/buttermilk-biscuits-recipe"
+    }
+  },
+  {
+    "id": "cornbread",
+    "title": "Cornbread",
+    "category": "Baking & Desserts",
+    "servings": "8 to 10 servings",
+    "prep": [
+      "Place a 9-in. (23 cm) cast-iron skillet in the oven",
+      "Preheat oven to 425°F (220°C)"
+    ],
+    "tree": {
+      "do": "cool 10–15 min.",
+      "in": [
+        {
+          "do": "bake 375°F (190°C) 20–25 min.",
+          "in": [
+            {
+              "do": "pour into hot buttered skillet",
+              "in": [
+                {
+                  "do": "whisk in",
+                  "in": [
+                    {
+                      "do": "whisk in",
+                      "in": [
+                        {
+                          "do": "whisk",
+                          "in": [
+                            "1-1/4 cups (175 g) coarse cornmeal",
+                            "3/4 cup (90 g) all-purpose flour",
+                            "1/4 cup (50 g) sugar",
+                            "1 tsp. (3 g) kosher salt",
+                            "2 tsp. (8 g) baking powder",
+                            "1/2 tsp. (3 g) baking soda"
+                          ]
+                        },
+                        "1/3 cup (80 mL) whole milk",
+                        "1 cup (240 mL) buttermilk",
+                        {
+                          "do": "lightly beat",
+                          "in": [
+                            "2 large eggs"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "do": "melt",
+                      "in": [
+                        "7 Tbs. (99 g) unsalted butter"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "do": "melt",
+                  "in": [
+                    "1 Tbs. (14 g) unsalted butter, for the skillet"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Lower the oven to 375°F (190°C) when you take out the hot skillet."
+    ],
+    "source": {
+      "name": "Food Network (Alex Guarnaschelli)",
+      "url": "https://www.foodnetwork.com/recipes/alexandra-guarnaschelli/cast-iron-skillet-corn-bread-recipe-2012669"
+    }
+  },
+  {
+    "id": "zucchini-bread",
+    "title": "Zucchini Bread",
+    "category": "Baking & Desserts",
+    "servings": "1 loaf (about 10 slices)",
+    "prep": [
+      "Preheat oven to 350°F (175°C)",
+      "Grease an 8-1/2 x 4-1/2 in. (22 x 11 cm) loaf pan"
+    ],
+    "tree": {
+      "do": "cool on rack",
+      "in": [
+        {
+          "do": "cool 10 min. in pan",
+          "in": [
+            {
+              "do": "bake 350°F (175°C) 55–65 min.",
+              "in": [
+                {
+                  "do": "spread in pan; sprinkle top",
+                  "in": [
+                    {
+                      "do": "stir in",
+                      "in": [
+                        {
+                          "do": "stir gently",
+                          "in": [
+                            {
+                              "do": "beat until smooth",
+                              "in": [
+                                "3/4 cup (159 g) packed brown sugar",
+                                "2 Tbs. (28 g) apple juice",
+                                "1/2 cup (99 g) vegetable oil",
+                                "2 large eggs",
+                                "1 tsp. (5 mL) vanilla extract"
+                              ]
+                            },
+                            {
+                              "do": "whisk",
+                              "in": [
+                                "1-3/4 cups (210 g) all-purpose flour",
+                                "1/4 tsp. (1 g) baking powder",
+                                "1/2 tsp. (3 g) baking soda",
+                                "1 tsp. (6 g) salt",
+                                "1-1/2 tsp. (4 g) ground cinnamon"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "do": "pat dry",
+                          "in": [
+                            "2 cups (242 g) grated zucchini"
+                          ]
+                        },
+                        {
+                          "do": "toast",
+                          "in": [
+                            "3/4 cup (85 g) chopped walnuts"
+                          ]
+                        },
+                        "3/4 cup (128 g) raisins"
+                      ]
+                    },
+                    "2 Tbs. (28 g) brown sugar, for topping"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source": {
+      "name": "King Arthur Baking",
+      "url": "https://www.kingarthurbaking.com/recipes/simple-zucchini-bread-recipe"
+    }
+  },
+  {
+    "id": "pound-cake",
+    "title": "Pound Cake",
+    "category": "Baking & Desserts",
+    "servings": "1 loaf (about 12 slices)",
+    "prep": [
+      "Bring butter, eggs and milk to room temperature",
+      "Preheat oven to 350°F (175°C)",
+      "Grease a 9 x 5 in. (23 x 13 cm) loaf pan"
+    ],
+    "tree": {
+      "do": "wrap; rest a day before slicing",
+      "in": [
+        {
+          "do": "cool 5 min. in pan, then on rack",
+          "in": [
+            {
+              "do": "bake 350°F (175°C) 60–65 min.",
+              "in": [
+                {
+                  "do": "add alternately; beat until smooth",
+                  "in": [
+                    {
+                      "do": "beat in one at a time until fluffy",
+                      "in": [
+                        {
+                          "do": "cream until light, 2–4 min.",
+                          "in": [
+                            "1 cup (227 g) salted butter, softened",
+                            "1 cup (198 g) sugar"
+                          ]
+                        },
+                        "4 large eggs"
+                      ]
+                    },
+                    {
+                      "do": "whisk",
+                      "in": [
+                        "2 cups (240 g) all-purpose flour",
+                        "1-1/2 tsp. (6 g) baking powder",
+                        "1/2 tsp. (3 g) salt"
+                      ]
+                    },
+                    {
+                      "do": "whisk",
+                      "in": [
+                        "1/2 cup (113 g) milk",
+                        "1 Tbs. (15 mL) brandy or rum (optional)",
+                        "1 tsp. (5 mL) vanilla extract"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Add flour in thirds and liquid in halves, starting and ending with flour.",
+      "Tent with foil for the last 15 min. if browning too fast."
+    ],
+    "source": {
+      "name": "King Arthur Baking",
+      "url": "https://www.kingarthurbaking.com/recipes/king-arthurs-original-pound-cake-recipe"
+    }
+  },
+  {
+    "id": "rice-pudding",
+    "title": "Rice Pudding",
+    "category": "Baking & Desserts",
+    "servings": "5 to 6 servings",
+    "prep": [
+      "Preheat oven to 350°F (180°C)",
+      "Butter a 10-cup (2.5 L) baking dish"
+    ],
+    "tree": {
+      "do": "stir in; serve warm",
+      "in": [
+        {
+          "do": "bake 350°F (180°C) 1 hr., stir every 20 min.",
+          "in": [
+            {
+              "do": "pour over; stir; cover",
+              "in": [
+                {
+                  "do": "combine in dish",
+                  "in": [
+                    "3/4 cup (150 g) medium-grain white rice",
+                    "1/2 cup (80 g) sultanas or raisins",
+                    "3/4 tsp. (2 g) ground cinnamon"
+                  ]
+                },
+                {
+                  "do": "heat until steaming; don't boil",
+                  "in": [
+                    "4 cups (950 mL) milk",
+                    "1/3 cup (67 g) sugar",
+                    "2 tsp. (10 mL) vanilla extract"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "1/2 cup (125 mL) heavy cream"
+      ]
+    },
+    "notes": [
+      "It looks loose straight from the oven but thickens quickly as it stands."
+    ],
+    "source": {
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com/creamy-cinnamon-rice-pudding/"
+    }
+  },
+  {
+    "id": "tiramisu",
+    "title": "Tiramisu",
+    "category": "Baking & Desserts",
+    "servings": "6 servings",
+    "tree": {
+      "do": "sprinkle on before serving",
+      "in": [
+        {
+          "do": "cover; chill 2–8 hr.",
+          "in": [
+            {
+              "do": "layer twice in 9x13 in. (23x33 cm) dish",
+              "in": [
+                {
+                  "do": "dip 5 sec. each",
+                  "in": [
+                    "24 ladyfingers",
+                    {
+                      "do": "combine in shallow dish",
+                      "in": [
+                        "scant 1-1/2 cups (340 mL) strong espresso, cooled",
+                        "2 tsp. (10 mL) dark rum"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "do": "beat in until smooth",
+                  "in": [
+                    {
+                      "do": "beat until thick and pale, 5 min.",
+                      "in": [
+                        "6 large egg yolks",
+                        "3 Tbs. (38 g) sugar"
+                      ]
+                    },
+                    "1 lb. (450 g) mascarpone cheese",
+                    "1 Tbs. (15 mL) espresso, for the cream"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "do": "shave",
+          "in": [
+            "2 oz. (55 g) bittersweet chocolate"
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Alternate ladyfingers and mascarpone cream, two layers each.",
+      "Contains raw egg yolks."
+    ],
+    "source": {
+      "name": "Food Network (Giada De Laurentiis)",
+      "url": "https://www.foodnetwork.com/recipes/giada-de-laurentiis/tiramisu-recipe-1913608"
+    }
+  }
+]
