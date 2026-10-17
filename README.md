@@ -23,6 +23,23 @@ npm start        # python3 -m http.server 8000, then visit http://localhost:8000
 
 It also works as-is on GitHub Pages.
 
+## Installing it on a phone
+
+Recipe Grid is an installable web app and works offline once it has been
+opened.
+
+- **iPhone / iPad (Safari):** tap Share, then **Add to Home Screen**.
+- **Android (Chrome):** tap **Install app** in the page footer, or the browser
+  menu's **Install app**.
+- **Desktop Chrome / Edge:** use the install icon in the address bar.
+
+An installed copy keeps its own saved recipes. On iPhone in particular, recipes
+added in Safari don't appear in the home-screen app (or the other way round),
+so move them with **Export mine** and **Import**.
+
+The offline cache lives in `sw.js`; the icons are drawn by
+`tools/make-icons.py`.
+
 New to the format? `walkthrough.html` is an animated two-minute guide to reading
 a sheet and building one; the app links to it from the header.
 
