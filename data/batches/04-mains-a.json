@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "green-bean-casserole",
+    "title": "Green Bean Casserole",
+    "category": "Salads & Sides",
+    "servings": "about 6 servings",
+    "prep": ["Preheat oven to 350°F (175°C)"],
+    "tree": {
+      "do": "bake 5 min. more until golden",
+      "in": [{
+        "do": "sprinkle over top",
+        "in": [
+          {
+            "do": "bake in 1-1/2 qt. dish 350°F (175°C) 30 min.",
+            "in": [{
+              "do": "stir in",
+              "in": [
+                {
+                  "do": "mix",
+                  "in": [
+                    "1 can (10.5 oz./298 g) condensed cream of mushroom soup",
+                    "3/4 cup (180 mL) milk",
+                    "1/8 tsp. (0.3 g) black pepper"
+                  ]
+                },
+                "4 cups (450 g) cooked cut green beans",
+                "2/3 cup (43 g) French's crispy fried onions, for the filling"
+              ]
+            }]
+          },
+          "2/3 cup (43 g) French's crispy fried onions, for the topping"
+        ]
+      }]
+    },
+    "notes": ["Canned, frozen or fresh green beans all work; drain canned beans well."],
+    "source": { "name": "French's (McCormick)", "url": "https://mccormick.com/frenchs/recipes/salads-sides/frenchs-green-bean-casserole" }
+  },
+  {
+    "id": "deviled-eggs",
+    "title": "Deviled Eggs",
+    "category": "Salads & Sides",
+    "servings": "24 halves",
+    "tree": {
+      "do": "chill until serving",
+      "in": [{
+        "do": "dust",
+        "in": [
+          {
+            "do": "fill whites",
+            "in": [{
+              "do": "mash yolks with",
+              "in": [
+                {
+                  "do": "halve lengthwise; remove yolks",
+                  "in": [{
+                    "do": "cool in ice water; peel",
+                    "in": [{ "do": "hard-boil 10 min.", "in": ["12 large eggs"] }]
+                  }]
+                },
+                "2 Tbs. (30 g) sweet pickle relish",
+                "2 Tbs. (30 mL) sweet pickle juice",
+                "1 tsp. (5 g) Dijon mustard",
+                "pinch of cayenne pepper",
+                "2 Tbs. (28 g) mayonnaise",
+                "salt and pepper to taste"
+              ]
+            }]
+          },
+          "paprika, for dusting"
+        ]
+      }]
+    },
+    "notes": ["Best chilled overnight before serving."],
+    "source": { "name": "Food Republic", "url": "https://www.foodrepublic.com/recipes/classic-deviled-eggs-recipe/" }
+  },
+  {
+    "id": "fried-rice",
+    "title": "Fried Rice",
+    "category": "Salads & Sides",
+    "servings": "2 to 3 servings",
+    "prep": ["Heat a wok over high heat until smoking"],
+    "tree": {
+      "do": "stir together; remove from heat",
+      "in": [
+        {
+          "do": "toss 1-1/2 min.",
+          "in": [
+            {
+              "do": "stir-fry 2 min.",
+              "in": [
+                {
+                  "do": "stir-fry 1-1/2 min.",
+                  "in": [
+                    "1-1/2 Tbs. (22 mL) vegetable oil, for stir-frying",
+                    { "do": "finely chop", "in": ["1/2 onion"] },
+                    { "do": "mince", "in": ["2 garlic cloves"] },
+                    { "do": "chop", "in": ["4 oz. (120 g) bacon or ham"] }
+                  ]
+                },
+                "1-1/2 cups (200 g) frozen peas, corn and carrots"
+              ]
+            },
+            "2 cups packed (370 g) cold day-old cooked white rice",
+            {
+              "do": "mix",
+              "in": [
+                "1 Tbs. (15 mL) Chinese cooking wine",
+                "1 Tbs. (15 mL) oyster sauce",
+                "1 Tbs. (15 mL) light soy sauce",
+                "1 tsp. (5 mL) sesame oil",
+                "1/4 tsp. (0.5 g) white pepper"
+              ]
+            }
+          ]
+        },
+        {
+          "do": "push rice aside; scramble in space",
+          "in": [
+            "1/2 Tbs. (7 mL) vegetable oil, for the egg",
+            { "do": "whisk", "in": ["3 large eggs"] }
+          ]
+        },
+        { "do": "slice", "in": ["3/4 cup (45 g) green onions"] }
+      ]
+    },
+    "notes": ["Use cold, day-old rice so the grains stay separate.", "Serve immediately."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/egg-fried-rice/" }
+  },
+  {
+    "id": "spaghetti-bolognese",
+    "title": "Spaghetti Bolognese",
+    "category": "Main Dishes",
+    "servings": "6 servings",
+    "tree": {
+      "do": "toss together",
+      "in": [
+        {
+          "do": "stir in; season to taste",
+          "in": [
+            {
+              "do": "simmer covered 1 hr. 15 min.",
+              "in": [{
+                "do": "add; break up tomatoes; bring to boil",
+                "in": [
+                  {
+                    "do": "brown 3–4 min.",
+                    "in": [
+                      {
+                        "do": "fry 10 min. until soft",
+                        "in": [
+                          {
+                            "do": "fry 10 min. until crisp",
+                            "in": [
+                              "1 Tbs. (15 mL) olive oil",
+                              { "do": "finely chop", "in": ["4 slices (100 g) smoked streaky bacon"] }
+                            ]
+                          },
+                          { "do": "finely chop", "in": ["2 medium onions"] },
+                          { "do": "finely chop", "in": ["2 carrots"] },
+                          { "do": "finely chop", "in": ["2 celery stalks"] },
+                          { "do": "finely chop", "in": ["2 garlic cloves"] },
+                          { "do": "chop leaves", "in": ["2–3 sprigs fresh rosemary"] }
+                        ]
+                      },
+                      "1.1 lb. (500 g) ground beef"
+                    ]
+                  },
+                  "2 cans (14 oz./400 g each) whole plum tomatoes",
+                  { "do": "chop", "in": ["1 small bunch fresh basil"] },
+                  "2 bay leaves",
+                  "2 Tbs. (32 g) tomato paste",
+                  { "do": "crumble", "in": ["1 beef bouillon cube"] },
+                  "1/2 cup (125 mL) red wine"
+                ]
+              }]
+            },
+            "2/3 cup (75 g) grated Parmesan"
+          ]
+        },
+        { "do": "boil per package; drain", "in": ["14 oz. (400 g) spaghetti"] }
+      ]
+    },
+    "notes": ["Serve with extra Parmesan and a few basil leaves.", "The original also adds 1 tsp. dried oregano, a chopped red chile and 6 halved cherry tomatoes with the canned tomatoes."],
+    "source": { "name": "BBC Good Food", "url": "https://www.bbcgoodfoodme.com/recipes/the-best-spaghetti-bolognese" }
+  },
+  {
+    "id": "lasagna",
+    "title": "Lasagna",
+    "category": "Main Dishes",
+    "servings": "about 10 servings",
+    "prep": ["Preheat oven to 350°F (180°C)", "Have ready a 13 x 9 in. (33 x 22 cm) baking dish"],
+    "tree": {
+      "do": "bake 350°F (180°C) 25 min.; rest 10 min.",
+      "in": [{
+        "do": "sprinkle over top",
+        "in": [
+          {
+            "do": "layer: 4 sheets, 3 of ragu & sauce; sauce on top",
+            "in": [
+              {
+                "do": "simmer covered 1-1/2 hr., uncovered 30 min.",
+                "in": [{
+                  "do": "add",
+                  "in": [
+                    {
+                      "do": "brown, breaking up",
+                      "in": [
+                        {
+                          "do": "sauté 10 min. without browning",
+                          "in": [
+                            "1 Tbs. (15 mL) olive oil",
+                            { "do": "mince", "in": ["2 garlic cloves"] },
+                            { "do": "finely chop", "in": ["1 onion"] },
+                            { "do": "finely dice", "in": ["1 celery stalk"] },
+                            { "do": "finely dice", "in": ["1 medium carrot"] }
+                          ]
+                        },
+                        "2 lb. (1 kg) ground beef"
+                      ]
+                    },
+                    "28 oz. (800 g) canned crushed tomatoes",
+                    "1/4 cup (65 g) tomato paste",
+                    "1 cup (250 mL) dry red wine",
+                    { "do": "crumble", "in": ["3 beef bouillon cubes"] },
+                    "2 bay leaves",
+                    "1/2 tsp. each dried thyme and oregano",
+                    "1/2 tsp. each salt and black pepper"
+                  ]
+                }]
+              },
+              {
+                "do": "off heat, stir in until melted",
+                "in": [
+                  {
+                    "do": "whisk in gradually; stir 5–8 min. to thicken",
+                    "in": [
+                      {
+                        "do": "cook 1 min.",
+                        "in": [
+                          { "do": "melt", "in": ["4 Tbs. (60 g) butter"] },
+                          "1/2 cup (65 g) all-purpose flour"
+                        ]
+                      },
+                      "4 cups (1 L) milk"
+                    ]
+                  },
+                  { "do": "shred", "in": ["2 cups (200 g) Gruyère or Colby cheese"] }
+                ]
+              },
+              "12 oz. (350 g) fresh lasagna sheets"
+            ]
+          },
+          { "do": "shred", "in": ["1-1/2 cups (150 g) mozzarella"] }
+        ]
+      }]
+    },
+    "notes": ["Spread a little ragu on the base of the dish before the first sheets.", "8 oz. (250 g) dried lasagna sheets can replace fresh.", "The original also seasons the ragu with 2 tsp. Worcestershire sauce and the cheese sauce with a pinch of nutmeg."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/lasagna/" }
+  },
+  {
+    "id": "baked-macaroni-and-cheese",
+    "title": "Baked Macaroni and Cheese",
+    "category": "Main Dishes",
+    "servings": "6 to 8 servings",
+    "prep": ["Preheat oven to 350°F (180°C)", "Bring a large pot of salted water to a boil"],
+    "tree": {
+      "do": "bake 350°F (180°C) 25 min.",
+      "in": [{
+        "do": "transfer to 10-cup (2.5 L) dish; sprinkle",
+        "in": [
+          {
+            "do": "stir together",
+            "in": [
+              {
+                "do": "toss until melted",
+                "in": [
+                  { "do": "boil 1 min. less than package; drain", "in": ["8 oz. (250 g) elbow macaroni"] },
+                  "1 Tbs. (15 g) butter, for the pasta"
+                ]
+              },
+              {
+                "do": "off heat, stir in cheeses",
+                "in": [
+                  {
+                    "do": "season; cook 5–8 min., stirring",
+                    "in": [
+                      {
+                        "do": "whisk in gradually",
+                        "in": [
+                          {
+                            "do": "cook 1 min.",
+                            "in": [
+                              { "do": "melt", "in": ["4 Tbs. (60 g) butter, for the sauce"] },
+                              "1/3 cup (45 g) all-purpose flour"
+                            ]
+                          },
+                          { "do": "warm", "in": ["3 cups (750 mL) milk"] }
+                        ]
+                      },
+                      "3/4 tsp. (4.5 g) salt, for the sauce",
+                      "1 tsp. (3 g) garlic powder",
+                      "1/2 tsp. (1.5 g) onion powder",
+                      "1/2 tsp. (1.5 g) mustard powder"
+                    ]
+                  },
+                  { "do": "grate", "in": ["2 cups (200 g) Gruyère or cheddar"] },
+                  { "do": "grate", "in": ["1 cup (100 g) mozzarella"] }
+                ]
+              }
+            ]
+          },
+          {
+            "do": "mix",
+            "in": [
+              "2/3 cup (35 g) panko breadcrumbs",
+              { "do": "melt", "in": ["2 Tbs. (30 g) butter, for the topping"] },
+              "1/4 tsp. (1.5 g) salt, for the topping"
+            ]
+          }
+        ]
+      }]
+    },
+    "notes": ["Serve straight from the oven."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/baked-mac-and-cheese/" }
+  },
+  {
+    "id": "chicken-parmesan",
+    "title": "Chicken Parmesan",
+    "category": "Main Dishes",
+    "servings": "6 servings",
+    "prep": ["Preheat oven to 350°F (180°C)", "Set up three shallow bowls for breading"],
+    "tree": {
+      "do": "bake 350°F (180°C) 15 min.",
+      "in": [{
+        "do": "top each: sauce, basil, cheeses",
+        "in": [
+          {
+            "do": "fry 2 min. + 1-1/2 min. at 350°F (180°C)",
+            "in": [
+              {
+                "do": "dredge, dip, coat",
+                "in": [
+                  {
+                    "do": "refrigerate 30 min.",
+                    "in": [{
+                      "do": "season both sides",
+                      "in": [
+                        { "do": "halve horizontally", "in": ["3 boneless chicken breasts (10 oz./300 g each)"] },
+                        "1 tsp. (3 g) kosher salt",
+                        "1/2 tsp. (1 g) black pepper"
+                      ]
+                    }]
+                  },
+                  "1/3 cup (45 g) all-purpose flour",
+                  { "do": "whisk", "in": ["2 large eggs"] },
+                  {
+                    "do": "mix",
+                    "in": [
+                      "1-1/2 cups (75 g) panko breadcrumbs",
+                      "1/2 cup (40 g) finely grated Parmesan, for breading"
+                    ]
+                  }
+                ]
+              },
+              "2 cups (480 mL) vegetable oil, for frying"
+            ]
+          },
+          {
+            "do": "simmer covered 10 min.",
+            "in": [
+              {
+                "do": "sauté 3 min.",
+                "in": [
+                  "1 Tbs. (15 mL) olive oil",
+                  { "do": "mince", "in": ["2 garlic cloves"] },
+                  { "do": "finely chop", "in": ["1/4 small onion"] }
+                ]
+              },
+              "14 oz. (400 g) tomato passata",
+              "1/2 cup (120 mL) chicken stock"
+            ]
+          },
+          { "do": "roughly chop", "in": ["10 fresh basil leaves"] },
+          "2 cups (200 g) shredded mozzarella",
+          "3/4 cup (60 g) finely grated Parmesan, for topping"
+        ]
+      }]
+    },
+    "notes": ["Leave the edges of the crumbed chicken uncovered by sauce so they stay crisp.", "Serve immediately."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/chicken-parmigiana/" }
+  },
+  {
+    "id": "fettuccine-alfredo",
+    "title": "Fettuccine Alfredo",
+    "category": "Main Dishes",
+    "servings": "3 servings",
+    "prep": ["Bring a large pot of salted water to a boil"],
+    "tree": {
+      "do": "toss over medium-high heat 1 min.",
+      "in": [
+        {
+          "do": "off heat, stir in until smooth",
+          "in": [
+            {
+              "do": "boil; simmer 3 min.",
+              "in": [
+                {
+                  "do": "sauté 2 min.",
+                  "in": [
+                    { "do": "melt", "in": ["3 Tbs. (42 g) unsalted butter"] },
+                    { "do": "finely mince", "in": ["1 small shallot"] }
+                  ]
+                },
+                "1/2 cup (120 mL) heavy cream"
+              ]
+            },
+            { "do": "grate", "in": ["3/4 cup (60 g) Parmigiano Reggiano"] },
+            "1/4 tsp. (1.5 g) salt",
+            "black pepper to taste"
+          ]
+        },
+        { "do": "boil 1 min. less than package; drain", "in": ["8 oz. (250 g) dried fettuccine"] },
+        "1/4 cup (60 mL) reserved pasta water"
+      ]
+    },
+    "notes": ["If the sauce turns gluey, loosen with a little more pasta water.", "Garnish with parsley and extra Parmigiano."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/fettuccine-alfredo/" }
+  },
+  {
+    "id": "spaghetti-carbonara",
+    "title": "Spaghetti Carbonara",
+    "category": "Main Dishes",
+    "servings": "4 servings",
+    "prep": ["Bring 4 qt. (4 L) water and 1 Tbs. salt to a boil"],
+    "tree": {
+      "do": "off heat, stir vigorously 1 min.",
+      "in": [
+        {
+          "do": "toss in the fat",
+          "in": [
+            { "do": "boil until al dente; drain", "in": ["14 oz. (400 g) spaghetti"] },
+            {
+              "do": "fry 4–5 min. until golden",
+              "in": [{ "do": "cut into batons", "in": ["6 oz. (175 g) guanciale or pancetta"] }]
+            }
+          ]
+        },
+        {
+          "do": "whisk",
+          "in": [
+            "2 large eggs",
+            "2 large egg yolks",
+            { "do": "finely grate", "in": ["3.5 oz. (100 g) Parmigiano Reggiano or pecorino"] },
+            "1/4 tsp. (0.5 g) black pepper"
+          ]
+        },
+        "1/2 cup (120 mL) reserved pasta water"
+      ]
+    },
+    "notes": ["Don't salt the egg mixture; the guanciale and cheese are salty enough.", "Serve at once in warm bowls."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/carbonara/" }
+  },
+  {
+    "id": "shrimp-scampi",
+    "title": "Shrimp Scampi",
+    "category": "Main Dishes",
+    "servings": "2 servings",
+    "prep": ["Bring a large pot of salted water to a boil"],
+    "tree": {
+      "do": "toss; garnish",
+      "in": [
+        {
+          "do": "simmer to reduce 2–3 min.",
+          "in": [
+            {
+              "do": "sauté on low 1 min.",
+              "in": [
+                "2 Tbs. (28 g) butter, for the sauce",
+                { "do": "slice", "in": ["2 garlic cloves"] }
+              ]
+            },
+            { "do": "juice", "in": ["1/2 lemon"] },
+            "1/2 cup (125 mL) dry white wine"
+          ]
+        },
+        { "do": "boil per package; drain", "in": ["8 oz. (225 g) linguine"] },
+        "1/2 cup (125 mL) reserved pasta water",
+        {
+          "do": "cook 1 min. per side",
+          "in": [
+            "1 Tbs. (15 mL) olive oil",
+            "1 Tbs. (14 g) butter, for the shrimp",
+            "1/2 lb. (225 g) large shrimp, peeled and deveined",
+            "pinch of salt, for the shrimp"
+          ]
+        },
+        "salt and pepper to taste",
+        { "do": "chop", "in": ["1–2 Tbs. fresh flat-leaf parsley"] }
+      ]
+    },
+    "notes": ["Cook the shrimp first, set aside, then build the sauce in the same pan."],
+    "source": { "name": "Vikalinka", "url": "https://vikalinka.com/wprm_print/shrimp-scampi-linguine" }
+  },
+  {
+    "id": "pesto-pasta",
+    "title": "Pesto Pasta",
+    "category": "Main Dishes",
+    "servings": "4 to 6 servings",
+    "prep": ["Bring 4 qt. (3.8 L) water to a boil with 1-1/2 tsp. salt", "Have a bowl of ice water ready, or a salad spinner"],
+    "tree": {
+      "do": "toss; season to taste",
+      "in": [
+        { "do": "salt water; boil al dente; drain", "in": ["1 lb. (450 g) spaghetti"] },
+        {
+          "do": "stir together",
+          "in": [
+            {
+              "do": "process 1 min. until smooth",
+              "in": [
+                "3/4 tsp. (4.5 g) table salt",
+                "2 garlic cloves, peeled",
+                {
+                  "do": "cool 15 min.",
+                  "in": [{
+                    "do": "toast 3–6 min.",
+                    "in": [
+                      "1/2 cup (70 g) pine nuts",
+                      "1 Tbs. (15 mL) extra-virgin olive oil, for toasting"
+                    ]
+                  }]
+                },
+                {
+                  "do": "dry well",
+                  "in": [{
+                    "do": "blanch 5–10 sec.",
+                    "in": [{ "do": "pick leaves", "in": ["4 oz. (115 g) fresh basil"] }]
+                  }]
+                },
+                "11 Tbs. (165 mL) extra-virgin olive oil, for the pesto"
+              ]
+            },
+            { "do": "grind finely", "in": ["1-1/4 oz. (35 g) Parmesan"] }
+          ]
+        },
+        "1/2 cup (120 mL) reserved pasta water"
+      ]
+    },
+    "notes": ["Blanch the basil in the pasta water, then add 1 Tbs. salt and return it to a boil for the spaghetti.", "Serve with extra Parmesan."],
+    "source": { "name": "America's Test Kitchen", "url": "https://www.americastestkitchen.com/recipes/12785-spaghetti-with-pesto" }
+  },
+  {
+    "id": "pot-roast",
+    "title": "Pot Roast",
+    "category": "Main Dishes",
+    "servings": "6 servings",
+    "prep": ["Preheat oven to 275°F (135°C)"],
+    "tree": {
+      "do": "braise covered 275°F (135°C) 3–4 hr.",
+      "in": [
+        {
+          "do": "return roast; add broth halfway up",
+          "in": [
+            {
+              "do": "deglaze, scraping bottom",
+              "in": [
+                {
+                  "do": "sear 1 min. per side",
+                  "in": [{
+                    "do": "season generously",
+                    "in": [
+                      "1 boneless chuck roast, 3–5 lb. (1.4–2.3 kg)",
+                      "salt and pepper to taste"
+                    ]
+                  }]
+                },
+                "1 cup (240 mL) red wine"
+              ]
+            },
+            "3 cups (720 mL) beef broth"
+          ]
+        },
+        {
+          "do": "brown both sides",
+          "in": [
+            "2–3 Tbs. (30–45 mL) olive oil",
+            { "do": "peel; halve", "in": ["2 onions"] }
+          ]
+        },
+        {
+          "do": "brown 1 min.",
+          "in": [{ "do": "cut into 2 in. (5 cm) pieces", "in": ["6–8 carrots"] }]
+        },
+        "2–3 sprigs fresh rosemary",
+        "2–3 sprigs fresh thyme"
+      ]
+    },
+    "notes": ["Brown onions, then carrots, then the roast in the same Dutch oven.", "Allow about 3 hr. for a 3 lb. roast and 4 hr. for 4–5 lb.; it's done when fall-apart tender."],
+    "source": { "name": "Food Network (Ree Drummond)", "url": "https://www.foodnetwork.com/recipes/ree-drummond/perfect-pot-roast-recipe-2118771" }
+  },
+  {
+    "id": "meatloaf",
+    "title": "Meatloaf",
+    "category": "Main Dishes",
+    "servings": "about 6 servings",
+    "prep": ["Preheat oven to 350°F (175°C)"],
+    "tree": {
+      "do": "rest 10–15 min.; slice",
+      "in": [{
+        "do": "bake 350°F (175°C) 45–60 min. to 160°F (71°C)",
+        "in": [{
+          "do": "spread over top",
+          "in": [
+            {
+              "do": "pack into loaf pan",
+              "in": [{
+                "do": "mix until just combined",
+                "in": [
+                  "1-1/4 lb. (565 g) lean ground beef",
+                  "1 cup (50 g) panko breadcrumbs",
+                  "1/2 cup (120 mL) milk",
+                  "1 large egg",
+                  { "do": "mince", "in": ["2 garlic cloves"] },
+                  "2 Tbs. (34 g) ketchup, for the meatloaf",
+                  "1 Tbs. (15 mL) Worcestershire sauce",
+                  "1-1/2 tsp. (9 g) salt",
+                  "1 tsp. (2 g) black pepper",
+                  "1 tsp. (3 g) garlic powder",
+                  "1 Tbs. (13 g) brown sugar, for the meatloaf"
+                ]
+              }]
+            },
+            {
+              "do": "stir together",
+              "in": [
+                "1/4 cup (68 g) ketchup, for the glaze",
+                "2 Tbs. (25 g) brown sugar, for the glaze",
+                "1 Tbs. (15 mL) red wine vinegar"
+              ]
+            }
+          ]
+        }]
+      }]
+    },
+    "source": { "name": "The East Coast Kitchen", "url": "https://theeastcoastkitchen.com/meatloaf-recipe/" }
+  },
+  {
+    "id": "roast-chicken",
+    "title": "Roast Chicken",
+    "category": "Main Dishes",
+    "servings": "about 5 servings",
+    "prep": ["Take chicken out of the fridge 30 min. ahead", "Preheat oven to 450°F (220°C), rack in the middle"],
+    "tree": {
+      "do": "rest uncovered 15 min.",
+      "in": [{
+        "do": "roast 450°F (220°C) 10 min., 350°F (180°C) 75 min.",
+        "in": [{
+          "do": "set on onion & garlic; add wine; drizzle oil",
+          "in": [
+            {
+              "do": "tie legs; tuck wings; season",
+              "in": [
+                {
+                  "do": "butter under skin; squeeze lemon; stuff",
+                  "in": [
+                    { "do": "pat dry; loosen skin", "in": ["1 whole chicken, 3-1/2–4 lb. (1.75–2 kg)"] },
+                    {
+                      "do": "mix",
+                      "in": [
+                        { "do": "melt", "in": ["1 stick (113 g) unsalted butter"] },
+                        { "do": "mince", "in": ["3 garlic cloves"] },
+                        { "do": "finely chop", "in": ["1 Tbs. fresh sage"] },
+                        { "do": "finely chop", "in": ["2 tsp. fresh rosemary"] },
+                        { "do": "finely chop", "in": ["1 Tbs. fresh parsley"] },
+                        "1/2 tsp. each salt and black pepper, for the butter"
+                      ]
+                    },
+                    { "do": "quarter", "in": ["1 lemon"] },
+                    "3 sprigs fresh rosemary, for the cavity"
+                  ]
+                },
+                "salt and pepper, for the skin"
+              ]
+            },
+            { "do": "quarter", "in": ["1 onion"] },
+            { "do": "halve crosswise", "in": ["1 head garlic"] },
+            "1 cup (250 mL) dry white wine or chicken broth",
+            "2 tsp. (10 mL) olive oil"
+          ]
+        }]
+      }]
+    },
+    "notes": ["Baste at 30 min. and 1 hr.; done at 165°F (75°C) or when the juices run clear.", "Serve with the pan juices."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/roast-chicken/" }
+  },
+  {
+    "id": "chicken-pot-pie",
+    "title": "Chicken Pot Pie",
+    "category": "Main Dishes",
+    "servings": "4 to 6 servings",
+    "prep": ["Preheat oven to 350°F (180°C)"],
+    "tree": {
+      "do": "bake 350°F (180°C) 35–40 min.",
+      "in": [{
+        "do": "drape over pots; brush with egg; cut slit",
+        "in": [
+          {
+            "do": "spoon into pots; chill 30 min.",
+            "in": [{
+              "do": "cook 3 min. until thick",
+              "in": [
+                {
+                  "do": "stir in until smooth",
+                  "in": [
+                    {
+                      "do": "add wine, reduce; stir in flour 1 min.",
+                      "in": [
+                        {
+                          "do": "sauté 2 min.; add rest; cook 3 min.",
+                          "in": [
+                            "3 Tbs. (50 g) butter",
+                            { "do": "mince", "in": ["2 garlic cloves"] },
+                            { "do": "chop", "in": ["1 large onion"] },
+                            "1 tsp. dried thyme",
+                            { "do": "chop", "in": ["2 large carrots"] },
+                            { "do": "chop", "in": ["3 celery stalks"] }
+                          ]
+                        },
+                        "1/3 cup (80 mL) white wine",
+                        "1/3 cup (45 g) all-purpose flour"
+                      ]
+                    },
+                    {
+                      "do": "shred chicken; keep liquid",
+                      "in": [{
+                        "do": "poach covered 15 min.",
+                        "in": [
+                          {
+                            "do": "bring to gentle simmer",
+                            "in": ["2 cups (500 mL) milk", "1 cup (250 mL) chicken broth"]
+                          },
+                          "1.2 lb. (600 g) boneless chicken breasts or thighs"
+                        ]
+                      }]
+                    },
+                    "1/2 cup (40 g) grated Parmesan",
+                    "1/2 tsp. (1 g) black pepper"
+                  ]
+                },
+                "1 cup (140 g) frozen peas"
+              ]
+            }]
+          },
+          { "do": "cut rounds 1 in. (2.5 cm) wider than pots", "in": ["2 sheets puff pastry"] },
+          { "do": "lightly beat", "in": ["1 large egg"] }
+        ]
+      }]
+    },
+    "notes": ["Don't let the milk boil while poaching or it may split.", "Makes 4 large or 6 medium individual pies, or one large pie."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/chicken-pot-pie/" }
+  },
+  {
+    "id": "shepherds-pie",
+    "title": "Shepherd's Pie",
+    "category": "Main Dishes",
+    "servings": "5 to 6 servings",
+    "prep": ["Preheat oven to 350°F (180°C)"],
+    "tree": {
+      "do": "bake 350°F (180°C) 30–40 min.; rest 5 min.",
+      "in": [{
+        "do": "spread mash over; fork top; drizzle",
+        "in": [
+          {
+            "do": "transfer to 1-1/2 qt. dish; stir in",
+            "in": [
+              {
+                "do": "simmer 30 min. until thick; season",
+                "in": [
+                  {
+                    "do": "stir in flour, then add",
+                    "in": [
+                      {
+                        "do": "brown on high, breaking up",
+                        "in": [
+                          {
+                            "do": "sauté 1 min.; add veg & herbs, cook 3 min.",
+                            "in": [
+                              "1-1/2 Tbs. (22 mL) olive oil",
+                              { "do": "finely chop", "in": ["1 onion"] },
+                              { "do": "mince", "in": ["2 garlic cloves"] },
+                              { "do": "finely chop", "in": ["1 carrot"] },
+                              { "do": "finely chop", "in": ["1 celery stalk"] },
+                              "3/4 tsp. each dried thyme and rosemary"
+                            ]
+                          },
+                          "1-1/2 lb. (750 g) ground lamb or beef"
+                        ]
+                      },
+                      "1/4 cup (35 g) all-purpose flour",
+                      "1/4 cup (65 g) tomato paste",
+                      "2 cups (500 mL) beef stock",
+                      "1/2 cup (125 mL) red wine",
+                      "1 Tbs. (15 mL) Worcestershire sauce"
+                    ]
+                  },
+                  "3/4 tsp. kosher salt and 1/2 tsp. pepper, for the filling"
+                ]
+              },
+              "1 cup (140 g) frozen peas"
+            ]
+          },
+          {
+            "do": "mash until smooth",
+            "in": [
+              {
+                "do": "boil 15 min.; drain; steam-dry",
+                "in": [{ "do": "peel; cube 1 in. (2.5 cm)", "in": ["2.2 lb. (1.2 kg) potatoes"] }]
+              },
+              "2 Tbs. (30 g) unsalted butter, for the mash",
+              "2/3 cup (160 mL) milk",
+              "salt and pepper to taste, for the mash"
+            ]
+          },
+          { "do": "melt", "in": ["2 Tbs. (30 g) unsalted butter, for the top"] }
+        ]
+      }]
+    },
+    "notes": ["Optionally sprinkle 2–3 Tbs. grated Parmesan over the mash before baking.", "The filling can be made a day ahead and chilled."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/shepherds-pie/" }
+  },
+  {
+    "id": "beef-stroganoff",
+    "title": "Beef Stroganoff",
+    "category": "Main Dishes",
+    "servings": "4 to 5 servings",
+    "tree": {
+      "do": "serve over; garnish",
+      "in": [
+        {
+          "do": "return beef; simmer 1 min.",
+          "in": [
+            {
+              "do": "simmer 3–5 min.; season",
+              "in": [
+                {
+                  "do": "stir in gradually",
+                  "in": [
+                    {
+                      "do": "stir in 1 min.",
+                      "in": [
+                        {
+                          "do": "cook until golden",
+                          "in": [
+                            {
+                              "do": "cook 1 min.",
+                              "in": [
+                                "3 Tbs. (50 g) butter",
+                                { "do": "slice", "in": ["1 large onion"] }
+                              ]
+                            },
+                            { "do": "slice", "in": ["10 oz. (300 g) mushrooms"] }
+                          ]
+                        },
+                        "2 Tbs. (16 g) all-purpose flour"
+                      ]
+                    },
+                    "2 cups (500 mL) low-sodium beef broth"
+                  ]
+                },
+                "2/3 cup (160 g) sour cream",
+                "1 Tbs. (15 g) Dijon mustard",
+                "salt and pepper to taste"
+              ]
+            },
+            {
+              "do": "sear in batches 30 sec. per side",
+              "in": [
+                "2 Tbs. (30 mL) vegetable oil",
+                {
+                  "do": "season",
+                  "in": [
+                    { "do": "pound thin; slice 1/5 in. (5 mm) strips", "in": ["1.2 lb. (600 g) boneless rib eye steak"] },
+                    "1/2 tsp. (1.5 g) kosher salt",
+                    "1/4 tsp. (0.5 g) black pepper"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        { "do": "cook per package; drain", "in": ["8–10 oz. (250–300 g) egg noodles"] },
+        { "do": "chop", "in": ["fresh chives"] }
+      ]
+    },
+    "notes": ["Sear the beef first and set aside; build the sauce in the same skillet, scraping up the browned bits.", "Take it off the heat as soon as the beef is back in so it stays tender."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/beef-stroganoff/" }
+  },
+  {
+    "id": "eggplant-parmesan",
+    "title": "Eggplant Parmesan",
+    "category": "Main Dishes",
+    "servings": "8 to 10 servings",
+    "prep": ["Preheat oven to 430°F (220°C)", "Line 3 baking sheets with parchment"],
+    "tree": {
+      "do": "rest 5–10 min.",
+      "in": [{
+        "do": "bake 350°F (180°C) 25 min.",
+        "in": [{
+          "do": "top with",
+          "in": [
+            {
+              "do": "layer ×3 in 9 x 13 in. dish",
+              "in": [
+                {
+                  "do": "cool on trays",
+                  "in": [{
+                    "do": "bake 430°F (220°C) 35–45 min., turning",
+                    "in": [{
+                      "do": "brush both sides",
+                      "in": [
+                        { "do": "slice lengthwise 1/3 in. (8 mm)", "in": ["4 lb. (1.8 kg) large eggplants"] },
+                        "1/4 cup (60 mL) olive oil"
+                      ]
+                    }]
+                  }]
+                },
+                {
+                  "do": "season",
+                  "in": [
+                    {
+                      "do": "simmer uncovered 30–40 min.",
+                      "in": [
+                        {
+                          "do": "sauté 3 min.",
+                          "in": [
+                            "2 Tbs. (30 mL) extra-virgin olive oil",
+                            { "do": "finely dice", "in": ["1 onion"] },
+                            { "do": "mince", "in": ["5 garlic cloves"] }
+                          ]
+                        },
+                        "20 oz. (600 mL) tomato passata",
+                        "1 can (14 oz./400 g) crushed tomatoes",
+                        "1 cup (250 mL) water",
+                        "1/2 tsp. dried oregano",
+                        "1-1/2 tsp. (6 g) sugar"
+                      ]
+                    },
+                    "3/4 tsp. (4.5 g) salt",
+                    "1/4 tsp. (0.5 g) black pepper"
+                  ]
+                },
+                "1-2/3 cups (125 g) finely grated Parmesan",
+                "2 cups loosely packed fresh basil leaves"
+              ]
+            },
+            "1-1/2 cups (150 g) shredded mozzarella"
+          ]
+        }]
+      }]
+    },
+    "notes": ["Reduce the oven to 350°F (180°C) after baking the eggplant.", "Skip basil on the top layer; scatter a few fresh leaves before serving."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/eggplant-parmigiana/" }
+  },
+  {
+    "id": "swedish-meatballs",
+    "title": "Swedish Meatballs",
+    "category": "Main Dishes",
+    "servings": "5 servings",
+    "tree": {
+      "do": "stir in; simmer 2 min.",
+      "in": [
+        {
+          "do": "return meatballs; simmer 8–10 min.",
+          "in": [
+            {
+              "do": "whisk in gradually",
+              "in": [
+                {
+                  "do": "cook 1 min.",
+                  "in": [
+                    { "do": "melt", "in": ["3 Tbs. (40 g) unsalted butter"] },
+                    "3 Tbs. (24 g) all-purpose flour"
+                  ]
+                },
+                "2 cups (500 mL) reduced-salt beef broth"
+              ]
+            },
+            {
+              "do": "brown in batches 3 min.",
+              "in": [
+                "1 Tbs. (15 mL) vegetable oil",
+                {
+                  "do": "roll into 25–30 balls",
+                  "in": [{
+                    "do": "mix well",
+                    "in": [
+                      {
+                        "do": "soak 1 min.",
+                        "in": [
+                          { "do": "grate, keeping juice", "in": ["1 small onion"] },
+                          { "do": "remove crusts; cube", "in": ["2 slices white sandwich bread"] }
+                        ]
+                      },
+                      "10 oz. (300 g) ground beef",
+                      "10 oz. (300 g) ground pork",
+                      "1 large egg",
+                      "1/4 tsp. ground nutmeg",
+                      "1/4 tsp. ground allspice",
+                      "1/4 tsp. black pepper",
+                      "3/4 tsp. (4.5 g) salt"
+                    ]
+                  }]
+                }
+              ]
+            }
+          ]
+        },
+        "1/2 cup (120 mL) heavy cream"
+      ]
+    },
+    "notes": ["Pour off excess oil after browning, then make the gravy in the same skillet.", "Serve over mashed potatoes."],
+    "source": { "name": "RecipeTin Eats", "url": "https://www.recipetineats.com/swedish-meatballs/" }
+  },
+  {
+    "id": "margherita-pizza",
+    "title": "Margherita Pizza",
+    "category": "Main Dishes",
+    "servings": "one 14 in. (35 cm) pizza",
+    "prep": ["Preheat oven to 500°F (260°C), rack one above the bottom", "Oil a pizza steel or baking sheet"],
+    "tree": {
+      "do": "scatter; slice",
+      "in": [
+        {
+          "do": "rest 3–4 min.",
+          "in": [{
+            "do": "bake 500°F (260°C) 8–12 min.",
+            "in": [{
+              "do": "brush crust",
+              "in": [
+                {
+                  "do": "scatter over",
+                  "in": [
+                    {
+                      "do": "spread to 1 in. (2.5 cm) from edge",
+                      "in": [
+                        { "do": "stretch to 14 in. (35 cm); fold edge", "in": ["1 lb. (450 g) pizza dough"] },
+                        {
+                          "do": "stir together",
+                          "in": [
+                            { "do": "drain 5 min.", "in": ["1 can (15 oz./425 g) crushed San Marzano tomatoes"] },
+                            "1 Tbs. (15 mL) olive oil, for the sauce",
+                            { "do": "mince", "in": ["2 garlic cloves"] },
+                            "1/4 tsp. (1.5 g) salt",
+                            "1/4 tsp. (0.5 g) black pepper",
+                            "1–2 pinches red pepper flakes"
+                          ]
+                        }
+                      ]
+                    },
+                    { "do": "pat dry; cube 1/2 in. (1.3 cm)", "in": ["6 oz. (170 g) fresh mozzarella"] }
+                  ]
+                },
+                "olive oil, for the crust"
+              ]
+            }]
+          }]
+        },
+        "fresh basil leaves"
+      ]
+    },
+    "notes": ["Add the basil after baking so it stays green."],
+    "source": { "name": "Kristine's Kitchen", "url": "https://kristineskitchenblog.com/margherita-pizza/" }
+  }
+]

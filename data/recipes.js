@@ -184,6 +184,112 @@ window.RECIPES = [
   }
  },
  {
+  "id": "baked-macaroni-and-cheese",
+  "title": "Baked Macaroni and Cheese",
+  "category": "Main Dishes",
+  "servings": "6 to 8 servings",
+  "prep": [
+   "Preheat oven to 350°F (180°C)",
+   "Bring a large pot of salted water to a boil"
+  ],
+  "tree": {
+   "do": "bake 350°F (180°C) 25 min.",
+   "in": [
+    {
+     "do": "transfer to 10-cup (2.5 L) dish; sprinkle",
+     "in": [
+      {
+       "do": "stir together",
+       "in": [
+        {
+         "do": "toss until melted",
+         "in": [
+          {
+           "do": "boil 1 min. less than package; drain",
+           "in": [
+            "8 oz. (250 g) elbow macaroni"
+           ]
+          },
+          "1 Tbs. (15 g) butter, for the pasta"
+         ]
+        },
+        {
+         "do": "off heat, stir in cheeses",
+         "in": [
+          {
+           "do": "season; cook 5–8 min., stirring",
+           "in": [
+            {
+             "do": "whisk in gradually",
+             "in": [
+              {
+               "do": "cook 1 min.",
+               "in": [
+                {
+                 "do": "melt",
+                 "in": [
+                  "4 Tbs. (60 g) butter, for the sauce"
+                 ]
+                },
+                "1/3 cup (45 g) all-purpose flour"
+               ]
+              },
+              {
+               "do": "warm",
+               "in": [
+                "3 cups (750 mL) milk"
+               ]
+              }
+             ]
+            },
+            "3/4 tsp. (4.5 g) salt, for the sauce",
+            "1 tsp. (3 g) garlic powder",
+            "1/2 tsp. (1.5 g) onion powder",
+            "1/2 tsp. (1.5 g) mustard powder"
+           ]
+          },
+          {
+           "do": "grate",
+           "in": [
+            "2 cups (200 g) Gruyère or cheddar"
+           ]
+          },
+          {
+           "do": "grate",
+           "in": [
+            "1 cup (100 g) mozzarella"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "do": "mix",
+       "in": [
+        "2/3 cup (35 g) panko breadcrumbs",
+        {
+         "do": "melt",
+         "in": [
+          "2 Tbs. (30 g) butter, for the topping"
+         ]
+        },
+        "1/4 tsp. (1.5 g) salt, for the topping"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Serve straight from the oven."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/baked-mac-and-cheese/"
+  }
+ },
+ {
   "id": "banana-nut-bread",
   "title": "Banana Nut Bread",
   "category": "Baking & Desserts",
@@ -246,6 +352,86 @@ window.RECIPES = [
      ]
     }
    ]
+  }
+ },
+ {
+  "id": "beef-and-broccoli",
+  "title": "Beef and Broccoli",
+  "category": "Main Dishes",
+  "servings": "4 servings",
+  "tree": {
+   "do": "toss; serve over rice",
+   "in": [
+    {
+     "do": "sear in batches 1–1.5 min. per side",
+     "in": [
+      {
+       "do": "toss; rest 15 min.",
+       "in": [
+        {
+         "do": "slice thin across grain",
+         "in": [
+          "1 lb. (450 g) flank steak"
+         ]
+        },
+        {
+         "do": "whisk",
+         "in": [
+          "1 Tbs. (15 mL) soy sauce, for the marinade",
+          "1 tsp. (3 g) cornstarch, for the marinade"
+         ]
+        }
+       ]
+      },
+      "1 Tbs. (15 mL) vegetable oil, for the beef"
+     ]
+    },
+    {
+     "do": "cook 1 min. until thickened",
+     "in": [
+      {
+       "do": "cover; steam 4–5 min.",
+       "in": [
+        {
+         "do": "sauté 30 sec.",
+         "in": [
+          "1 Tbs. (15 mL) vegetable oil, for the aromatics",
+          "1/2 cup (50 g) chopped green onions",
+          {
+           "do": "mince",
+           "in": [
+            "3 garlic cloves"
+           ]
+          },
+          "2 tsp. (4 g) minced fresh ginger"
+         ]
+        },
+        "4 cups (300 g) small broccoli florets",
+        "1/3 cup (80 mL) water"
+       ]
+      },
+      {
+       "do": "whisk",
+       "in": [
+        "2 Tbs. (30 mL) soy sauce, for the sauce",
+        "1-1/2 Tbs. (12 g) cornstarch, for the sauce",
+        "2/3 cup (160 mL) low-sodium chicken broth",
+        "3 Tbs. (63 g) honey",
+        "1-1/2 tsp. (7 mL) rice vinegar",
+        "1 tsp. (5 mL) toasted sesame oil"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Pat the steak dry before searing",
+   "Garnish with sesame seeds or red pepper flakes"
+  ],
+  "source": {
+   "name": "Cooking Classy",
+   "url": "https://www.cookingclassy.com/beef-and-broccoli/"
   }
  },
  {
@@ -424,6 +610,191 @@ window.RECIPES = [
   "source": {
    "name": "Once Upon a Chef",
    "url": "https://www.onceuponachef.com/recipes/beef-stew-with-carrots-potatoes.html"
+  }
+ },
+ {
+  "id": "beef-stroganoff",
+  "title": "Beef Stroganoff",
+  "category": "Main Dishes",
+  "servings": "4 to 5 servings",
+  "tree": {
+   "do": "serve over; garnish",
+   "in": [
+    {
+     "do": "return beef; simmer 1 min.",
+     "in": [
+      {
+       "do": "simmer 3–5 min.; season",
+       "in": [
+        {
+         "do": "stir in gradually",
+         "in": [
+          {
+           "do": "stir in 1 min.",
+           "in": [
+            {
+             "do": "cook until golden",
+             "in": [
+              {
+               "do": "cook 1 min.",
+               "in": [
+                "3 Tbs. (50 g) butter",
+                {
+                 "do": "slice",
+                 "in": [
+                  "1 large onion"
+                 ]
+                }
+               ]
+              },
+              {
+               "do": "slice",
+               "in": [
+                "10 oz. (300 g) mushrooms"
+               ]
+              }
+             ]
+            },
+            "2 Tbs. (16 g) all-purpose flour"
+           ]
+          },
+          "2 cups (500 mL) low-sodium beef broth"
+         ]
+        },
+        "2/3 cup (160 g) sour cream",
+        "1 Tbs. (15 g) Dijon mustard",
+        "salt and pepper to taste"
+       ]
+      },
+      {
+       "do": "sear in batches 30 sec. per side",
+       "in": [
+        "2 Tbs. (30 mL) vegetable oil",
+        {
+         "do": "season",
+         "in": [
+          {
+           "do": "pound thin; slice 1/5 in. (5 mm) strips",
+           "in": [
+            "1.2 lb. (600 g) boneless rib eye steak"
+           ]
+          },
+          "1/2 tsp. (1.5 g) kosher salt",
+          "1/4 tsp. (0.5 g) black pepper"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "do": "cook per package; drain",
+     "in": [
+      "8–10 oz. (250–300 g) egg noodles"
+     ]
+    },
+    {
+     "do": "chop",
+     "in": [
+      "fresh chives"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Sear the beef first and set aside; build the sauce in the same skillet, scraping up the browned bits.",
+   "Take it off the heat as soon as the beef is back in so it stays tender."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/beef-stroganoff/"
+  }
+ },
+ {
+  "id": "beef-tacos",
+  "title": "Beef Tacos",
+  "category": "Main Dishes",
+  "servings": "4 servings (10–12 tacos)",
+  "prep": [
+   "Preheat oven to 350°F (180°C)"
+  ],
+  "tree": {
+   "do": "top and serve",
+   "in": [
+    {
+     "do": "bake 350°F (180°C) 5–7 min.",
+     "in": [
+      {
+       "do": "fill shells; top with cheese",
+       "in": [
+        {
+         "do": "cook 1 min. until juicy",
+         "in": [
+          {
+           "do": "cook 2 min.",
+           "in": [
+            {
+             "do": "brown 2 min., breaking up",
+             "in": [
+              {
+               "do": "sauté 2 min.",
+               "in": [
+                "1 Tbs. (15 mL) oil",
+                {
+                 "do": "finely chop",
+                 "in": [
+                  "1 onion"
+                 ]
+                },
+                {
+                 "do": "mince",
+                 "in": [
+                  "2 garlic cloves"
+                 ]
+                }
+               ]
+              },
+              "1 lb. (500 g) ground beef"
+             ]
+            },
+            {
+             "do": "mix",
+             "in": [
+              "1 tsp. (5 mL) each garlic powder, onion powder and dried oregano",
+              "2 tsp. (10 mL) each ground cumin and paprika",
+              "1/4 tsp. (1 mL) cayenne pepper",
+              "1 tsp. (6 g) salt",
+              "1/4 tsp. (1 mL) black pepper"
+             ]
+            }
+           ]
+          },
+          "2 Tbs. (32 g) tomato paste",
+          "1/4 cup (65 mL) water"
+         ]
+        },
+        "10–12 crispy taco shells",
+        "1 cup (100 g) shredded cheddar or Monterey Jack"
+       ]
+      }
+     ]
+    },
+    "2 cups (100 g) shredded iceberg lettuce",
+    {
+     "do": "chop",
+     "in": [
+      "2 tomatoes"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Add sour cream, salsa or hot sauce at the table",
+   "Soft tortillas work too; skip the baking step"
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/ground-beef-tacos-recipe/"
   }
  },
  {
@@ -1171,6 +1542,306 @@ window.RECIPES = [
   }
  },
  {
+  "id": "chicken-enchiladas",
+  "title": "Chicken Enchiladas",
+  "category": "Main Dishes",
+  "servings": "4 servings (8 enchiladas)",
+  "prep": [
+   "Preheat oven to 425°F (220°C)",
+   "Spread 1/2 cup (120 mL) of the finished sauce in a 9x13-inch (23x33 cm) baking dish"
+  ],
+  "tree": {
+   "do": "garnish and serve",
+   "in": [
+    {
+     "do": "rest 10 min.",
+     "in": [
+      {
+       "do": "top; bake uncovered 5–10 min.",
+       "in": [
+        {
+         "do": "bake covered 425°F (220°C) 20–25 min.",
+         "in": [
+          {
+           "do": "dip in sauce, fill, roll seam-side down",
+           "in": [
+            {
+             "do": "shred chicken; blend liquid into sauce",
+             "in": [
+              {
+               "do": "simmer covered 20–30 min.",
+               "in": [
+                "2 large bone-in, skin-on chicken breasts (about 1 lb./450 g)",
+                "3 cups (710 mL) water",
+                {
+                 "do": "stem and seed",
+                 "in": [
+                  "12 dried guajillo chiles (4 oz./115 g)"
+                 ]
+                },
+                {
+                 "do": "stem and seed",
+                 "in": [
+                  "3 dried cascabel chiles (1/2 oz./15 g)"
+                 ]
+                },
+                "stems from 1 bunch cilantro",
+                {
+                 "do": "peel",
+                 "in": [
+                  "8 garlic cloves"
+                 ]
+                },
+                "1 Tbs. (18 g) kosher salt",
+                "1 tsp. (3 g) black peppercorns",
+                "1 tsp. (2 g) coriander seeds"
+               ]
+              }
+             ]
+            },
+            {
+             "do": "fry 10 sec. per side; drain",
+             "in": [
+              "8 (6-inch/15 cm) corn tortillas",
+              "1 cup (240 mL) vegetable oil, for frying"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "do": "crumble",
+         "in": [
+          "8 oz. (225 g) queso fresco"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "Mexican crema, for serving",
+    {
+     "do": "chop",
+     "in": [
+      "leaves from 1 bunch cilantro"
+     ]
+    },
+    "chopped white onion, for serving",
+    "lime wedges"
+   ]
+  },
+  "notes": [
+   "Toss the shredded chicken with 1/2 cup (120 mL) of the sauce before filling"
+  ],
+  "source": {
+   "name": "Food Network Kitchen",
+   "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-red-chicken-enchiladas-7422445"
+  }
+ },
+ {
+  "id": "chicken-fajitas",
+  "title": "Chicken Fajitas",
+  "category": "Main Dishes",
+  "servings": "4 servings",
+  "tree": {
+   "do": "serve in tortillas",
+   "in": [
+    {
+     "do": "toss together",
+     "in": [
+      {
+       "do": "slice",
+       "in": [
+        {
+         "do": "rest under foil 5 min.",
+         "in": [
+          {
+           "do": "sear 4–6 min. per side to 165°F (74°C)",
+           "in": [
+            {
+             "do": "marinate in fridge 1–6 hr.",
+             "in": [
+              "1-1/2 lb. (680 g) boneless chicken thighs or breasts",
+              {
+               "do": "whisk",
+               "in": [
+                "3 Tbs. (45 mL) olive oil, for the marinade",
+                "3 Tbs. (45 mL) lime juice, for the marinade",
+                "2 tsp. (10 mL) minced garlic, for the marinade",
+                "2 tsp. (5 g) chili powder, for the marinade",
+                "1-1/2 tsp. (3.5 g) ground cumin, for the marinade",
+                {
+                 "do": "mince",
+                 "in": [
+                  "1 jalapeño"
+                 ]
+                },
+                "1-1/4 tsp. (7 g) salt",
+                "1 tsp. (2 g) black pepper"
+               ]
+              }
+             ]
+            },
+            "1 Tbs. (15 mL) olive oil, for searing"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "do": "sauté 2 min. until tender-crisp",
+       "in": [
+        {
+         "do": "sauté 4 min.",
+         "in": [
+          "1 Tbs. (15 mL) olive oil, for the vegetables",
+          {
+           "do": "seed and slice",
+           "in": [
+            "3 medium bell peppers"
+           ]
+          },
+          {
+           "do": "slice",
+           "in": [
+            "1 medium onion"
+           ]
+          }
+         ]
+        },
+        "1/2 tsp. (1 g) each chili powder and ground cumin, for the vegetables",
+        "1-1/2 tsp. (7 mL) minced garlic, for the vegetables"
+       ]
+      },
+      "1 Tbs. (15 mL) lime juice, to finish",
+      "3 Tbs. (3 g) chopped fresh cilantro"
+     ]
+    },
+    {
+     "do": "warm",
+     "in": [
+      "8 (7-inch/18 cm) flour tortillas"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Top with guacamole, salsa, sour cream or cheese"
+  ],
+  "source": {
+   "name": "Cooking Classy",
+   "url": "https://www.cookingclassy.com/chicken-fajitas/"
+  }
+ },
+ {
+  "id": "chicken-marsala",
+  "title": "Chicken Marsala",
+  "category": "Main Dishes",
+  "servings": "4 servings",
+  "tree": {
+   "do": "spoon sauce over chicken; garnish",
+   "in": [
+    {
+     "do": "tent with foil",
+     "in": [
+      {
+       "do": "sear 10–12 min. to 165°F (74°C)",
+       "in": [
+        {
+         "do": "dredge",
+         "in": [
+          {
+           "do": "season",
+           "in": [
+            {
+             "do": "butterfly, halve, pound even",
+             "in": [
+              "2 (10 oz./285 g) boneless skinless chicken breasts"
+             ]
+            },
+            "salt and pepper to taste"
+           ]
+          },
+          "1/3 cup (40 g) all-purpose flour"
+         ]
+        },
+        "1 Tbs. (14 g) butter, for the chicken",
+        "1 Tbs. (15 mL) olive oil, for the chicken"
+       ]
+      }
+     ]
+    },
+    {
+     "do": "off heat, stir in",
+     "in": [
+      {
+       "do": "simmer until thickened",
+       "in": [
+        {
+         "do": "add off heat; simmer, scraping pan",
+         "in": [
+          {
+           "do": "add garlic; cook 1 min.",
+           "in": [
+            {
+             "do": "sauté 7 min. until golden",
+             "in": [
+              "1 Tbs. (14 g) butter, for the mushrooms",
+              "1 Tbs. (15 mL) olive oil, for the mushrooms",
+              {
+               "do": "slice",
+               "in": [
+                "8 oz. (225 g) cremini mushrooms"
+               ]
+              }
+             ]
+            },
+            {
+             "do": "mince",
+             "in": [
+              "3 garlic cloves"
+             ]
+            }
+           ]
+          },
+          {
+           "do": "reduce to 1 cup (240 mL), ~15 min.",
+           "in": [
+            "1-1/4 cups (300 mL) dry Marsala wine",
+            "1-1/4 cups (300 mL) unsalted chicken broth"
+           ]
+          },
+          "1 tsp. (1 g) minced fresh thyme",
+          "1 tsp. (1 g) minced fresh oregano"
+         ]
+        },
+        {
+         "do": "whisk",
+         "in": [
+          "1-1/2 tsp. (4 g) cornstarch",
+          "1 Tbs. (15 mL) chicken broth, for the slurry"
+         ]
+        }
+       ]
+      },
+      "1/3 cup (80 mL) heavy cream"
+     ]
+    },
+    "1 Tbs. (4 g) minced fresh parsley"
+   ]
+  },
+  "notes": [
+   "Start the wine reduction first so it is ready when the mushrooms are done",
+   "Cook the mushrooms in the chicken skillet"
+  ],
+  "source": {
+   "name": "Cooking Classy",
+   "url": "https://www.cookingclassy.com/chicken-marsala/"
+  }
+ },
+ {
   "id": "chicken-noodle-soup",
   "title": "Chicken Noodle Soup",
   "category": "Soups & Stews",
@@ -1249,6 +1920,404 @@ window.RECIPES = [
   "source": {
    "name": "Inspired Taste",
    "url": "https://www.inspiredtaste.net/37475/homemade-chicken-noodle-soup-recipe/"
+  }
+ },
+ {
+  "id": "chicken-parmesan",
+  "title": "Chicken Parmesan",
+  "category": "Main Dishes",
+  "servings": "6 servings",
+  "prep": [
+   "Preheat oven to 350°F (180°C)",
+   "Set up three shallow bowls for breading"
+  ],
+  "tree": {
+   "do": "bake 350°F (180°C) 15 min.",
+   "in": [
+    {
+     "do": "top each: sauce, basil, cheeses",
+     "in": [
+      {
+       "do": "fry 2 min. + 1-1/2 min. at 350°F (180°C)",
+       "in": [
+        {
+         "do": "dredge, dip, coat",
+         "in": [
+          {
+           "do": "refrigerate 30 min.",
+           "in": [
+            {
+             "do": "season both sides",
+             "in": [
+              {
+               "do": "halve horizontally",
+               "in": [
+                "3 boneless chicken breasts (10 oz./300 g each)"
+               ]
+              },
+              "1 tsp. (3 g) kosher salt",
+              "1/2 tsp. (1 g) black pepper"
+             ]
+            }
+           ]
+          },
+          "1/3 cup (45 g) all-purpose flour",
+          {
+           "do": "whisk",
+           "in": [
+            "2 large eggs"
+           ]
+          },
+          {
+           "do": "mix",
+           "in": [
+            "1-1/2 cups (75 g) panko breadcrumbs",
+            "1/2 cup (40 g) finely grated Parmesan, for breading"
+           ]
+          }
+         ]
+        },
+        "2 cups (480 mL) vegetable oil, for frying"
+       ]
+      },
+      {
+       "do": "simmer covered 10 min.",
+       "in": [
+        {
+         "do": "sauté 3 min.",
+         "in": [
+          "1 Tbs. (15 mL) olive oil",
+          {
+           "do": "mince",
+           "in": [
+            "2 garlic cloves"
+           ]
+          },
+          {
+           "do": "finely chop",
+           "in": [
+            "1/4 small onion"
+           ]
+          }
+         ]
+        },
+        "14 oz. (400 g) tomato passata",
+        "1/2 cup (120 mL) chicken stock"
+       ]
+      },
+      {
+       "do": "roughly chop",
+       "in": [
+        "10 fresh basil leaves"
+       ]
+      },
+      "2 cups (200 g) shredded mozzarella",
+      "3/4 cup (60 g) finely grated Parmesan, for topping"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Leave the edges of the crumbed chicken uncovered by sauce so they stay crisp.",
+   "Serve immediately."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/chicken-parmigiana/"
+  }
+ },
+ {
+  "id": "chicken-pot-pie",
+  "title": "Chicken Pot Pie",
+  "category": "Main Dishes",
+  "servings": "4 to 6 servings",
+  "prep": [
+   "Preheat oven to 350°F (180°C)"
+  ],
+  "tree": {
+   "do": "bake 350°F (180°C) 35–40 min.",
+   "in": [
+    {
+     "do": "drape over pots; brush with egg; cut slit",
+     "in": [
+      {
+       "do": "spoon into pots; chill 30 min.",
+       "in": [
+        {
+         "do": "cook 3 min. until thick",
+         "in": [
+          {
+           "do": "stir in until smooth",
+           "in": [
+            {
+             "do": "add wine, reduce; stir in flour 1 min.",
+             "in": [
+              {
+               "do": "sauté 2 min.; add rest; cook 3 min.",
+               "in": [
+                "3 Tbs. (50 g) butter",
+                {
+                 "do": "mince",
+                 "in": [
+                  "2 garlic cloves"
+                 ]
+                },
+                {
+                 "do": "chop",
+                 "in": [
+                  "1 large onion"
+                 ]
+                },
+                "1 tsp. dried thyme",
+                {
+                 "do": "chop",
+                 "in": [
+                  "2 large carrots"
+                 ]
+                },
+                {
+                 "do": "chop",
+                 "in": [
+                  "3 celery stalks"
+                 ]
+                }
+               ]
+              },
+              "1/3 cup (80 mL) white wine",
+              "1/3 cup (45 g) all-purpose flour"
+             ]
+            },
+            {
+             "do": "shred chicken; keep liquid",
+             "in": [
+              {
+               "do": "poach covered 15 min.",
+               "in": [
+                {
+                 "do": "bring to gentle simmer",
+                 "in": [
+                  "2 cups (500 mL) milk",
+                  "1 cup (250 mL) chicken broth"
+                 ]
+                },
+                "1.2 lb. (600 g) boneless chicken breasts or thighs"
+               ]
+              }
+             ]
+            },
+            "1/2 cup (40 g) grated Parmesan",
+            "1/2 tsp. (1 g) black pepper"
+           ]
+          },
+          "1 cup (140 g) frozen peas"
+         ]
+        }
+       ]
+      },
+      {
+       "do": "cut rounds 1 in. (2.5 cm) wider than pots",
+       "in": [
+        "2 sheets puff pastry"
+       ]
+      },
+      {
+       "do": "lightly beat",
+       "in": [
+        "1 large egg"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Don't let the milk boil while poaching or it may split.",
+   "Makes 4 large or 6 medium individual pies, or one large pie."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/chicken-pot-pie/"
+  }
+ },
+ {
+  "id": "chicken-stir-fry",
+  "title": "Chicken Stir-Fry",
+  "category": "Main Dishes",
+  "servings": "2–3 servings",
+  "tree": {
+   "do": "stir-fry 1–2 min. until syrupy",
+   "in": [
+    {
+     "do": "stir-fry 1 min.",
+     "in": [
+      {
+       "do": "stir-fry 1 min. until no longer pink",
+       "in": [
+        {
+         "do": "stir-fry 1 min. over high heat",
+         "in": [
+          "1-1/2 Tbs. (22 mL) vegetable oil",
+          {
+           "do": "finely chop",
+           "in": [
+            "2 garlic cloves"
+           ]
+          },
+          {
+           "do": "slice",
+           "in": [
+            "1/2 onion"
+           ]
+          }
+         ]
+        },
+        {
+         "do": "rinse; pat dry",
+         "in": [
+          {
+           "do": "toss; rest 20 min.",
+           "in": [
+            {
+             "do": "slice thinly",
+             "in": [
+              "6 oz. (180 g) chicken breast"
+             ]
+            },
+            "1/2 tsp. (2.5 g) baking soda"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "do": "cut 3 in. (7 cm)",
+       "in": [
+        "stems from 5–6 stalks choy sum"
+       ]
+      },
+      {
+       "do": "peel; slice thinly",
+       "in": [
+        "1 medium carrot"
+       ]
+      },
+      "1/2 cup (35 g) sliced shiitake mushrooms"
+     ]
+    },
+    "leaves from 5–6 stalks choy sum",
+    "1 cup (100 g) bean sprouts",
+    {
+     "do": "mix until smooth",
+     "in": [
+      "1 Tbs. (8 g) cornstarch",
+      "1-1/2 Tbs. (22 mL) light soy sauce",
+      "1 Tbs. (15 mL) oyster sauce",
+      "1 Tbs. (15 mL) Shaoxing wine or mirin",
+      "1/2 tsp. (2.5 mL) sesame oil",
+      "pinch of white pepper",
+      "3/4 cup (185 mL) water"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Serve right away over steamed rice",
+   "The baking-soda step tenderizes the chicken; don't go past 30 min."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/chicken-stir-fry-chop-suey/"
+  }
+ },
+ {
+  "id": "chicken-tikka-masala",
+  "title": "Chicken Tikka Masala",
+  "category": "Main Dishes",
+  "servings": "4 servings",
+  "tree": {
+   "do": "serve over rice; top with cilantro",
+   "in": [
+    {
+     "do": "off heat, stir in",
+     "in": [
+      {
+       "do": "simmer 1 min.",
+       "in": [
+        {
+         "do": "heat 2 min.",
+         "in": [
+          {
+           "do": "stir 30 sec.",
+           "in": [
+            {
+             "do": "sauté 3 min.",
+             "in": [
+              "1 Tbs. (15 mL) olive oil, for the sauce",
+              {
+               "do": "pulse fine",
+               "in": [
+                {
+                 "do": "pulse fine",
+                 "in": [
+                  {
+                   "do": "peel",
+                   "in": [
+                    "1-1/2 in. (4 cm) piece fresh ginger"
+                   ]
+                  },
+                  "4 garlic cloves, peeled"
+                 ]
+                },
+                "1/2 large yellow onion"
+               ]
+              }
+             ]
+            },
+            "1 Tbs. (16 g) tomato paste",
+            "1 Tbs. (6 g) garam masala, for the sauce",
+            "1-1/2 tsp. (3.5 g) paprika",
+            "1/4 tsp. (0.5 g) cayenne pepper"
+           ]
+          },
+          "1 (28 oz./794 g) can crushed tomatoes"
+         ]
+        },
+        {
+         "do": "sear 6–7 min.",
+         "in": [
+          {
+           "do": "toss",
+           "in": [
+            {
+             "do": "cube 1 in. (2.5 cm)",
+             "in": [
+              "1-1/2 lb. (680 g) boneless skinless chicken breasts"
+             ]
+            },
+            "1-1/2 tsp. (3 g) garam masala, for the chicken",
+            "1 tsp. (6 g) salt"
+           ]
+          },
+          "1 Tbs. (15 mL) olive oil, for the chicken"
+         ]
+        }
+       ]
+      },
+      "1/2 cup (120 g) plain Greek yogurt",
+      "1 Tbs. (15 mL) lemon juice"
+     ]
+    },
+    "1/4 cup (5 g) fresh cilantro leaves"
+   ]
+  },
+  "notes": [
+   "Sear the chicken first and set aside; build the sauce in the same skillet",
+   "Serve with basmati rice"
+  ],
+  "source": {
+   "name": "Cooking Classy",
+   "url": "https://www.cookingclassy.com/quick-chicken-tikka-masala/"
   }
  },
  {
@@ -1478,6 +2547,80 @@ window.RECIPES = [
   }
  },
  {
+  "id": "classic-hamburgers",
+  "title": "Classic Hamburgers",
+  "category": "Main Dishes",
+  "servings": "4 burgers",
+  "tree": {
+   "do": "assemble and serve",
+   "in": [
+    {
+     "do": "toast cut sides",
+     "in": [
+      "4 soft hamburger buns"
+     ]
+    },
+    "ketchup and mustard",
+    "4 lettuce leaves",
+    {
+     "do": "slice",
+     "in": [
+      "2 tomatoes"
+     ]
+    },
+    {
+     "do": "add cheese; cover 1 min.",
+     "in": [
+      {
+       "do": "flip; cook 1 min.",
+       "in": [
+        {
+         "do": "sear 2 min. (don't press)",
+         "in": [
+          {
+           "do": "season; dent center",
+           "in": [
+            {
+             "do": "shape 4 loose 4 in. (10 cm) patties",
+             "in": [
+              "1-3/4 lb. (800 g) ground beef, 20% fat"
+             ]
+            },
+            "salt and pepper to taste"
+           ]
+          },
+          "1 Tbs. (15 mL) oil, for the patties"
+         ]
+        }
+       ]
+      },
+      "4 slices Swiss cheese"
+     ]
+    },
+    {
+     "do": "cook until caramelized",
+     "in": [
+      "1 Tbs. (15 mL) oil, for the onions",
+      {
+       "do": "slice into rings",
+       "in": [
+        "3 onions"
+       ]
+      }
+     ]
+    },
+    "sliced pickles"
+   ]
+  },
+  "notes": [
+   "Cook the onions first, then the patties in the same hot skillet"
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/hamburger-recipe/"
+  }
+ },
+ {
   "id": "classic-omelette",
   "title": "Classic Omelette",
   "category": "Breakfast",
@@ -1704,6 +2847,160 @@ window.RECIPES = [
   }
  },
  {
+  "id": "deviled-eggs",
+  "title": "Deviled Eggs",
+  "category": "Salads & Sides",
+  "servings": "24 halves",
+  "tree": {
+   "do": "chill until serving",
+   "in": [
+    {
+     "do": "dust",
+     "in": [
+      {
+       "do": "fill whites",
+       "in": [
+        {
+         "do": "mash yolks with",
+         "in": [
+          {
+           "do": "halve lengthwise; remove yolks",
+           "in": [
+            {
+             "do": "cool in ice water; peel",
+             "in": [
+              {
+               "do": "hard-boil 10 min.",
+               "in": [
+                "12 large eggs"
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          "2 Tbs. (30 g) sweet pickle relish",
+          "2 Tbs. (30 mL) sweet pickle juice",
+          "1 tsp. (5 g) Dijon mustard",
+          "pinch of cayenne pepper",
+          "2 Tbs. (28 g) mayonnaise",
+          "salt and pepper to taste"
+         ]
+        }
+       ]
+      },
+      "paprika, for dusting"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Best chilled overnight before serving."
+  ],
+  "source": {
+   "name": "Food Republic",
+   "url": "https://www.foodrepublic.com/recipes/classic-deviled-eggs-recipe/"
+  }
+ },
+ {
+  "id": "eggplant-parmesan",
+  "title": "Eggplant Parmesan",
+  "category": "Main Dishes",
+  "servings": "8 to 10 servings",
+  "prep": [
+   "Preheat oven to 430°F (220°C)",
+   "Line 3 baking sheets with parchment"
+  ],
+  "tree": {
+   "do": "rest 5–10 min.",
+   "in": [
+    {
+     "do": "bake 350°F (180°C) 25 min.",
+     "in": [
+      {
+       "do": "top with",
+       "in": [
+        {
+         "do": "layer ×3 in 9 x 13 in. dish",
+         "in": [
+          {
+           "do": "cool on trays",
+           "in": [
+            {
+             "do": "bake 430°F (220°C) 35–45 min., turning",
+             "in": [
+              {
+               "do": "brush both sides",
+               "in": [
+                {
+                 "do": "slice lengthwise 1/3 in. (8 mm)",
+                 "in": [
+                  "4 lb. (1.8 kg) large eggplants"
+                 ]
+                },
+                "1/4 cup (60 mL) olive oil"
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "do": "season",
+           "in": [
+            {
+             "do": "simmer uncovered 30–40 min.",
+             "in": [
+              {
+               "do": "sauté 3 min.",
+               "in": [
+                "2 Tbs. (30 mL) extra-virgin olive oil",
+                {
+                 "do": "finely dice",
+                 "in": [
+                  "1 onion"
+                 ]
+                },
+                {
+                 "do": "mince",
+                 "in": [
+                  "5 garlic cloves"
+                 ]
+                }
+               ]
+              },
+              "20 oz. (600 mL) tomato passata",
+              "1 can (14 oz./400 g) crushed tomatoes",
+              "1 cup (250 mL) water",
+              "1/2 tsp. dried oregano",
+              "1-1/2 tsp. (6 g) sugar"
+             ]
+            },
+            "3/4 tsp. (4.5 g) salt",
+            "1/4 tsp. (0.5 g) black pepper"
+           ]
+          },
+          "1-2/3 cups (125 g) finely grated Parmesan",
+          "2 cups loosely packed fresh basil leaves"
+         ]
+        },
+        "1-1/2 cups (150 g) shredded mozzarella"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Reduce the oven to 350°F (180°C) after baking the eggplant.",
+   "Skip basil on the top layer; scatter a few fresh leaves before serving."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/eggplant-parmigiana/"
+  }
+ },
+ {
   "id": "eggs-benedict",
   "title": "Eggs Benedict",
   "category": "Breakfast",
@@ -1784,6 +3081,270 @@ window.RECIPES = [
   "source": {
    "name": "RecipeTin Eats",
    "url": "https://www.recipetineats.com/eggs-benedict/"
+  }
+ },
+ {
+  "id": "falafel",
+  "title": "Falafel",
+  "category": "Main Dishes",
+  "servings": "about 20 falafel (4 servings)",
+  "tree": {
+   "do": "serve in pita",
+   "in": [
+    {
+     "do": "drain on paper towels",
+     "in": [
+      {
+       "do": "fry in batches ~4 min.",
+       "in": [
+        {
+         "do": "chill 30 min.",
+         "in": [
+          {
+           "do": "shape 20 balls 1 in. (2.5 cm)",
+           "in": [
+            {
+             "do": "process 2–3 min. until fine",
+             "in": [
+              {
+               "do": "drain well",
+               "in": [
+                {
+                 "do": "soak in cold water 12+ hr.",
+                 "in": [
+                  "8 oz. (225 g) dried chickpeas"
+                 ]
+                }
+               ]
+              },
+              {
+               "do": "roughly chop",
+               "in": [
+                "1 cup (20 g) parsley leaves"
+               ]
+              },
+              {
+               "do": "roughly chop",
+               "in": [
+                "1 cup (16 g) cilantro leaves"
+               ]
+              },
+              {
+               "do": "finely chop",
+               "in": [
+                "6 scallions, white and light green parts"
+               ]
+              },
+              {
+               "do": "mince",
+               "in": [
+                "2 garlic cloves"
+               ]
+              },
+              "1 tsp. (2 g) ground cumin",
+              "1/2 tsp. (1 g) ground coriander",
+              "1-1/2 tsp. (9 g) salt, for the falafel",
+              "1/2 tsp. (2 g) baking powder",
+              "4 tsp. (10 g) all-purpose or chickpea flour",
+              "5 Tbs. (75 mL) water, for the falafel"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "do": "heat to 355°F (180°C)",
+         "in": [
+          "2 cups (500 mL) vegetable oil"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "do": "season to taste",
+     "in": [
+      {
+       "do": "thin 1 Tbs. at a time",
+       "in": [
+        {
+         "do": "mix",
+         "in": [
+          "4 Tbs. (60 g) tahini",
+          "2 Tbs. (30 mL) lemon juice"
+         ]
+        },
+        "4 Tbs. (60 mL) water, for the sauce"
+       ]
+      },
+      "1/4 tsp. (1.5 g) salt, for the sauce"
+     ]
+    },
+    "4 pita breads"
+   ]
+  },
+  "notes": [
+   "Use soaked dried chickpeas, not canned, or the falafel will fall apart",
+   "Oil should be at least 2/3 in. (1.7 cm) deep",
+   "Add lettuce, tomato and onion to the pita"
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/falafel-recipe/"
+  }
+ },
+ {
+  "id": "fettuccine-alfredo",
+  "title": "Fettuccine Alfredo",
+  "category": "Main Dishes",
+  "servings": "3 servings",
+  "prep": [
+   "Bring a large pot of salted water to a boil"
+  ],
+  "tree": {
+   "do": "toss over medium-high heat 1 min.",
+   "in": [
+    {
+     "do": "off heat, stir in until smooth",
+     "in": [
+      {
+       "do": "boil; simmer 3 min.",
+       "in": [
+        {
+         "do": "sauté 2 min.",
+         "in": [
+          {
+           "do": "melt",
+           "in": [
+            "3 Tbs. (42 g) unsalted butter"
+           ]
+          },
+          {
+           "do": "finely mince",
+           "in": [
+            "1 small shallot"
+           ]
+          }
+         ]
+        },
+        "1/2 cup (120 mL) heavy cream"
+       ]
+      },
+      {
+       "do": "grate",
+       "in": [
+        "3/4 cup (60 g) Parmigiano Reggiano"
+       ]
+      },
+      "1/4 tsp. (1.5 g) salt",
+      "black pepper to taste"
+     ]
+    },
+    {
+     "do": "boil 1 min. less than package; drain",
+     "in": [
+      "8 oz. (250 g) dried fettuccine"
+     ]
+    },
+    "1/4 cup (60 mL) reserved pasta water"
+   ]
+  },
+  "notes": [
+   "If the sauce turns gluey, loosen with a little more pasta water.",
+   "Garnish with parsley and extra Parmigiano."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/fettuccine-alfredo/"
+  }
+ },
+ {
+  "id": "fish-tacos",
+  "title": "Fish Tacos",
+  "category": "Main Dishes",
+  "servings": "4 servings (12 tacos)",
+  "tree": {
+   "do": "assemble tacos",
+   "in": [
+    {
+     "do": "flake into large pieces",
+     "in": [
+      {
+       "do": "pan-fry over high heat 2 min. per side",
+       "in": [
+        {
+         "do": "marinate 20 min. (max 1 hr.)",
+         "in": [
+          "1.2 lb. (600 g) firm white fish fillets",
+          "zest of 1 lime",
+          "3 Tbs. (45 mL) lime juice",
+          "1 Tbs. (7 g) chipotle powder",
+          "1 Tbs. (10 g) finely chopped canned jalapeño",
+          {
+           "do": "finely chop",
+           "in": [
+            "1/4 cup (4 g) cilantro"
+           ]
+          },
+          {
+           "do": "mince",
+           "in": [
+            "2 garlic cloves"
+           ]
+          },
+          "3 Tbs. (45 mL) olive oil, for the marinade",
+          "salt and pepper to taste"
+         ]
+        },
+        "1 Tbs. (15 mL) olive oil, for cooking"
+       ]
+      }
+     ]
+    },
+    {
+     "do": "drain; scrunch to soften",
+     "in": [
+      {
+       "do": "toss; rest 30 min.",
+       "in": [
+        "4 cups (280 g) finely shredded red cabbage",
+        {
+         "do": "slice diagonally",
+         "in": [
+          "3 green onions"
+         ]
+        },
+        "2 Tbs. (30 mL) red wine vinegar",
+        "1/2 tsp. (3 g) salt"
+       ]
+      }
+     ]
+    },
+    {
+     "do": "mix",
+     "in": [
+      "3/4 cup (180 g) sour cream",
+      "2–3 Tbs. (30–45 mL) sriracha"
+     ]
+    },
+    {
+     "do": "warm",
+     "in": [
+      "12 small corn or flour tortillas"
+     ]
+    },
+    "lime wedges"
+   ]
+  },
+  "notes": [
+   "Layer cabbage, then fish, then a dollop of sauce",
+   "Garnish with cilantro leaves"
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/marinated-fish-tacos/"
   }
  },
  {
@@ -1929,6 +3490,92 @@ window.RECIPES = [
   "source": {
    "name": "RecipeTin Eats",
    "url": "https://www.recipetineats.com/french-toast/"
+  }
+ },
+ {
+  "id": "fried-rice",
+  "title": "Fried Rice",
+  "category": "Salads & Sides",
+  "servings": "2 to 3 servings",
+  "prep": [
+   "Heat a wok over high heat until smoking"
+  ],
+  "tree": {
+   "do": "stir together; remove from heat",
+   "in": [
+    {
+     "do": "toss 1-1/2 min.",
+     "in": [
+      {
+       "do": "stir-fry 2 min.",
+       "in": [
+        {
+         "do": "stir-fry 1-1/2 min.",
+         "in": [
+          "1-1/2 Tbs. (22 mL) vegetable oil, for stir-frying",
+          {
+           "do": "finely chop",
+           "in": [
+            "1/2 onion"
+           ]
+          },
+          {
+           "do": "mince",
+           "in": [
+            "2 garlic cloves"
+           ]
+          },
+          {
+           "do": "chop",
+           "in": [
+            "4 oz. (120 g) bacon or ham"
+           ]
+          }
+         ]
+        },
+        "1-1/2 cups (200 g) frozen peas, corn and carrots"
+       ]
+      },
+      "2 cups packed (370 g) cold day-old cooked white rice",
+      {
+       "do": "mix",
+       "in": [
+        "1 Tbs. (15 mL) Chinese cooking wine",
+        "1 Tbs. (15 mL) oyster sauce",
+        "1 Tbs. (15 mL) light soy sauce",
+        "1 tsp. (5 mL) sesame oil",
+        "1/4 tsp. (0.5 g) white pepper"
+       ]
+      }
+     ]
+    },
+    {
+     "do": "push rice aside; scramble in space",
+     "in": [
+      "1/2 Tbs. (7 mL) vegetable oil, for the egg",
+      {
+       "do": "whisk",
+       "in": [
+        "3 large eggs"
+       ]
+      }
+     ]
+    },
+    {
+     "do": "slice",
+     "in": [
+      "3/4 cup (45 g) green onions"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Use cold, day-old rice so the grains stay separate.",
+   "Serve immediately."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/egg-fried-rice/"
   }
  },
  {
@@ -2141,6 +3788,93 @@ window.RECIPES = [
   "source": {
    "name": "Inspired Taste",
    "url": "https://www.inspiredtaste.net/45107/greek-salad/"
+  }
+ },
+ {
+  "id": "green-bean-casserole",
+  "title": "Green Bean Casserole",
+  "category": "Salads & Sides",
+  "servings": "about 6 servings",
+  "prep": [
+   "Preheat oven to 350°F (175°C)"
+  ],
+  "tree": {
+   "do": "bake 5 min. more until golden",
+   "in": [
+    {
+     "do": "sprinkle over top",
+     "in": [
+      {
+       "do": "bake in 1-1/2 qt. dish 350°F (175°C) 30 min.",
+       "in": [
+        {
+         "do": "stir in",
+         "in": [
+          {
+           "do": "mix",
+           "in": [
+            "1 can (10.5 oz./298 g) condensed cream of mushroom soup",
+            "3/4 cup (180 mL) milk",
+            "1/8 tsp. (0.3 g) black pepper"
+           ]
+          },
+          "4 cups (450 g) cooked cut green beans",
+          "2/3 cup (43 g) French's crispy fried onions, for the filling"
+         ]
+        }
+       ]
+      },
+      "2/3 cup (43 g) French's crispy fried onions, for the topping"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Canned, frozen or fresh green beans all work; drain canned beans well."
+  ],
+  "source": {
+   "name": "French's (McCormick)",
+   "url": "https://mccormick.com/frenchs/recipes/salads-sides/frenchs-green-bean-casserole"
+  }
+ },
+ {
+  "id": "grilled-cheese-sandwich",
+  "title": "Grilled Cheese Sandwich",
+  "category": "Main Dishes",
+  "servings": "4 sandwiches",
+  "prep": [
+   "Preheat a griddle or skillet over medium heat"
+  ],
+  "tree": {
+   "do": "flip; cover; cook 2–3 min.",
+   "in": [
+    {
+     "do": "cover with metal bowl; cook 2–3 min.",
+     "in": [
+      {
+       "do": "butter outsides",
+       "in": [
+        {
+         "do": "assemble 4 sandwiches",
+         "in": [
+          "8 slices country white bread",
+          "4 slices white American cheese",
+          "4 slices yellow American cheese"
+         ]
+        },
+        "4 Tbs. (56 g) salted butter, softened"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Done when both sides are golden and the cheese is melted"
+  ],
+  "source": {
+   "name": "Food Network (Jeff Mauro)",
+   "url": "https://www.foodnetwork.com/recipes/jeff-mauro/classic-american-grilled-cheese-recipe-2124785"
   }
  },
  {
@@ -2415,6 +4149,342 @@ window.RECIPES = [
   }
  },
  {
+  "id": "jambalaya",
+  "title": "Jambalaya",
+  "category": "Main Dishes",
+  "servings": "5 servings",
+  "prep": [
+   "Preheat oven to 350°F (180°C)"
+  ],
+  "tree": {
+   "do": "fold in; bake covered 3 min.",
+   "in": [
+    {
+     "do": "bake covered 350°F (180°C) 25–30 min.",
+     "in": [
+      {
+       "do": "return meats; bring to a bubble",
+       "in": [
+        {
+         "do": "stir in",
+         "in": [
+          {
+           "do": "stir to coat",
+           "in": [
+            {
+             "do": "sauté 3–4 min.",
+             "in": [
+              "1 Tbs. (15 g) butter",
+              {
+               "do": "mince",
+               "in": [
+                "4 garlic cloves"
+               ]
+              },
+              {
+               "do": "cut 1/2 in. (1.5 cm)",
+               "in": [
+                "1 large onion"
+               ]
+              },
+              {
+               "do": "cut 1/2 in. (1.5 cm)",
+               "in": [
+                "2 celery ribs"
+               ]
+              },
+              {
+               "do": "cut 1/2 in. (1.5 cm)",
+               "in": [
+                "2 medium green bell peppers"
+               ]
+              }
+             ]
+            },
+            "1-1/4 cups (250 g) long-grain white rice"
+           ]
+          },
+          "2-1/2 cups (625 mL) low-sodium chicken broth",
+          "2 Tbs. (32 g) tomato paste",
+          "7 oz. (200 g) canned crushed tomatoes",
+          "2 tsp. (2 g) chopped fresh thyme",
+          "4 tsp. (9 g) sweet paprika",
+          "1 tsp. (5 mL) each garlic powder and onion powder",
+          "1/2 tsp. (2.5 mL) each cayenne, black pepper and salt"
+         ]
+        },
+        {
+         "do": "sear until golden; set aside",
+         "in": [
+          {
+           "do": "brown 3 min.; set aside",
+           "in": [
+            "1 Tbs. (15 mL) vegetable oil",
+            {
+             "do": "chop",
+             "in": [
+              "6 oz. (180 g) smoked bacon"
+             ]
+            },
+            {
+             "do": "slice 1/4 in. (0.5 cm)",
+             "in": [
+              "7 oz. (200 g) andouille sausage"
+             ]
+            }
+           ]
+          },
+          {
+           "do": "cut 1 in. (2.5 cm)",
+           "in": [
+            "10 oz. (300 g) boneless skinless chicken thighs"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "do": "sear 1-1/2 min. per side",
+     "in": [
+      {
+       "do": "peel",
+       "in": [
+        "12 large raw shrimp"
+       ]
+      }
+     ]
+    },
+    "1 cup (60 g) sliced green onions"
+   ]
+  },
+  "notes": [
+   "Use a large ovenproof pot and cook everything in it in sequence",
+   "Check the rice at 20 min.; it can take up to 45 min. in some ovens",
+   "Fluff and garnish with extra green onions"
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/jambalaya-recipe/"
+  }
+ },
+ {
+  "id": "kung-pao-chicken",
+  "title": "Kung Pao Chicken",
+  "category": "Main Dishes",
+  "servings": "4 servings",
+  "tree": {
+   "do": "stir in; serve",
+   "in": [
+    {
+     "do": "simmer, stirring, until syrupy",
+     "in": [
+      {
+       "do": "stir-fry 2 min. until cooked",
+       "in": [
+        {
+         "do": "stir-fry until white",
+         "in": [
+          {
+           "do": "stir-fry 30 sec. over high heat",
+           "in": [
+            "2 Tbs. (30 mL) peanut oil",
+            {
+             "do": "mince",
+             "in": [
+              "2 garlic cloves"
+             ]
+            },
+            "1 tsp. (3 g) finely chopped ginger",
+            {
+             "do": "cut 3/4 in. (2 cm); remove most seeds",
+             "in": [
+              "6–10 dried red chiles"
+             ]
+            }
+           ]
+          },
+          {
+           "do": "cut bite-size",
+           "in": [
+            "1 lb. (500 g) boneless chicken thighs"
+           ]
+          }
+         ]
+        },
+        {
+         "do": "cut 3/4 in. (2 cm)",
+         "in": [
+          "white parts of 3 green onions"
+         ]
+        }
+       ]
+      },
+      {
+       "do": "mix",
+       "in": [
+        "2 tsp. (6 g) cornstarch",
+        "1 Tbs. (15 mL) light soy sauce",
+        "1-1/2 Tbs. (22 mL) dark soy sauce",
+        "2 Tbs. (30 mL) Chinese black vinegar",
+        "1 Tbs. (15 mL) Shaoxing wine",
+        "3 Tbs. (38 g) sugar",
+        "1/2 tsp. (2.5 mL) sesame oil",
+        "1/3 cup (80 mL) water"
+       ]
+      },
+      "1-1/2 tsp. (3 g) ground Sichuan peppercorns"
+     ]
+    },
+    "3/4 cup (110 g) roasted unsalted peanuts",
+    {
+     "do": "cut 3/4 in. (2 cm)",
+     "in": [
+      "green parts of 3 green onions"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Optional: before adding the water to the sauce, toss the chicken with 1-1/2 Tbs. of it and marinate 10–20 min.",
+   "Serve with steamed rice"
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/kung-pao-chicken/"
+  }
+ },
+ {
+  "id": "lasagna",
+  "title": "Lasagna",
+  "category": "Main Dishes",
+  "servings": "about 10 servings",
+  "prep": [
+   "Preheat oven to 350°F (180°C)",
+   "Have ready a 13 x 9 in. (33 x 22 cm) baking dish"
+  ],
+  "tree": {
+   "do": "bake 350°F (180°C) 25 min.; rest 10 min.",
+   "in": [
+    {
+     "do": "sprinkle over top",
+     "in": [
+      {
+       "do": "layer: 4 sheets, 3 of ragu & sauce; sauce on top",
+       "in": [
+        {
+         "do": "simmer covered 1-1/2 hr., uncovered 30 min.",
+         "in": [
+          {
+           "do": "add",
+           "in": [
+            {
+             "do": "brown, breaking up",
+             "in": [
+              {
+               "do": "sauté 10 min. without browning",
+               "in": [
+                "1 Tbs. (15 mL) olive oil",
+                {
+                 "do": "mince",
+                 "in": [
+                  "2 garlic cloves"
+                 ]
+                },
+                {
+                 "do": "finely chop",
+                 "in": [
+                  "1 onion"
+                 ]
+                },
+                {
+                 "do": "finely dice",
+                 "in": [
+                  "1 celery stalk"
+                 ]
+                },
+                {
+                 "do": "finely dice",
+                 "in": [
+                  "1 medium carrot"
+                 ]
+                }
+               ]
+              },
+              "2 lb. (1 kg) ground beef"
+             ]
+            },
+            "28 oz. (800 g) canned crushed tomatoes",
+            "1/4 cup (65 g) tomato paste",
+            "1 cup (250 mL) dry red wine",
+            {
+             "do": "crumble",
+             "in": [
+              "3 beef bouillon cubes"
+             ]
+            },
+            "2 bay leaves",
+            "1/2 tsp. each dried thyme and oregano",
+            "1/2 tsp. each salt and black pepper"
+           ]
+          }
+         ]
+        },
+        {
+         "do": "off heat, stir in until melted",
+         "in": [
+          {
+           "do": "whisk in gradually; stir 5–8 min. to thicken",
+           "in": [
+            {
+             "do": "cook 1 min.",
+             "in": [
+              {
+               "do": "melt",
+               "in": [
+                "4 Tbs. (60 g) butter"
+               ]
+              },
+              "1/2 cup (65 g) all-purpose flour"
+             ]
+            },
+            "4 cups (1 L) milk"
+           ]
+          },
+          {
+           "do": "shred",
+           "in": [
+            "2 cups (200 g) Gruyère or Colby cheese"
+           ]
+          }
+         ]
+        },
+        "12 oz. (350 g) fresh lasagna sheets"
+       ]
+      },
+      {
+       "do": "shred",
+       "in": [
+        "1-1/2 cups (150 g) mozzarella"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Spread a little ragu on the base of the dish before the first sheets.",
+   "8 oz. (250 g) dried lasagna sheets can replace fresh.",
+   "The original also seasons the ragu with 2 tsp. Worcestershire sauce and the cheese sauce with a pinch of nutmeg."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/lasagna/"
+  }
+ },
+ {
   "id": "lemon-bars",
   "title": "Lemon Bars",
   "category": "Baking & Desserts",
@@ -2647,6 +4717,88 @@ window.RECIPES = [
   }
  },
  {
+  "id": "margherita-pizza",
+  "title": "Margherita Pizza",
+  "category": "Main Dishes",
+  "servings": "one 14 in. (35 cm) pizza",
+  "prep": [
+   "Preheat oven to 500°F (260°C), rack one above the bottom",
+   "Oil a pizza steel or baking sheet"
+  ],
+  "tree": {
+   "do": "scatter; slice",
+   "in": [
+    {
+     "do": "rest 3–4 min.",
+     "in": [
+      {
+       "do": "bake 500°F (260°C) 8–12 min.",
+       "in": [
+        {
+         "do": "brush crust",
+         "in": [
+          {
+           "do": "scatter over",
+           "in": [
+            {
+             "do": "spread to 1 in. (2.5 cm) from edge",
+             "in": [
+              {
+               "do": "stretch to 14 in. (35 cm); fold edge",
+               "in": [
+                "1 lb. (450 g) pizza dough"
+               ]
+              },
+              {
+               "do": "stir together",
+               "in": [
+                {
+                 "do": "drain 5 min.",
+                 "in": [
+                  "1 can (15 oz./425 g) crushed San Marzano tomatoes"
+                 ]
+                },
+                "1 Tbs. (15 mL) olive oil, for the sauce",
+                {
+                 "do": "mince",
+                 "in": [
+                  "2 garlic cloves"
+                 ]
+                },
+                "1/4 tsp. (1.5 g) salt",
+                "1/4 tsp. (0.5 g) black pepper",
+                "1–2 pinches red pepper flakes"
+               ]
+              }
+             ]
+            },
+            {
+             "do": "pat dry; cube 1/2 in. (1.3 cm)",
+             "in": [
+              "6 oz. (170 g) fresh mozzarella"
+             ]
+            }
+           ]
+          },
+          "olive oil, for the crust"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "fresh basil leaves"
+   ]
+  },
+  "notes": [
+   "Add the basil after baking so it stays green."
+  ],
+  "source": {
+   "name": "Kristine's Kitchen",
+   "url": "https://kristineskitchenblog.com/margherita-pizza/"
+  }
+ },
+ {
   "id": "mashed-potatoes",
   "title": "Mashed Potatoes",
   "category": "Salads & Sides",
@@ -2699,6 +4851,68 @@ window.RECIPES = [
   "source": {
    "name": "Inspired Taste",
    "url": "https://www.inspiredtaste.net/25025/mashed-potatoes-recipe/"
+  }
+ },
+ {
+  "id": "meatloaf",
+  "title": "Meatloaf",
+  "category": "Main Dishes",
+  "servings": "about 6 servings",
+  "prep": [
+   "Preheat oven to 350°F (175°C)"
+  ],
+  "tree": {
+   "do": "rest 10–15 min.; slice",
+   "in": [
+    {
+     "do": "bake 350°F (175°C) 45–60 min. to 160°F (71°C)",
+     "in": [
+      {
+       "do": "spread over top",
+       "in": [
+        {
+         "do": "pack into loaf pan",
+         "in": [
+          {
+           "do": "mix until just combined",
+           "in": [
+            "1-1/4 lb. (565 g) lean ground beef",
+            "1 cup (50 g) panko breadcrumbs",
+            "1/2 cup (120 mL) milk",
+            "1 large egg",
+            {
+             "do": "mince",
+             "in": [
+              "2 garlic cloves"
+             ]
+            },
+            "2 Tbs. (34 g) ketchup, for the meatloaf",
+            "1 Tbs. (15 mL) Worcestershire sauce",
+            "1-1/2 tsp. (9 g) salt",
+            "1 tsp. (2 g) black pepper",
+            "1 tsp. (3 g) garlic powder",
+            "1 Tbs. (13 g) brown sugar, for the meatloaf"
+           ]
+          }
+         ]
+        },
+        {
+         "do": "stir together",
+         "in": [
+          "1/4 cup (68 g) ketchup, for the glaze",
+          "2 Tbs. (25 g) brown sugar, for the glaze",
+          "1 Tbs. (15 mL) red wine vinegar"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "source": {
+   "name": "The East Coast Kitchen",
+   "url": "https://theeastcoastkitchen.com/meatloaf-recipe/"
   }
  },
  {
@@ -3100,6 +5314,189 @@ window.RECIPES = [
   }
  },
  {
+  "id": "pad-thai",
+  "title": "Pad Thai",
+  "category": "Main Dishes",
+  "servings": "2–3 servings",
+  "tree": {
+   "do": "garnish and serve",
+   "in": [
+    {
+     "do": "toss briefly; off heat",
+     "in": [
+      {
+       "do": "toss 1-1/2 min.",
+       "in": [
+        {
+         "do": "scramble, then mix in",
+         "in": [
+          {
+           "do": "stir-fry 1-1/2 min.",
+           "in": [
+            {
+             "do": "stir-fry 30 sec. over high heat",
+             "in": [
+              "2 Tbs. (30 mL) vegetable oil",
+              {
+               "do": "finely chop",
+               "in": [
+                "2 garlic cloves"
+               ]
+              },
+              {
+               "do": "slice",
+               "in": [
+                "1/2 onion"
+               ]
+              }
+             ]
+            },
+            {
+             "do": "slice thinly",
+             "in": [
+              "5 oz. (150 g) chicken breast"
+             ]
+            }
+           ]
+          },
+          {
+           "do": "lightly whisk",
+           "in": [
+            "2 large eggs"
+           ]
+          }
+         ]
+        },
+        "1-1/2 cups (150 g) bean sprouts",
+        {
+         "do": "cut into 1-1/4 in. (3 cm) batons",
+         "in": [
+          "1/2 cup (60 g) firm tofu"
+         ]
+        },
+        {
+         "do": "drain; rinse cold",
+         "in": [
+          {
+           "do": "soak in boiling water 5 min.",
+           "in": [
+            "4 oz. (125 g) dried rice stick noodles"
+           ]
+          }
+         ]
+        },
+        {
+         "do": "mix",
+         "in": [
+          "1-1/2 Tbs. (22 mL) tamarind purée",
+          "3 Tbs. (40 g) packed brown sugar",
+          "2 Tbs. (30 mL) fish sauce",
+          "1-1/2 Tbs. (22 mL) oyster sauce"
+         ]
+        }
+       ]
+      },
+      {
+       "do": "cut 1-1/4 in. (3 cm)",
+       "in": [
+        "1/4 cup (12 g) garlic chives"
+       ]
+      },
+      "2 Tbs. (18 g) chopped peanuts, for tossing"
+     ]
+    },
+    "2 Tbs. (18 g) chopped peanuts, for garnish",
+    "lime wedges"
+   ]
+  },
+  "notes": [
+   "Push the chicken aside and scramble the eggs in the cleared space",
+   "Serve with extra bean sprouts and chili powder"
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/chicken-pad-thai/"
+  }
+ },
+ {
+  "id": "pan-seared-pork-chops",
+  "title": "Pan-Seared Pork Chops",
+  "category": "Main Dishes",
+  "servings": "4 servings",
+  "prep": [
+   "Preheat oven to 400°F (200°C) with a rimmed baking sheet inside"
+  ],
+  "tree": {
+   "do": "rest on thyme, tented, 5–7 min.",
+   "in": [
+    {
+     "do": "roast on hot sheet 3–5 min. to 120°F (49°C)",
+     "in": [
+      {
+       "do": "off heat, baste",
+       "in": [
+        {
+         "do": "sear 1–2 min. per side, in batches",
+         "in": [
+          {
+           "do": "season",
+           "in": [
+            {
+             "do": "rest at room temp 1 hr.",
+             "in": [
+              {
+               "do": "pat dry",
+               "in": [
+                {
+                 "do": "brine in fridge 2 hr.",
+                 "in": [
+                  "4 bone-in center-cut pork chops, 1-1/2 in. (4 cm) thick",
+                  {
+                   "do": "add ice to cool",
+                   "in": [
+                    {
+                     "do": "boil 5 min. to dissolve",
+                     "in": [
+                      "1 cup (240 mL) water",
+                      "1/4 cup (60 g) kosher salt, for the brine",
+                      "3 Tbs. (38 g) sugar"
+                     ]
+                    },
+                    "1-1/2 lb. (680 g) ice cubes"
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            "2 tsp. (6 g) kosher salt, for seasoning",
+            "1 tsp. (2 g) black pepper"
+           ]
+          },
+          "4 Tbs. (60 mL) olive oil"
+         ]
+        },
+        "6 Tbs. (85 g) unsalted butter, room temperature",
+        "4 sprigs fresh thyme, for basting"
+       ]
+      }
+     ]
+    },
+    "remaining 1 bunch fresh thyme, for resting"
+   ]
+  },
+  "notes": [
+   "The chef pulls them at 120°F (49°C) near the bone; for the USDA's 145°F (63°C), roast a few minutes longer",
+   "Start the brine about 3 hr. before cooking"
+  ],
+  "source": {
+   "name": "Food Network (Naomi Pomeroy)",
+   "url": "https://www.foodnetwork.com/fnk/recipes/pan-seared-pork-chops-7151671"
+  }
+ },
+ {
   "id": "peach-cobbler",
   "title": "Peach Cobbler",
   "category": "Baking & Desserts",
@@ -3248,6 +5645,83 @@ window.RECIPES = [
   }
  },
  {
+  "id": "pesto-pasta",
+  "title": "Pesto Pasta",
+  "category": "Main Dishes",
+  "servings": "4 to 6 servings",
+  "prep": [
+   "Bring 4 qt. (3.8 L) water to a boil with 1-1/2 tsp. salt",
+   "Have a bowl of ice water ready, or a salad spinner"
+  ],
+  "tree": {
+   "do": "toss; season to taste",
+   "in": [
+    {
+     "do": "salt water; boil al dente; drain",
+     "in": [
+      "1 lb. (450 g) spaghetti"
+     ]
+    },
+    {
+     "do": "stir together",
+     "in": [
+      {
+       "do": "process 1 min. until smooth",
+       "in": [
+        "3/4 tsp. (4.5 g) table salt",
+        "2 garlic cloves, peeled",
+        {
+         "do": "cool 15 min.",
+         "in": [
+          {
+           "do": "toast 3–6 min.",
+           "in": [
+            "1/2 cup (70 g) pine nuts",
+            "1 Tbs. (15 mL) extra-virgin olive oil, for toasting"
+           ]
+          }
+         ]
+        },
+        {
+         "do": "dry well",
+         "in": [
+          {
+           "do": "blanch 5–10 sec.",
+           "in": [
+            {
+             "do": "pick leaves",
+             "in": [
+              "4 oz. (115 g) fresh basil"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        "11 Tbs. (165 mL) extra-virgin olive oil, for the pesto"
+       ]
+      },
+      {
+       "do": "grind finely",
+       "in": [
+        "1-1/4 oz. (35 g) Parmesan"
+       ]
+      }
+     ]
+    },
+    "1/2 cup (120 mL) reserved pasta water"
+   ]
+  },
+  "notes": [
+   "Blanch the basil in the pasta water, then add 1 Tbs. salt and return it to a boil for the spaghetti.",
+   "Serve with extra Parmesan."
+  ],
+  "source": {
+   "name": "America's Test Kitchen",
+   "url": "https://www.americastestkitchen.com/recipes/12785-spaghetti-with-pesto"
+  }
+ },
+ {
   "id": "pico-de-gallo",
   "title": "Pico de Gallo",
   "category": "Salads & Sides",
@@ -3300,6 +5774,77 @@ window.RECIPES = [
   "source": {
    "name": "Once Upon a Chef",
    "url": "https://www.onceuponachef.com/recipes/pico-de-gallo.html"
+  }
+ },
+ {
+  "id": "pot-roast",
+  "title": "Pot Roast",
+  "category": "Main Dishes",
+  "servings": "6 servings",
+  "prep": [
+   "Preheat oven to 275°F (135°C)"
+  ],
+  "tree": {
+   "do": "braise covered 275°F (135°C) 3–4 hr.",
+   "in": [
+    {
+     "do": "return roast; add broth halfway up",
+     "in": [
+      {
+       "do": "deglaze, scraping bottom",
+       "in": [
+        {
+         "do": "sear 1 min. per side",
+         "in": [
+          {
+           "do": "season generously",
+           "in": [
+            "1 boneless chuck roast, 3–5 lb. (1.4–2.3 kg)",
+            "salt and pepper to taste"
+           ]
+          }
+         ]
+        },
+        "1 cup (240 mL) red wine"
+       ]
+      },
+      "3 cups (720 mL) beef broth"
+     ]
+    },
+    {
+     "do": "brown both sides",
+     "in": [
+      "2–3 Tbs. (30–45 mL) olive oil",
+      {
+       "do": "peel; halve",
+       "in": [
+        "2 onions"
+       ]
+      }
+     ]
+    },
+    {
+     "do": "brown 1 min.",
+     "in": [
+      {
+       "do": "cut into 2 in. (5 cm) pieces",
+       "in": [
+        "6–8 carrots"
+       ]
+      }
+     ]
+    },
+    "2–3 sprigs fresh rosemary",
+    "2–3 sprigs fresh thyme"
+   ]
+  },
+  "notes": [
+   "Brown onions, then carrots, then the roast in the same Dutch oven.",
+   "Allow about 3 hr. for a 3 lb. roast and 4 hr. for 4–5 lb.; it's done when fall-apart tender."
+  ],
+  "source": {
+   "name": "Food Network (Ree Drummond)",
+   "url": "https://www.foodnetwork.com/recipes/ree-drummond/perfect-pot-roast-recipe-2118771"
   }
  },
  {
@@ -3531,6 +6076,84 @@ window.RECIPES = [
   }
  },
  {
+  "id": "pulled-pork",
+  "title": "Pulled Pork",
+  "category": "Main Dishes",
+  "servings": "8 servings",
+  "tree": {
+   "do": "serve on buns",
+   "in": [
+    {
+     "do": "toss",
+     "in": [
+      {
+       "do": "drain all but 1/2 cup (120 mL) liquid",
+       "in": [
+        {
+         "do": "cook on low 10–20 min.",
+         "in": [
+          {
+           "do": "shred; return to juices",
+           "in": [
+            {
+             "do": "slow-cook on low 8–10 hr.",
+             "in": [
+              {
+               "do": "refrigerate 2 hr. to overnight",
+               "in": [
+                {
+                 "do": "rub all over",
+                 "in": [
+                  "4 lb. (1.8 kg) boneless pork shoulder (Boston butt)",
+                  {
+                   "do": "mix",
+                   "in": [
+                    "1-1/2 Tbs. (27 g) salt",
+                    "1 Tbs. (6 g) black pepper",
+                    "2 Tbs. (25 g) brown sugar",
+                    "2 Tbs. (14 g) paprika",
+                    "1/2 Tbs. (4.5 g) garlic powder",
+                    "1 tsp. (2 g) cayenne pepper"
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "do": "combine",
+               "in": [
+                "2 cups (475 mL) apple juice",
+                "2/3 cup (160 mL) apple cider vinegar",
+                "2 Tbs. (30 mL) Worcestershire sauce",
+                "1/2 Tbs. (7.5 mL) liquid smoke"
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      "1-1/4 cups (300 mL) barbecue sauce"
+     ]
+    },
+    "8 sandwich buns"
+   ]
+  },
+  "notes": [
+   "Spoon some broth over the roast and pour the rest around it",
+   "Instant Pot: high pressure 75 min.",
+   "Good with coleslaw"
+  ],
+  "source": {
+   "name": "Cooking Classy",
+   "url": "https://www.cookingclassy.com/paula-deens-pulled-pork-sandwich/"
+  }
+ },
+ {
   "id": "pumpkin-pie",
   "title": "Pumpkin Pie",
   "category": "Baking & Desserts",
@@ -3748,6 +6371,113 @@ window.RECIPES = [
   }
  },
  {
+  "id": "roast-chicken",
+  "title": "Roast Chicken",
+  "category": "Main Dishes",
+  "servings": "about 5 servings",
+  "prep": [
+   "Take chicken out of the fridge 30 min. ahead",
+   "Preheat oven to 450°F (220°C), rack in the middle"
+  ],
+  "tree": {
+   "do": "rest uncovered 15 min.",
+   "in": [
+    {
+     "do": "roast 450°F (220°C) 10 min., 350°F (180°C) 75 min.",
+     "in": [
+      {
+       "do": "set on onion & garlic; add wine; drizzle oil",
+       "in": [
+        {
+         "do": "tie legs; tuck wings; season",
+         "in": [
+          {
+           "do": "butter under skin; squeeze lemon; stuff",
+           "in": [
+            {
+             "do": "pat dry; loosen skin",
+             "in": [
+              "1 whole chicken, 3-1/2–4 lb. (1.75–2 kg)"
+             ]
+            },
+            {
+             "do": "mix",
+             "in": [
+              {
+               "do": "melt",
+               "in": [
+                "1 stick (113 g) unsalted butter"
+               ]
+              },
+              {
+               "do": "mince",
+               "in": [
+                "3 garlic cloves"
+               ]
+              },
+              {
+               "do": "finely chop",
+               "in": [
+                "1 Tbs. fresh sage"
+               ]
+              },
+              {
+               "do": "finely chop",
+               "in": [
+                "2 tsp. fresh rosemary"
+               ]
+              },
+              {
+               "do": "finely chop",
+               "in": [
+                "1 Tbs. fresh parsley"
+               ]
+              },
+              "1/2 tsp. each salt and black pepper, for the butter"
+             ]
+            },
+            {
+             "do": "quarter",
+             "in": [
+              "1 lemon"
+             ]
+            },
+            "3 sprigs fresh rosemary, for the cavity"
+           ]
+          },
+          "salt and pepper, for the skin"
+         ]
+        },
+        {
+         "do": "quarter",
+         "in": [
+          "1 onion"
+         ]
+        },
+        {
+         "do": "halve crosswise",
+         "in": [
+          "1 head garlic"
+         ]
+        },
+        "1 cup (250 mL) dry white wine or chicken broth",
+        "2 tsp. (10 mL) olive oil"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Baste at 30 min. and 1 hr.; done at 165°F (75°C) or when the juices run clear.",
+   "Serve with the pan juices."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/roast-chicken/"
+  }
+ },
+ {
   "id": "roasted-vegetables",
   "title": "Roasted Vegetables",
   "category": "Salads & Sides",
@@ -3933,6 +6663,245 @@ window.RECIPES = [
   }
  },
  {
+  "id": "shepherds-pie",
+  "title": "Shepherd's Pie",
+  "category": "Main Dishes",
+  "servings": "5 to 6 servings",
+  "prep": [
+   "Preheat oven to 350°F (180°C)"
+  ],
+  "tree": {
+   "do": "bake 350°F (180°C) 30–40 min.; rest 5 min.",
+   "in": [
+    {
+     "do": "spread mash over; fork top; drizzle",
+     "in": [
+      {
+       "do": "transfer to 1-1/2 qt. dish; stir in",
+       "in": [
+        {
+         "do": "simmer 30 min. until thick; season",
+         "in": [
+          {
+           "do": "stir in flour, then add",
+           "in": [
+            {
+             "do": "brown on high, breaking up",
+             "in": [
+              {
+               "do": "sauté 1 min.; add veg & herbs, cook 3 min.",
+               "in": [
+                "1-1/2 Tbs. (22 mL) olive oil",
+                {
+                 "do": "finely chop",
+                 "in": [
+                  "1 onion"
+                 ]
+                },
+                {
+                 "do": "mince",
+                 "in": [
+                  "2 garlic cloves"
+                 ]
+                },
+                {
+                 "do": "finely chop",
+                 "in": [
+                  "1 carrot"
+                 ]
+                },
+                {
+                 "do": "finely chop",
+                 "in": [
+                  "1 celery stalk"
+                 ]
+                },
+                "3/4 tsp. each dried thyme and rosemary"
+               ]
+              },
+              "1-1/2 lb. (750 g) ground lamb or beef"
+             ]
+            },
+            "1/4 cup (35 g) all-purpose flour",
+            "1/4 cup (65 g) tomato paste",
+            "2 cups (500 mL) beef stock",
+            "1/2 cup (125 mL) red wine",
+            "1 Tbs. (15 mL) Worcestershire sauce"
+           ]
+          },
+          "3/4 tsp. kosher salt and 1/2 tsp. pepper, for the filling"
+         ]
+        },
+        "1 cup (140 g) frozen peas"
+       ]
+      },
+      {
+       "do": "mash until smooth",
+       "in": [
+        {
+         "do": "boil 15 min.; drain; steam-dry",
+         "in": [
+          {
+           "do": "peel; cube 1 in. (2.5 cm)",
+           "in": [
+            "2.2 lb. (1.2 kg) potatoes"
+           ]
+          }
+         ]
+        },
+        "2 Tbs. (30 g) unsalted butter, for the mash",
+        "2/3 cup (160 mL) milk",
+        "salt and pepper to taste, for the mash"
+       ]
+      },
+      {
+       "do": "melt",
+       "in": [
+        "2 Tbs. (30 g) unsalted butter, for the top"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Optionally sprinkle 2–3 Tbs. grated Parmesan over the mash before baking.",
+   "The filling can be made a day ahead and chilled."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/shepherds-pie/"
+  }
+ },
+ {
+  "id": "shrimp-scampi",
+  "title": "Shrimp Scampi",
+  "category": "Main Dishes",
+  "servings": "2 servings",
+  "prep": [
+   "Bring a large pot of salted water to a boil"
+  ],
+  "tree": {
+   "do": "toss; garnish",
+   "in": [
+    {
+     "do": "simmer to reduce 2–3 min.",
+     "in": [
+      {
+       "do": "sauté on low 1 min.",
+       "in": [
+        "2 Tbs. (28 g) butter, for the sauce",
+        {
+         "do": "slice",
+         "in": [
+          "2 garlic cloves"
+         ]
+        }
+       ]
+      },
+      {
+       "do": "juice",
+       "in": [
+        "1/2 lemon"
+       ]
+      },
+      "1/2 cup (125 mL) dry white wine"
+     ]
+    },
+    {
+     "do": "boil per package; drain",
+     "in": [
+      "8 oz. (225 g) linguine"
+     ]
+    },
+    "1/2 cup (125 mL) reserved pasta water",
+    {
+     "do": "cook 1 min. per side",
+     "in": [
+      "1 Tbs. (15 mL) olive oil",
+      "1 Tbs. (14 g) butter, for the shrimp",
+      "1/2 lb. (225 g) large shrimp, peeled and deveined",
+      "pinch of salt, for the shrimp"
+     ]
+    },
+    "salt and pepper to taste",
+    {
+     "do": "chop",
+     "in": [
+      "1–2 Tbs. fresh flat-leaf parsley"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Cook the shrimp first, set aside, then build the sauce in the same pan."
+  ],
+  "source": {
+   "name": "Vikalinka",
+   "url": "https://vikalinka.com/wprm_print/shrimp-scampi-linguine"
+  }
+ },
+ {
+  "id": "sloppy-joes",
+  "title": "Sloppy Joes",
+  "category": "Main Dishes",
+  "servings": "4 sandwiches",
+  "tree": {
+   "do": "spoon onto buns",
+   "in": [
+    {
+     "do": "simmer 2 min.",
+     "in": [
+      {
+       "do": "cook 1 min.",
+       "in": [
+        {
+         "do": "drain fat",
+         "in": [
+          {
+           "do": "brown and crumble 5 min.",
+           "in": [
+            {
+             "do": "sauté 6 min.",
+             "in": [
+              "1 Tbs. (15 mL) olive oil",
+              "3/4 cup (115 g) chopped yellow onion",
+              "3/4 cup (110 g) chopped red bell pepper"
+             ]
+            },
+            "1 lb. (450 g) lean ground beef"
+           ]
+          }
+         ]
+        },
+        {
+         "do": "mince",
+         "in": [
+          "2 garlic cloves"
+         ]
+        },
+        "1 tsp. (2.5 g) chili powder",
+        "1 tsp. (2.3 g) paprika",
+        "1/2 tsp. (1 g) dry mustard",
+        "salt and pepper to taste"
+       ]
+      },
+      "1 (8 oz./227 g) can tomato sauce",
+      "1/2 cup (120 mL) ketchup",
+      "1 Tbs. (15 mL) Worcestershire sauce",
+      "1 tsp. (5 mL) liquid hickory smoke",
+      "water or broth to thin, as needed"
+     ]
+    },
+    "4 hamburger buns"
+   ]
+  },
+  "source": {
+   "name": "Cooking Classy",
+   "url": "https://www.cookingclassy.com/sloppy-joes/"
+  }
+ },
+ {
   "id": "snickerdoodles",
   "title": "Snickerdoodles",
   "category": "Baking & Desserts",
@@ -4003,6 +6972,245 @@ window.RECIPES = [
   "source": {
    "name": "Once Upon a Chef",
    "url": "https://www.onceuponachef.com/recipes/snickerdoodles.html"
+  }
+ },
+ {
+  "id": "southern-fried-chicken",
+  "title": "Southern Fried Chicken",
+  "category": "Main Dishes",
+  "servings": "4 servings",
+  "tree": {
+   "do": "drain on paper towels",
+   "in": [
+    {
+     "do": "fry at 300–320°F (150–160°C) 10–12 min. per side",
+     "in": [
+      {
+       "do": "rest at cool room temp 2 hr.",
+       "in": [
+        {
+         "do": "toss to coat; shake off excess",
+         "in": [
+          {
+           "do": "drain on rack (don't pat dry)",
+           "in": [
+            {
+             "do": "marinate covered 8 hr. to overnight",
+             "in": [
+              "10 pieces bone-in chicken (about 3 lb./1.4 kg)",
+              {
+               "do": "combine",
+               "in": [
+                "2 cups (475 mL) buttermilk",
+                "1/8 tsp. (0.75 g) salt, for the marinade",
+                "1/2 tsp. (1 g) black pepper, for the marinade",
+                "1/4 tsp. (0.5 g) cayenne, for the marinade"
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "do": "shake together in paper bag",
+           "in": [
+            "1-1/4 cups (155 g) mixed whole wheat and all-purpose flour",
+            "1-1/2 tsp. (9 g) salt, for the dredge",
+            "1 tsp. (2 g) black pepper, for the dredge",
+            "1 tsp. (2 g) cayenne, for the dredge"
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "do": "heat 1/2 in. (1.3 cm) deep to 350–360°F (175–180°C)",
+       "in": [
+        "vegetable shortening, for frying"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Add pieces one at a time so the oil settles around 300–320°F (150–160°C)",
+   "Boneless breasts need only 4–5 min. per side",
+   "Cook to 165°F (74°C) inside"
+  ],
+  "source": {
+   "name": "Food Network",
+   "url": "https://www.foodnetwork.com/recipes/southern-fried-chicken-recipe0-1922088"
+  }
+ },
+ {
+  "id": "spaghetti-bolognese",
+  "title": "Spaghetti Bolognese",
+  "category": "Main Dishes",
+  "servings": "6 servings",
+  "tree": {
+   "do": "toss together",
+   "in": [
+    {
+     "do": "stir in; season to taste",
+     "in": [
+      {
+       "do": "simmer covered 1 hr. 15 min.",
+       "in": [
+        {
+         "do": "add; break up tomatoes; bring to boil",
+         "in": [
+          {
+           "do": "brown 3–4 min.",
+           "in": [
+            {
+             "do": "fry 10 min. until soft",
+             "in": [
+              {
+               "do": "fry 10 min. until crisp",
+               "in": [
+                "1 Tbs. (15 mL) olive oil",
+                {
+                 "do": "finely chop",
+                 "in": [
+                  "4 slices (100 g) smoked streaky bacon"
+                 ]
+                }
+               ]
+              },
+              {
+               "do": "finely chop",
+               "in": [
+                "2 medium onions"
+               ]
+              },
+              {
+               "do": "finely chop",
+               "in": [
+                "2 carrots"
+               ]
+              },
+              {
+               "do": "finely chop",
+               "in": [
+                "2 celery stalks"
+               ]
+              },
+              {
+               "do": "finely chop",
+               "in": [
+                "2 garlic cloves"
+               ]
+              },
+              {
+               "do": "chop leaves",
+               "in": [
+                "2–3 sprigs fresh rosemary"
+               ]
+              }
+             ]
+            },
+            "1.1 lb. (500 g) ground beef"
+           ]
+          },
+          "2 cans (14 oz./400 g each) whole plum tomatoes",
+          {
+           "do": "chop",
+           "in": [
+            "1 small bunch fresh basil"
+           ]
+          },
+          "2 bay leaves",
+          "2 Tbs. (32 g) tomato paste",
+          {
+           "do": "crumble",
+           "in": [
+            "1 beef bouillon cube"
+           ]
+          },
+          "1/2 cup (125 mL) red wine"
+         ]
+        }
+       ]
+      },
+      "2/3 cup (75 g) grated Parmesan"
+     ]
+    },
+    {
+     "do": "boil per package; drain",
+     "in": [
+      "14 oz. (400 g) spaghetti"
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Serve with extra Parmesan and a few basil leaves.",
+   "The original also adds 1 tsp. dried oregano, a chopped red chile and 6 halved cherry tomatoes with the canned tomatoes."
+  ],
+  "source": {
+   "name": "BBC Good Food",
+   "url": "https://www.bbcgoodfoodme.com/recipes/the-best-spaghetti-bolognese"
+  }
+ },
+ {
+  "id": "spaghetti-carbonara",
+  "title": "Spaghetti Carbonara",
+  "category": "Main Dishes",
+  "servings": "4 servings",
+  "prep": [
+   "Bring 4 qt. (4 L) water and 1 Tbs. salt to a boil"
+  ],
+  "tree": {
+   "do": "off heat, stir vigorously 1 min.",
+   "in": [
+    {
+     "do": "toss in the fat",
+     "in": [
+      {
+       "do": "boil until al dente; drain",
+       "in": [
+        "14 oz. (400 g) spaghetti"
+       ]
+      },
+      {
+       "do": "fry 4–5 min. until golden",
+       "in": [
+        {
+         "do": "cut into batons",
+         "in": [
+          "6 oz. (175 g) guanciale or pancetta"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "do": "whisk",
+     "in": [
+      "2 large eggs",
+      "2 large egg yolks",
+      {
+       "do": "finely grate",
+       "in": [
+        "3.5 oz. (100 g) Parmigiano Reggiano or pecorino"
+       ]
+      },
+      "1/4 tsp. (0.5 g) black pepper"
+     ]
+    },
+    "1/2 cup (120 mL) reserved pasta water"
+   ]
+  },
+  "notes": [
+   "Don't salt the egg mixture; the guanciale and cheese are salty enough.",
+   "Serve at once in warm bowls."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/carbonara/"
   }
  },
  {
@@ -4099,6 +7307,106 @@ window.RECIPES = [
   }
  },
  {
+  "id": "stuffed-peppers",
+  "title": "Stuffed Peppers",
+  "category": "Main Dishes",
+  "servings": "6 servings",
+  "prep": [
+   "Preheat oven to 400°F (200°C)"
+  ],
+  "tree": {
+   "do": "top; bake uncovered 10–20 min.",
+   "in": [
+    {
+     "do": "bake covered 350°F (175°C) 20 min.",
+     "in": [
+      {
+       "do": "turn upright; fill",
+       "in": [
+        {
+         "do": "bake upside down in 1/2 in. water, covered, 20 min.",
+         "in": [
+          {
+           "do": "cut off tops; remove seeds",
+           "in": [
+            "6 medium-large bell peppers"
+           ]
+          }
+         ]
+        },
+        {
+         "do": "stir together",
+         "in": [
+          {
+           "do": "drain fat",
+           "in": [
+            {
+             "do": "cook 1 min.",
+             "in": [
+              {
+               "do": "brown and crumble 5 min.",
+               "in": [
+                {
+                 "do": "sauté 3–4 min.",
+                 "in": [
+                  "1 Tbs. (15 mL) olive oil",
+                  {
+                   "do": "finely chop",
+                   "in": [
+                    "1 small yellow onion"
+                   ]
+                  }
+                 ]
+                },
+                "1-1/4 lb. (570 g) lean ground beef",
+                "salt and pepper to taste"
+               ]
+              },
+              {
+               "do": "mince",
+               "in": [
+                "3 garlic cloves"
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "do": "drain",
+           "in": [
+            "1 (14.5 oz./411 g) can petite diced tomatoes"
+           ]
+          },
+          "1/2 cup (120 mL) tomato sauce, for the filling",
+          {
+           "do": "cook per package",
+           "in": [
+            "2/3 cup (125 g) long-grain white rice"
+           ]
+          },
+          "3 Tbs. (11 g) minced fresh parsley",
+          "2 tsp. (2 g) Italian seasoning"
+         ]
+        }
+       ]
+      },
+      "1/2 cup (120 mL) tomato sauce, for the top"
+     ]
+    },
+    "1 cup (112 g) shredded mozzarella"
+   ]
+  },
+  "notes": [
+   "Lower the oven to 350°F (175°C) after par-baking the peppers",
+   "Bake until the peppers are tender"
+  ],
+  "source": {
+   "name": "Cooking Classy",
+   "url": "https://www.cookingclassy.com/stuffed-peppers/"
+  }
+ },
+ {
   "id": "sugar-cookies",
   "title": "Sugar Cookies",
   "category": "Baking & Desserts",
@@ -4169,6 +7477,158 @@ window.RECIPES = [
   "source": {
    "name": "Once Upon a Chef",
    "url": "https://www.onceuponachef.com/recipes/crave-worthy-sugar-cookies.html"
+  }
+ },
+ {
+  "id": "swedish-meatballs",
+  "title": "Swedish Meatballs",
+  "category": "Main Dishes",
+  "servings": "5 servings",
+  "tree": {
+   "do": "stir in; simmer 2 min.",
+   "in": [
+    {
+     "do": "return meatballs; simmer 8–10 min.",
+     "in": [
+      {
+       "do": "whisk in gradually",
+       "in": [
+        {
+         "do": "cook 1 min.",
+         "in": [
+          {
+           "do": "melt",
+           "in": [
+            "3 Tbs. (40 g) unsalted butter"
+           ]
+          },
+          "3 Tbs. (24 g) all-purpose flour"
+         ]
+        },
+        "2 cups (500 mL) reduced-salt beef broth"
+       ]
+      },
+      {
+       "do": "brown in batches 3 min.",
+       "in": [
+        "1 Tbs. (15 mL) vegetable oil",
+        {
+         "do": "roll into 25–30 balls",
+         "in": [
+          {
+           "do": "mix well",
+           "in": [
+            {
+             "do": "soak 1 min.",
+             "in": [
+              {
+               "do": "grate, keeping juice",
+               "in": [
+                "1 small onion"
+               ]
+              },
+              {
+               "do": "remove crusts; cube",
+               "in": [
+                "2 slices white sandwich bread"
+               ]
+              }
+             ]
+            },
+            "10 oz. (300 g) ground beef",
+            "10 oz. (300 g) ground pork",
+            "1 large egg",
+            "1/4 tsp. ground nutmeg",
+            "1/4 tsp. ground allspice",
+            "1/4 tsp. black pepper",
+            "3/4 tsp. (4.5 g) salt"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "1/2 cup (120 mL) heavy cream"
+   ]
+  },
+  "notes": [
+   "Pour off excess oil after browning, then make the gravy in the same skillet.",
+   "Serve over mashed potatoes."
+  ],
+  "source": {
+   "name": "RecipeTin Eats",
+   "url": "https://www.recipetineats.com/swedish-meatballs/"
+  }
+ },
+ {
+  "id": "teriyaki-salmon",
+  "title": "Teriyaki Salmon",
+  "category": "Main Dishes",
+  "servings": "4 servings",
+  "prep": [
+   "Preheat oven to 400°F (200°C)",
+   "Spray a baking dish with nonstick spray"
+  ],
+  "tree": {
+   "do": "spoon sauce over; garnish",
+   "in": [
+    {
+     "do": "pour sauce over; bake 400°F (200°C) 12–15 min.",
+     "in": [
+      "4 (6 oz./170 g) skinless salmon fillets",
+      {
+       "do": "cool slightly",
+       "in": [
+        {
+         "do": "boil 1 min., whisking",
+         "in": [
+          {
+           "do": "bring to a light boil",
+           "in": [
+            "6–8 Tbs. (90–120 mL) low-sodium soy sauce",
+            "6 Tbs. (90 mL) water, for the sauce",
+            "3 Tbs. (63 g) honey",
+            "2 Tbs. (25 g) packed light brown sugar",
+            {
+             "do": "mince",
+             "in": [
+              "3 garlic cloves"
+             ]
+            },
+            "1 Tbs. (6 g) minced fresh ginger",
+            "1-1/2 Tbs. (22 mL) lemon juice"
+           ]
+          },
+          {
+           "do": "whisk",
+           "in": [
+            "1 Tbs. (8 g) cornstarch",
+            "2 Tbs. (30 mL) water, for the slurry"
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "do": "chop",
+     "in": [
+      "1 green onion"
+     ]
+    },
+    "1/2 tsp. (1.5 g) sesame seeds"
+   ]
+  },
+  "notes": [
+   "Baking time depends on fillet thickness; salmon is done when it flakes easily"
+  ],
+  "source": {
+   "name": "Cooking Classy",
+   "url": "https://www.cookingclassy.com/teriyaki-salmon/"
   }
  },
  {
