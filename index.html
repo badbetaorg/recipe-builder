@@ -3,21 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Recipe Grid Cookbook</title>
-  <meta name="description" content="A cookbook where every recipe is a single table: ingredients on the left, steps spanning what they combine.">
+  <title>Recipe Grid</title>
+  <meta name="description" content="A cookbook where every recipe is a single sheet: ingredients down the side, each step spanning what it combines.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <a class="skip" href="#app">Skip to content</a>
   <header class="site-header">
-    <a class="brand" href="#/">Recipe Grid</a>
-    <nav>
-      <a href="#/">Recipes</a>
-      <a href="#/new" class="button primary">+ New recipe</a>
-    </nav>
+    <div class="wrap header-row">
+      <a class="brand" href="#/">
+        <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true">
+          <rect x="1" y="1" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"/>
+          <line x1="9" y1="1" x2="9" y2="25" stroke="currentColor" stroke-width="2"/>
+          <line x1="1" y1="9" x2="9" y2="9" stroke="currentColor" stroke-width="2"/>
+          <line x1="1" y1="17" x2="9" y2="17" stroke="currentColor" stroke-width="2"/>
+          <rect class="brand-accent" x="17" y="1" width="8" height="24"/>
+        </svg>
+        <span>Recipe Grid</span>
+      </a>
+      <nav aria-label="Main">
+        <a href="#/" data-nav="all">Recipes</a>
+        <a href="#/mine" data-nav="mine">My recipes</a>
+        <a href="#/new" class="button accent" data-nav="new"><span aria-hidden="true">+ </span>New recipe</a>
+      </nav>
+    </div>
   </header>
   <main id="app" tabindex="-1"></main>
   <footer class="site-footer">
-    Recipes are adapted into table form from the linked sources. Your own recipes are saved in this browser.
+    <div class="wrap">Recipes are adapted into sheet form from their linked sources. Your own recipes are saved in this browser — use Export to keep a copy.</div>
   </footer>
 
   <script src="data/recipes.js"></script>

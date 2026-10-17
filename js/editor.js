@@ -6,7 +6,7 @@
 (function (root) {
   "use strict";
 
-  const { h, chart } = root.RecipeRender;
+  const { h, chart, splitQuantity } = root.RecipeRender;
   const Store = root.RecipeStore;
   const isStep = root.RecipeLayout.isStep;
   const DRAFT_KEY = "recipe-grid:new-draft";
@@ -26,6 +26,11 @@
     const items = root.RecipeLayout.ingredients(node);
     const short = items.map((s) => s.replace(/^[\d\s./\-–()a-zA-Z]*?\)\s*/, "") || s);
     return short.join(", ");
+  }
+
+  function ingredientLabel(text) {
+    const [qty, name] = splitQuantity(text);
+    return qty ? h("span", {}, h("span", { class: "qty" }, qty), " ", name) : h("span", {}, text);
   }
 
   function loadDraft() {
@@ -134,7 +139,7 @@
     const servingsInput = bind("servings", h("input", { type: "text", value: draft.servings, placeholder: "about 10 servings" }));
     const prepInput = bind("prep", h("textarea", { rows: 2, placeholder: "Butter and flour a loaf pan\nPreheat oven to 350°F (175°C)" }));
     prepInput.value = draft.prep;
-    const notesInput = bind("notes", h("textarea", { rows: 2, placeholder: "Optional tips, one per line" }));
+    const notesInput = bind("notes", h("textarea", { id: "field-notes", rows: 3, placeholder: "Optional tips, one per line" }));
     notesInput.value = draft.notes;
     const sourceName = bind("sourceName", h("input", { type: "text", value: draft.sourceName, placeholder: "Where it's from (optional)" }));
     const sourceUrl = bind("sourceUrl", h("input", { type: "url", value: draft.sourceUrl, placeholder: "https://…" }));
@@ -142,7 +147,8 @@
     // ----- ingredients -----
     const ingredientInput = h("input", {
       type: "text",
-      placeholder: "2 large (250 g) ripe bananas — press Enter; paste a list to add many",
+      placeholder: "2 large (250 g) ripe bananas",
+      "aria-label": "Ingredient",
     });
     function addIngredients(items) {
       if (!items.length) return;
@@ -165,8 +171,8 @@
     });
 
     // ----- combine -----
-    const actionInput = h("input", { type: "text", placeholder: "Action, e.g. whisk · mash · bake 350°F (175°C) 55 min." });
-    const combineButton = h("button", { type: "button", class: "primary", onclick: combine }, "Combine");
+    const actionInput = h("input", { type: "text", "aria-label": "Action", placeholder: "whisk · mash · bake 350°F (175°C) 55 min." });
+    const combineButton = h("button", { type: "button", class: "accent", onclick: combine }, "Combine");
     actionInput.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
         e.preventDefault();
@@ -194,11 +200,12 @@
     function updateCombine() {
       combineButton.disabled = !(selected.size > 0 && actionInput.value.trim());
       combineButton.textContent =
-        selected.size > 1 ? `Combine ${selected.size} items` : selected.size === 1 ? "Add step to 1 item" : "Combine";
+        selected.size > 1 ? `Combine ${selected.size}` : selected.size === 1 ? "Add step" : "Combine";
     }
 
     const undoButton = h("button", {
       type: "button",
+      class: "quiet",
       onclick: () => {
         if (!history.length) return;
         draft.roots = history.pop();
@@ -212,11 +219,27 @@
     const bench = h("ul", { class: "bench" });
     const preview = h("div", {});
     const message = h("div", {});
+    const status = h("p", { class: "status", role: "status" });
+
+    function renderStatus() {
+      const loose = draft.roots.length;
+      status.hidden = loose === 0;
+      if (loose === 1 && isStep(draft.roots[0])) {
+        status.className = "status ready";
+        status.replaceChildren(h("span", { class: "chip" }, "READY"), "One final step — this recipe can be saved.");
+      } else {
+        status.className = "status";
+        status.replaceChildren(
+          h("span", { class: "chip" }, `${loose} LOOSE`),
+          loose === 1 ? "Give it a step to finish the sheet." : "Combine everything into one final step to save."
+        );
+      }
+    }
 
     function renderBench() {
       bench.replaceChildren();
       if (!draft.roots.length) {
-        bench.append(h("li", {}, h("span", { class: "label" }, h("small", {}, "No ingredients yet — add some above."))));
+        bench.append(h("li", { class: "empty-bench" }, "Nothing here yet — add ingredients above."));
         return;
       }
       draft.roots.forEach((node, i) => {
@@ -242,13 +265,13 @@
             box,
             h(
               "span",
-              { class: "label", style: "cursor:pointer", onclick: () => box.click() },
-              h("span", { class: "kind" }, isStep(node) ? "step " : "ingredient "),
-              isStep(node) ? h("strong", {}, node.do) : node,
+              { class: "label", onclick: () => box.click() },
+              h("span", { class: "kind" }, isStep(node) ? `Step · ${root.RecipeLayout.ingredients(node).length} inside` : "Ingredient"),
+              isStep(node) ? h("span", { class: "step-name" }, node.do) : ingredientLabel(node),
               isStep(node) ? h("small", {}, summary(node)) : null
             ),
-            h("button", { type: "button", title: "Move up", "aria-label": "Move up", disabled: i === 0, onclick: move(-1) }, "↑"),
-            h("button", { type: "button", title: "Move down", "aria-label": "Move down", disabled: i === draft.roots.length - 1, onclick: move(1) }, "↓")
+            h("button", { type: "button", class: "move", title: "Move up", "aria-label": "Move up", disabled: i === 0, onclick: move(-1) }, "↑"),
+            h("button", { type: "button", class: "move", title: "Move down", "aria-label": "Move down", disabled: i === draft.roots.length - 1, onclick: move(1) }, "↓")
           )
         );
       });
@@ -258,7 +281,7 @@
       const prep = lines(draft.prep);
       preview.replaceChildren();
       if (!draft.roots.length) {
-        preview.append(h("p", { class: "hint" }, "Your table will appear here."));
+        preview.append(h("div", { class: "sheet-empty" }, "Your sheet builds here as you add ingredients and combine them."));
         return;
       }
       preview.append(
@@ -334,7 +357,7 @@
         "div",
         { class: "popover", role: "dialog", "aria-label": "Edit cell" },
         h("label", {}, step ? "Step" : "Ingredient"),
-        h("div", { class: "row" }, text, btn("Save", save, { class: "primary" })),
+        h("div", { class: "row" }, text, btn("Save", save, { class: "solid" })),
         h("label", {}, step ? "Add a following step" : "Add a prep step for this ingredient"),
         h("div", { class: "row" }, wrapText, btn("Add", wrap)),
         h(
@@ -363,6 +386,7 @@
     function refresh() {
       renderBench();
       renderPreview();
+      renderStatus();
       updateCombine();
       undoButton.disabled = history.length === 0;
       message.replaceChildren();
@@ -400,69 +424,82 @@
       onDone(recipe.id);
     }
 
-    const heading = existing ? (copyOf ? "Edit a copy of " + existing.title : "Edit " + existing.title) : "New recipe";
+    const heading = existing ? (copyOf ? existing.title : "Edit " + existing.title) : "New recipe";
+    const eyebrow = existing ? (copyOf ? "Your copy of a built-in recipe" : "Editing your recipe") : "Draft · saved in this browser";
+    const panel = (no, title, hint, cls, ...body) =>
+      h("section", { class: "panel" + (cls ? " " + cls : "") }, h("h2", {}, h("span", { class: "step-no" }, no), title), hint ? h("p", { class: "hint" }, hint) : null, ...body);
+
     container.replaceChildren(
       h(
         "div",
-        { class: "editor" },
-        h("div", { class: "recipe-head" }, h("h1", { class: "recipe-title" }, heading)),
+        { class: "wrap page" },
+        h(
+          "div",
+          { class: "editor-head" },
+          h("div", {}, h("p", { class: "eyebrow" }, eyebrow), h("h1", { class: "display" }, heading)),
+          h(
+            "div",
+            { class: "actions" },
+            h("button", { type: "button", class: "quiet", onclick: () => { closePopover(); onDone(existing && !copyOf ? existing.id : null); } }, "Cancel"),
+            h("button", { type: "button", class: "solid", onclick: finish }, "Save recipe")
+          )
+        ),
         isNew && copyOf ? h("p", { class: "message" }, "Built-in recipes can't be changed, so this will be saved as your own copy.") : null,
         restored
           ? h(
               "p",
               { class: "message" },
               "Picked up your unsaved draft. ",
-              h("button", { type: "button", onclick: () => { storeDraft(null); open(container, null, false, onDone); } }, "Start over")
+              h("button", { type: "button", class: "quiet", onclick: () => { storeDraft(null); open(container, null, false, onDone); } }, "Start over")
             )
           : null,
         h(
-          "section",
-          { class: "panel" },
-          h("h2", {}, "Details"),
+          "div",
+          { class: "editor-cols" },
           h(
             "div",
-            { class: "fields" },
-            field("Title", titleInput),
-            field("Category", categorySelect),
-            field("Servings", servingsInput),
-            field("Setup (shown above the table, one per line)", prepInput, "wide"),
-            field("Source name", sourceName),
-            field("Source link", sourceUrl)
-          )
-        ),
-        h(
-          "section",
-          { class: "panel" },
-          h("h2", {}, "1 · Ingredients"),
-          h("p", { class: "hint" }, "One per line, in the order you'll use them. Amount first, metric in brackets: “6 Tbs. (90 mL) butter”."),
-          h("div", { class: "row" }, ingredientInput, h("button", { type: "button", onclick: () => addIngredients(lines(ingredientInput.value)) }, "Add"))
-        ),
-        h(
-          "section",
-          { class: "panel" },
-          h("h2", {}, "2 · Combine"),
-          h(
-            "p",
-            { class: "hint" },
-            "Tick what goes together, name the action, and press Combine. Tick a single item to give it its own step (melt, dice, bake). Keep going until one final step is left."
+            { class: "editor-side" },
+            panel(
+              "00",
+              "Details",
+              null,
+              "",
+              h(
+                "div",
+                { class: "fields" },
+                field("Title", titleInput, "wide"),
+                field("Category", categorySelect),
+                field("Yield", servingsInput),
+                field("Before you start · one per line", prepInput, "wide"),
+                field("Source name", sourceName),
+                field("Source link", sourceUrl)
+              )
+            ),
+            panel(
+              "01",
+              "Ingredients",
+              "Amount first, metric in brackets: “6 Tbs. (90 mL) butter”. Paste a list to add several.",
+              "",
+              h("div", { class: "row" }, ingredientInput, h("button", { type: "button", onclick: () => addIngredients(lines(ingredientInput.value)) }, "Add"))
+            ),
+            panel(
+              "02",
+              "Combine",
+              "Tick what goes together and name the action. Tick one item to give it its own step (melt, dice, bake). Keep going until one final step is left.",
+              "strong",
+              bench,
+              h("div", { class: "row combine-row" }, actionInput, combineButton, undoButton)
+            ),
+            panel("03", "Notes", null, "", h("label", { for: "field-notes", class: "visually-hidden" }, "Notes"), notesInput)
           ),
-          bench,
-          h("div", { class: "row" }, actionInput, combineButton, undoButton)
-        ),
-        h(
-          "section",
-          { class: "panel" },
-          h("h2", {}, "Preview"),
-          h("p", { class: "hint" }, "Click any cell to rename it, add a step, reorder, ungroup or delete."),
-          preview
-        ),
-        h("section", { class: "panel" }, h("h2", {}, "Notes"), notesInput),
-        message,
-        h(
-          "div",
-          { class: "sticky-actions" },
-          h("button", { type: "button", onclick: () => { closePopover(); onDone(existing && !copyOf ? existing.id : null); } }, "Cancel"),
-          h("button", { type: "button", class: "primary", onclick: finish }, "Save recipe")
+          h(
+            "section",
+            { class: "editor-main", "aria-label": "Live sheet" },
+            h("div", { class: "sheet-head" }, h("h2", {}, "Live sheet"), h("p", {}, "Click any cell to rename, add a step, reorder or ungroup")),
+            preview,
+            status,
+            message
+          )
         )
       )
     );
