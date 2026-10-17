@@ -106,31 +106,26 @@ window.RECIPES = [
          "do": "roll out, line pan, fill, dot, top, crimp, vent",
          "in": [
           {
-           "do": "chill 30 min.",
+           "do": "fold, pat into 2 disks, chill 30 min.",
            "in": [
             {
-             "do": "fold 3–4 times, pat into 2 disks",
+             "do": "mix in with fork until dough holds",
              "in": [
               {
-               "do": "mix in with fork until dough holds",
+               "do": "whisk; cut in fats to dime-size",
                "in": [
+                "2-1/2 cups (300 g) all-purpose flour",
+                "3/4 tsp. (4.5 g) salt",
+                "1/3 cup (60 g) vegetable shortening",
                 {
-                 "do": "whisk; cut in fats to dime-size",
+                 "do": "dice",
                  "in": [
-                  "2-1/2 cups (300 g) all-purpose flour",
-                  "3/4 tsp. (4.5 g) salt",
-                  "1/3 cup (60 g) vegetable shortening",
-                  {
-                   "do": "dice",
-                   "in": [
-                    "8 Tbs. (113 g) cold unsalted butter"
-                   ]
-                  }
+                  "8 Tbs. (113 g) cold unsalted butter"
                  ]
-                },
-                "7 to 10 Tbs. (99–142 g) ice water"
+                }
                ]
-              }
+              },
+              "7 to 10 Tbs. (99–142 g) ice water"
              ]
             }
            ]
@@ -2899,68 +2894,63 @@ window.RECIPES = [
    "Bring a kettle of water to a boil for the water bath"
   ],
   "tree": {
-   "do": "unmold, slice, wiping knife between cuts",
+   "do": "remove foil, chill 8 hr.; unmold, slice",
    "in": [
     {
-     "do": "remove foil, chill covered 8 hr.",
+     "do": "cool in water bath 45 min.",
      "in": [
       {
-       "do": "cool in water bath 45 min.",
+       "do": "bake in water bath 325°F (165°C) 1-1/2–1-3/4 hr.",
        "in": [
         {
-         "do": "bake in water bath 325°F (165°C) 1-1/2–1-3/4 hr.",
+         "do": "pour over",
          "in": [
           {
-           "do": "pour over",
+           "do": "bake 375°F (190°C) 10 min.",
            "in": [
             {
-             "do": "bake 375°F (190°C) 10 min.",
+             "do": "press firmly into pan",
              "in": [
               {
-               "do": "press firmly into pan",
+               "do": "mix",
                "in": [
+                "1-1/2 cups (150 g) graham cracker crumbs (12 crackers)",
                 {
-                 "do": "mix",
+                 "do": "melt",
                  "in": [
-                  "1-1/2 cups (150 g) graham cracker crumbs (12 crackers)",
-                  {
-                   "do": "melt",
-                   "in": [
-                    "5 Tbs. (70 g) unsalted butter"
-                   ]
-                  },
-                  "2 Tbs. (25 g) sugar",
-                  "1/8 tsp. (0.75 g) salt"
+                  "5 Tbs. (70 g) unsalted butter"
                  ]
-                }
+                },
+                "2 Tbs. (25 g) sugar",
+                "1/8 tsp. (0.75 g) salt"
                ]
               }
              ]
-            },
+            }
+           ]
+          },
+          {
+           "do": "beat in on low just until uniform",
+           "in": [
             {
-             "do": "beat in on low just until uniform",
+             "do": "beat in on low",
              "in": [
               {
-               "do": "beat in on low",
+               "do": "beat 1 min.",
                "in": [
-                {
-                 "do": "beat 1 min.",
-                 "in": [
-                  "32 oz. (900 g) cream cheese, room temperature",
-                  "2 cups (400 g) sugar",
-                  "3 Tbs. (24 g) all-purpose flour"
-                 ]
-                },
-                "4 tsp. (20 mL) vanilla extract",
-                "1 tsp. packed lemon zest",
-                "2 tsp. (10 mL) fresh lemon juice",
-                "1/4 tsp. (1.5 g) salt"
+                "32 oz. (900 g) cream cheese, room temperature",
+                "2 cups (400 g) sugar",
+                "3 Tbs. (24 g) all-purpose flour"
                ]
               },
-              "6 large eggs, added one at a time",
-              "1/2 cup (120 g) sour cream"
+              "4 tsp. (20 mL) vanilla extract",
+              "1 tsp. packed lemon zest",
+              "2 tsp. (10 mL) fresh lemon juice",
+              "1/4 tsp. (1.5 g) salt"
              ]
-            }
+            },
+            "6 large eggs, added one at a time",
+            "1/2 cup (120 g) sour cream"
            ]
           }
          ]
