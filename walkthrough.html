@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to Read a Recipe Sheet · Recipe Grid</title>
+<meta name="description" content="An animated walkthrough of how to read and write Recipe Grid sheets.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: a film-slate player (chart stage + narration) over a one-card cheat sheet, in Recipe Grid's Prep Sheet look. */
+:root {
+  --ground: #eceae4;
+  --surface: #ffffff;
+  --surface-2: #f6f4ef;
+  --ink: #17181a;
+  --ink-2: #3a3c40;
+  --muted: #5c5f63;
+  --rule: #17181a;
+  --hairline: #cfcbc3;
+  --hatch: #e9e5de;
+  --accent: #c2410c;
+  --accent-ink: #ffffff;
+  --accent-soft: #fbede6;
+  --bar: #17181a;
+  --bar-ink: #f4f2ed;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body: "Barlow", "Helvetica Neue", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #121314; --surface: #1b1c1e; --surface-2: #222326; --ink: #edebe6; --ink-2: #cfccc5; --muted: #a3a09a;
+    --rule: #d9d6cf; --hairline: #3a3b3e; --hatch: #2a2b2e; --accent-soft: #3a2117; --bar: #0b0b0c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #121314; --surface: #1b1c1e; --surface-2: #222326; --ink: #edebe6; --ink-2: #cfccc5; --muted: #a3a09a;
+  --rule: #d9d6cf; --hairline: #3a3b3e; --hatch: #2a2b2e; --accent-soft: #3a2117; --bar: #0b0b0c; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+[hidden] { display: none !important; }
+body {
+  background: var(--ground); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 64px; -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1180px; margin: 0 auto; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.eyebrow { font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; text-transform: uppercase; margin: 0; text-wrap: balance; }
+
+header.intro { padding-block: 44px 28px; display: flex; flex-wrap: wrap; gap: 16px 40px; align-items: flex-end; justify-content: space-between; }
+header.intro > div { flex: 1 1 520px; min-width: 0; }
+header.intro h1 { font-size: clamp(44px, 7vw, 72px); line-height: 0.95; margin-top: 12px; }
+header.intro p.lede { margin: 16px 0 0; max-width: 60ch; font-size: 18px; color: var(--ink-2); }
+.brand { display: inline-flex; align-items: center; gap: 10px; }
+.brand span { font-family: var(--display); font-weight: 700; font-size: 18px; letter-spacing: 0.08em; text-transform: uppercase; }
+
+/* Player */
+.player { background: var(--surface); border: 2px solid var(--rule); }
+.slate {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px;
+  background: var(--bar); color: var(--bar-ink); padding: 10px 16px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+}
+.slate .rec { display: inline-flex; align-items: center; gap: 8px; }
+.slate .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+.player.playing .slate .dot { animation: blink 1.2s steps(2, start) infinite; }
+@keyframes blink { to { visibility: hidden; } }
+
+.stage { display: flex; flex-wrap: wrap; }
+.screen { flex: 999 1 560px; min-width: 0; padding: 24px; background: var(--surface-2); border-right: 1px solid var(--hairline); display: flex; flex-direction: column; gap: 12px; }
+.narration { flex: 1 1 300px; min-width: 0; padding: 24px; display: flex; flex-direction: column; gap: 14px; }
+@media (max-width: 880px) { .screen { border-right: 0; border-bottom: 1px solid var(--hairline); } }
+
+.chapter-no { font-family: var(--mono); font-size: 13px; font-weight: 600; color: var(--accent); }
+.narration h2 { font-size: clamp(28px, 3.4vw, 38px); line-height: 1; }
+.narration .body { margin: 0; font-size: 17px; color: var(--ink-2); max-width: 46ch; }
+.narration .rule {
+  margin: 0; padding: 10px 12px; background: var(--ink); color: var(--surface); font-family: var(--mono); font-size: 13px; line-height: 1.45;
+}
+.narration .rule b { color: var(--accent-ink); background: var(--accent); padding: 0 5px; margin-right: 6px; font-weight: 600; }
+.narration .text { display: flex; flex-direction: column; gap: 14px; transition: opacity 0.25s ease, transform 0.25s ease; }
+.narration .text.swap { opacity: 0; transform: translateY(6px); }
+
+.controls { margin-top: auto; display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
+.buttons { display: flex; gap: 8px; }
+.buttons button {
+  font: inherit; font-weight: 600; min-height: 44px; min-width: 44px; padding: 0 14px; border: 1px solid var(--rule); border-radius: 3px;
+  background: var(--surface); color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+}
+.buttons button:hover { background: var(--surface-2); }
+.buttons .play { flex: 1; background: var(--ink); color: var(--surface); border-color: var(--ink); font-family: var(--display); font-size: 17px; letter-spacing: 0.05em; text-transform: uppercase; }
+.buttons .play:hover { background: var(--ink); filter: brightness(1.2); }
+.ticks { display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 3px; }
+.ticks button { appearance: none; border: 0; padding: 0; height: 22px; background: transparent; cursor: pointer; display: flex; align-items: center; }
+.ticks button span { display: block; width: 100%; height: 6px; background: var(--hairline); position: relative; overflow: hidden; }
+.ticks button span i { position: absolute; inset: 0; width: 0; background: var(--accent); }
+.ticks button.done span i { width: 100%; background: var(--ink-2); }
+.ticks button[aria-current="step"] span { height: 8px; }
+.part-labels { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+
+/* The animated chart */
+.screen-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.screen-head h3 { font-size: 22px; }
+.chart-box { overflow-x: auto; }
+.chart {
+  position: relative; display: grid; min-width: 520px; background: var(--surface); border: 2px solid var(--rule);
+  font-size: 14px; line-height: 1.25;
+}
+@media (max-width: 640px) { .chart { font-size: 12px; } }
+.cell {
+  position: relative; padding: 8px 10px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+  border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); background: var(--surface);
+  transition: opacity 0.35s ease, background-color 0.35s ease, box-shadow 0.35s ease;
+  min-height: 2.6em;
+}
+.cell.edge-r { border-right: 0; }
+.cell.edge-b { border-bottom: 0; }
+.cell.ing { align-items: flex-start; text-align: left; }
+.cell .qty { font-family: var(--mono); font-weight: 600; font-size: 0.93em; }
+.cell .act { font-family: var(--display); font-weight: 600; font-size: 1.15em; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1.1; }
+.cell .det { font-family: var(--mono); font-size: 0.86em; margin-top: 2px; }
+.cell.empty { background: repeating-linear-gradient(135deg, var(--surface) 0 6px, var(--hatch) 6px 7px); }
+.cell.heat { background-color: var(--accent-soft); }
+.cell.finish { background: var(--ink); color: var(--surface); }
+.cell.prep { align-items: flex-start; text-align: left; background: var(--surface-2); flex-direction: row; flex-wrap: wrap; gap: 6px 22px; justify-content: flex-start; }
+.cell.prep .tag-inline { font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; background: var(--accent); color: var(--accent-ink); padding: 2px 7px; border-radius: 2px; }
+.cell.prep .num { font-family: var(--mono); color: var(--muted); margin-right: 6px; }
+
+.chart.focus .cell { opacity: 0.2; }
+.chart.focus .cell.hl { opacity: 1; }
+.chart .cell.hl.ing { box-shadow: inset 5px 0 0 var(--accent); }
+.chart .cell.hl:not(.ing):not(.finish):not(.empty) { box-shadow: inset 0 0 0 3px var(--accent); }
+.chart .cell.hl.empty { box-shadow: inset 0 0 0 3px var(--accent); }
+.chart .cell.hl.finish { box-shadow: inset 0 0 0 3px var(--accent); }
+.cell .badge {
+  position: absolute; top: 6px; left: 50%; transform: translateX(-50%); white-space: nowrap;
+  font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  background: var(--accent); color: var(--accent-ink); padding: 2px 6px; border-radius: 2px;
+  animation: pop 0.35s ease both;
+}
+@keyframes pop { from { opacity: 0; transform: translate(-50%, -4px); } }
+
+.timeline { display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.timeline .line { flex: 1; height: 2px; background: var(--hairline); position: relative; }
+.timeline .line::after { content: ""; position: absolute; right: -1px; top: -4px; border: 5px solid transparent; border-left: 7px solid var(--hairline); border-right: 0; }
+
+.builder { display: flex; flex-wrap: wrap; gap: 6px; }
+.builder[hidden] { display: none; }
+.builder .item {
+  display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border: 1px solid var(--hairline); border-radius: 3px; background: var(--surface); font-size: 13px;
+}
+.builder .item .box { width: 14px; height: 14px; border: 2px solid var(--ink-2); border-radius: 2px; flex: none; }
+.builder .item.on { border: 2px solid var(--accent); background: var(--accent-soft); padding: 5px 9px; }
+.builder .item.on .box { background: var(--accent); border-color: var(--accent); }
+.builder .action { display: inline-flex; align-items: center; gap: 0; border: 2px solid var(--ink); border-radius: 3px; overflow: hidden; font-size: 13px; }
+.builder .action span { padding: 5px 10px; font-family: var(--mono); background: var(--surface); }
+.builder .action b { padding: 5px 10px; background: var(--accent); color: var(--accent-ink); font-family: var(--display); letter-spacing: 0.05em; text-transform: uppercase; font-weight: 600; }
+
+/* Cheat sheet */
+.cheats { margin-top: 48px; }
+.cheats > h2 { font-size: clamp(30px, 4vw, 44px); margin: 8px 0 20px; }
+.cheat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); border-top: 2px solid var(--rule); border-left: 1px solid var(--hairline); }
+.cheat { padding: 18px 20px 22px; border-right: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); background: var(--surface); display: flex; flex-direction: column; gap: 8px; }
+.cheat h3 { font-size: 22px; line-height: 1.05; }
+.cheat p { margin: 0; color: var(--ink-2); }
+.cheat .eyebrow { color: var(--accent); font-weight: 600; }
+footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
+footer a { color: var(--ink); }
+
+@media (prefers-reduced-motion: reduce) {
+  .cell, .narration .text { transition: none; }
+  .cell .badge { animation: none; }
+  .player.playing .slate .dot { animation: none; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="intro">
+    <div>
+      <a class="brand" href="index.html" style="color: inherit; text-decoration: none">
+        <svg width="22" height="22" viewBox="0 0 26 26" aria-hidden="true"><rect x="1" y="1" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"/><line x1="9" y1="1" x2="9" y2="25" stroke="currentColor" stroke-width="2"/><line x1="1" y1="9" x2="9" y2="9" stroke="currentColor" stroke-width="2"/><line x1="1" y1="17" x2="9" y2="17" stroke="currentColor" stroke-width="2"/><rect x="17" y="1" width="8" height="24" style="fill: var(--accent)"/></svg>
+        <span>Recipe Grid</span>
+      </a>
+      <h1>How to read<br>a recipe sheet</h1>
+      <p class="lede">Every recipe in Recipe Grid is one table. This walkthrough takes a real one apart cell by cell, then shows how to write your own. About two minutes, or step through at your own pace.</p>
+    </div>
+  </header>
+
+  <section class="player" id="player" aria-label="Walkthrough player">
+    <div class="slate">
+      <span class="rec"><span class="dot" aria-hidden="true"></span><span id="slate-part">Part 1 · Reading</span></span>
+      <span id="slate-count">Chapter 01 / 14</span>
+    </div>
+    <div class="stage">
+      <div class="screen">
+        <div class="screen-head">
+          <h3 id="screen-title">Banana Nut Bread</h3>
+          <span class="eyebrow" id="screen-sub">About 10 servings</span>
+        </div>
+        <div class="builder" id="builder" hidden></div>
+        <div class="chart-box"><div class="chart" id="chart" role="img" aria-label="Recipe sheet for the current chapter"></div></div>
+        <div class="timeline" aria-hidden="true"><span>Start</span><span class="line"></span><span>Done</span></div>
+      </div>
+      <div class="narration">
+        <div class="text" id="text" aria-live="polite">
+          <span class="chapter-no" id="chapter-no">01</span>
+          <h2 id="chapter-title">One recipe. One sheet.</h2>
+          <p class="body" id="chapter-body"></p>
+          <p class="rule" id="chapter-rule"></p>
+        </div>
+        <div class="controls">
+          <div class="buttons">
+            <button type="button" id="prev" aria-label="Previous chapter"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 L5 8 L10 13" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+            <button type="button" class="play" id="play"><span id="play-label">Play</span></button>
+            <button type="button" id="next" aria-label="Next chapter"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3 L11 8 L6 13" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+          </div>
+          <div class="ticks" id="ticks" role="group" aria-label="Chapters"></div>
+          <div class="part-labels"><span>Reading a sheet</span><span>Writing one</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cheats" aria-labelledby="cheats-title">
+    <p class="eyebrow">Keep this in your head</p>
+    <h2 id="cheats-title">The whole method on one card</h2>
+    <div class="cheat-grid">
+      <div class="cheat"><span class="eyebrow">Top rows</span><h3>Setup comes first</h3><p>Full-width rows above the grid are tasks to do before you start: preheat, grease the pan, boil the water.</p></div>
+      <div class="cheat"><span class="eyebrow">Left column</span><h3>Measure everything out</h3><p>The ingredients are listed in the order you'll use them, amount first, metric in brackets.</p></div>
+      <div class="cheat"><span class="eyebrow">One row</span><h3>A cell beside one ingredient is its prep</h3><p>Mash, melt, dice, beat. Do it to that ingredient alone.</p></div>
+      <div class="cheat"><span class="eyebrow">Hatched cell</span><h3>Use it as it is</h3><p>Nothing to do yet. It joins in at the next cell that covers its row.</p></div>
+      <div class="cheat"><span class="eyebrow">Tall cell</span><h3>Combine everything it spans</h3><p>A cell's height is its contents. Everything in the rows it covers goes into one bowl or pan.</p></div>
+      <div class="cheat"><span class="eyebrow">Separate spans</span><h3>Separate bowls, any order</h3><p>Cells whose spans don't overlap are independent. Do them in either order, or at the same time.</p></div>
+      <div class="cheat"><span class="eyebrow">Reading right</span><h3>Finish everything to the left</h3><p>A step can start once every cell to its left, within its span, is done.</p></div>
+      <div class="cheat"><span class="eyebrow">Dark column</span><h3>That's the finished dish</h3><p>Lost your place? Find the rightmost cell you've finished. The next one to its right is what you do now.</p></div>
+    </div>
+  </section>
+
+  <footer><a href="index.html">Back to the cookbook</a> to cook from 100 sheets, or <a href="index.html#/new">write your own</a>.</footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ----- Recipes as trees: leaves {id, q, n}; steps {id, a, d, in} -----
+  const L = (id, q, n) => ({ id, q, n });
+  const S = (id, a, d, inputs) => ({ id, a, d, in: inputs });
+
+  const bananas = L("bananas", "2 large (250 g)", "ripe bananas");
+  const butter = L("butter", "6 Tbs. (90 mL)", "butter");
+  const vanilla = L("vanilla", "1 tsp. (5 mL)", "vanilla extract");
+  const eggs = L("eggs", "2 large", "eggs");
+  const flour = L("flour", "1⅓ cups (167 g)", "all-purpose flour");
+  const sugar = L("sugar", "⅔ cup (130 g)", "sugar");
+  const soda = L("soda", "½ tsp. (2.3 g)", "baking soda");
+  const powder = L("powder", "¼ tsp. (1.2 g)", "baking powder");
+  const salt = L("salt", "½ tsp. (3 g)", "salt");
+  const walnuts = L("walnuts", "½ cup (70 g)", "chopped walnuts");
+  const mash = S("mash", "Mash", "", [bananas]);
+  const melt = S("melt", "Melt", "", [butter]);
+  const beat = S("beat", "Lightly beat", "", [eggs]);
+  const wet = S("wet", "Mash until smooth", "", [mash, melt, vanilla, beat]);
+  const dry = S("dry", "Whisk", "", [flour, sugar, soda, powder, salt]);
+  const fold = S("fold", "Fold", "", [wet, dry, walnuts]);
+  const bake = S("bake", "Bake", "350°F (175°C) 55 min.", [fold]);
+  const cool = S("cool", "Cool", "10 min. in pan", [bake]);
+  const rack = S("rack", "Cool on wire rack", "", [cool]);
+  const BANANA = { roots: [rack], prep: ["Butter and flour a loaf pan", "Preheat oven to 350°F (175°C)"] };
+
+  const oil = L("oil", "3 Tbs. (45 mL)", "olive oil");
+  const vin = L("vin", "1 Tbs. (15 mL)", "red wine vinegar");
+  const dij = L("dij", "1 tsp. (5 g)", "Dijon mustard");
+  const shal = L("shal", "1 small", "shallot");
+  const sp = L("sp", "", "salt and pepper to taste");
+  const mince = S("mince", "Mince", "", [shal]);
+  const whisk = S("whisk", "Whisk", "", [vin, dij, mince]);
+  const slowly = S("slowly", "Whisk in slowly", "", [oil, whisk]);
+  const season = S("season", "Season to taste", "", [slowly, sp]);
+  const V = {
+    v0: { roots: [oil, vin, dij, shal, sp], prep: [] },
+    v1: { roots: [oil, vin, dij, mince, sp], prep: [] },
+    v2: { roots: [oil, whisk, sp], prep: [] },
+    v3: { roots: [slowly, sp], prep: [] },
+    v4: { roots: [season], prep: [] },
+  };
+  const CHARTS = Object.assign({ banana: BANANA }, V);
+
+  // ----- Layout: rows = leaves, column = 1 + deepest input -----
+  function layout(sheet) {
+    let row = sheet.prep.length ? 1 : 0;
+    const top = row;
+    const cells = [];
+    function walk(node) {
+      if (!node.in) return { node, first: row++, rows: 1, col: 0, kids: [] };
+      const first = row;
+      const kids = node.in.map(walk);
+      return { node, first, rows: row - first, col: 1 + Math.max(...kids.map((k) => k.col)), kids };
+    }
+    const tree = sheet.roots.map(walk);
+    const cols = 1 + Math.max(...tree.map((t) => t.col));
+    const finished = sheet.roots.length === 1 && sheet.roots[0].in;
+    function fillers(kids, col) {
+      const runs = [];
+      for (let c = 1; c < col; c++) {
+        let run = null;
+        for (const k of kids) {
+          if (k.col < c) {
+            if (run) run.rowspan += k.rows;
+            else runs.push((run = { kind: "empty", row: k.first, col: c, rowspan: k.rows, colspan: 1 }));
+          } else run = null;
+        }
+      }
+      for (const r of runs) {
+        const left = cells.find((x) => x.kind === "empty" && x.row === r.row && x.rowspan === r.rowspan && x.col + x.colspan === r.col);
+        if (left && runs.includes(left)) left.colspan++;
+        else cells.push(r);
+      }
+    }
+    function emit(t, owner) {
+      const n = t.node;
+      cells.push({ kind: n.in ? "step" : "ing", id: n.id, node: n, row: t.first, col: t.col, rowspan: t.rows, colspan: 1, finish: finished && t.col === cols - 1 });
+      fillers(t.kids, t.col);
+      t.kids.forEach((k) => emit(k));
+    }
+    tree.forEach((t) => emit(t));
+    fillers(tree, cols);
+    for (const c of cells) if (c.kind === "empty") c.id = `f-${c.row}-${c.col}-${c.rowspan}-${c.colspan}`;
+    if (sheet.prep.length) cells.push({ kind: "prep", id: "prep", row: 0, col: 0, rowspan: 1, colspan: cols });
+    return { cells, cols, rows: row, top };
+  }
+
+  // ----- Rendering with FLIP so cells glide when the sheet changes -----
+  const chartEl = document.getElementById("chart");
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let current = { key: null, els: new Map() };
+
+  function cellContent(c, sheet) {
+    const frag = document.createDocumentFragment();
+    if (c.kind === "prep") {
+      const tag = document.createElement("span");
+      tag.className = "tag-inline";
+      tag.textContent = "Before you start";
+      frag.append(tag);
+      sheet.prep.forEach((p, i) => {
+        const s = document.createElement("span");
+        s.innerHTML = `<span class="num">0${i + 1}</span>`;
+        s.append(p);
+        frag.append(s);
+      });
+    } else if (c.kind === "ing") {
+      const line = document.createElement("span");
+      if (c.node.q) {
+        const q = document.createElement("span");
+        q.className = "qty";
+        q.textContent = c.node.q;
+        line.append(q, " ");
+      }
+      line.append(c.node.n);
+      frag.append(line);
+    } else if (c.kind === "step") {
+      const a = document.createElement("span");
+      a.className = "act";
+      a.textContent = c.node.a;
+      frag.append(a);
+      if (c.node.d) {
+        const d = document.createElement("span");
+        d.className = "det";
+        d.textContent = c.node.d;
+        frag.append(d);
+      }
+    }
+    return frag;
+  }
+
+  function renderChart(key) {
+    const sheet = CHARTS[key];
+    const lay = layout(sheet);
+    const sameFamily = current.key && (current.key === key || (current.key[0] === "v" && key[0] === "v"));
+    const before = new Map();
+    if (sameFamily && !reduce) for (const [id, el] of current.els) before.set(id, el.getBoundingClientRect());
+    if (!sameFamily) { chartEl.replaceChildren(); current.els = new Map(); }
+
+    chartEl.style.gridTemplateColumns = `minmax(0, 2.3fr) repeat(${lay.cols - 1}, minmax(0, 1fr))`;
+    const next = new Map();
+    for (const c of lay.cells) {
+      let el = current.els.get(c.id);
+      const isNew = !el;
+      if (isNew) {
+        el = document.createElement("div");
+        el.dataset.id = c.id;
+      }
+      el.className = "cell " + c.kind +
+        (c.kind === "step" && /^(bake|roast|sear)/i.test(c.node.a) ? " heat" : "") +
+        (c.finish ? " finish" : "") +
+        (c.col + c.colspan === lay.cols ? " edge-r" : "") +
+        (c.row + c.rowspan === lay.rows ? " edge-b" : "");
+      el.style.gridRow = `${c.row + 1} / span ${c.rowspan}`;
+      el.style.gridColumn = `${c.col + 1} / span ${c.colspan}`;
+      if (isNew || c.kind === "prep") el.replaceChildren(cellContent(c, sheet));
+      chartEl.append(el);
+      next.set(c.id, el);
+      if (isNew && sameFamily && !reduce) {
+        el.animate([{ opacity: 0, transform: "translateX(-14px)" }, { opacity: 1, transform: "none" }], { duration: 520, easing: "cubic-bezier(.2,.7,.2,1)", delay: 160 });
+      }
+    }
+    for (const [id, el] of current.els) if (!next.has(id)) el.remove();
+    if (!sameFamily && !reduce) chartEl.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 400 });
+    if (sameFamily && !reduce) {
+      for (const [id, el] of next) {
+        const a = before.get(id);
+        if (!a) continue;
+        const b = el.getBoundingClientRect();
+        const dx = a.left - b.left, dy = a.top - b.top, sx = a.width / b.width, sy = a.height / b.height;
+        if (Math.abs(dx) + Math.abs(dy) + Math.abs(1 - sx) + Math.abs(1 - sy) < 0.5) continue;
+        el.animate([{ transformOrigin: "0 0", transform: `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})` }, { transformOrigin: "0 0", transform: "none" }], { duration: 560, easing: "cubic-bezier(.2,.7,.2,1)" });
+      }
+    }
+    current = { key, els: next };
+  }
+
+  function applyFocus(hl, tags) {
+    const set = new Set(hl || []);
+    chartEl.classList.toggle("focus", set.size > 0);
+    for (const [id, el] of current.els) {
+      el.classList.toggle("hl", set.has(id));
+      el.querySelector(".badge")?.remove();
+      if (tags && tags[id]) {
+        const b = document.createElement("span");
+        b.className = "badge";
+        b.textContent = tags[id];
+        el.append(b);
+      }
+    }
+  }
+  // Empty-cell ids depend on position, so chapters point at them by the row they sit beside.
+  function emptyBeside(leafId) {
+    const leaf = current.els.get(leafId);
+    if (!leaf) return [];
+    const row = parseInt(leaf.style.gridRow, 10);
+    return [...current.els.keys()].filter((id) => id.startsWith("f-") && parseInt(id.split("-")[1], 10) + 1 === row);
+  }
+
+  // ----- Chapters -----
+  const ING = ["bananas", "butter", "vanilla", "eggs", "flour", "sugar", "soda", "powder", "salt", "walnuts"];
+  const chapters = [
+    { part: 1, chart: "banana", title: "One recipe. One sheet.",
+      body: "Every recipe in Recipe Grid is a single table. Ingredients run down the left. Steps run to the right in the order you do them. The last column is the finished dish.",
+      rule: "Time moves left to right.", beats: [{ at: 0, hl: [] }] },
+    { part: 1, chart: "banana", title: "Do the setup first",
+      body: "The full-width row on top is setup: butter and flour the loaf pan, preheat the oven. Do these before you touch an ingredient, so the oven is hot when the batter is ready.",
+      rule: "Top rows happen before everything else.", beats: [{ at: 0, hl: ["prep"] }] },
+    { part: 1, chart: "banana", title: "Measure out the left column",
+      body: "The left column is your measuring list, in the order you'll use it. Amount first, metric in brackets. Get everything out and measured before you start.",
+      rule: "Mise en place: measure all of it first.",
+      beats: ING.map((id, i) => ({ at: i * 380, hl: ING.slice(0, i + 1) })) },
+    { part: 1, chart: "banana", title: "A cell beside one ingredient is its prep",
+      body: "Read straight across a row. MASH sits next to the bananas and nothing else, so you mash the bananas on their own. Melt the butter. Lightly beat the eggs.",
+      rule: "One row, one cell: prep that ingredient alone.",
+      beats: [{ at: 0, hl: ["bananas", "mash"] }, { at: 1900, hl: ["butter", "melt"] }, { at: 3800, hl: ["eggs", "beat"] }] },
+    { part: 1, chart: "banana", title: "A hatched cell means use it as is",
+      body: "Vanilla has nothing beside it. Measure it and leave it. It joins the others at the next cell that covers its row.",
+      rule: "Hatched means nothing to do yet.",
+      beats: [{ at: 0, hl: () => ["vanilla", ...emptyBeside("vanilla")] }] },
+    { part: 1, chart: "banana", title: "A tall cell combines everything it spans",
+      body: "MASH UNTIL SMOOTH stretches over four rows: bananas, butter, vanilla and eggs. Everything under its span goes into one bowl. The cell's height tells you what's in it.",
+      rule: "Height is contents.",
+      beats: [{ at: 0, hl: ["wet"], tags: { wet: "Bowl 1" } }, { at: 1200, hl: ["wet", "bananas", "mash", "butter", "melt", "vanilla", "eggs", "beat"], tags: { wet: "Bowl 1" } }] },
+    { part: 1, chart: "banana", title: "Separate spans are separate bowls",
+      body: "WHISK covers flour through salt: a second bowl for the dry ingredients. Its span doesn't overlap Bowl 1, so you can make them in either order or at the same time.",
+      rule: "No overlap means no dependency.",
+      beats: [{ at: 0, hl: ["dry", "flour", "sugar", "soda", "powder", "salt"], tags: { dry: "Bowl 2" } },
+              { at: 2600, hl: ["dry", "wet"], tags: { wet: "Bowl 1", dry: "Bowl 2" } }] },
+    { part: 1, chart: "banana", title: "When spans join, so do the bowls",
+      body: "FOLD spans every row. Bowl 1, Bowl 2 and the walnuts come together here. You can't fold until everything to its left is finished.",
+      rule: "A step starts when everything to its left in its span is done.",
+      beats: [{ at: 0, hl: ["wet", "dry", "walnuts"], tags: { wet: "Bowl 1", dry: "Bowl 2" } },
+              { at: 1800, hl: ["fold", "wet", "dry", "walnuts"], tags: { fold: "All in" } }] },
+    { part: 1, chart: "banana", title: "A full-height chain is one thing, in order",
+      body: "From here it's one batter moving through time. Bake for 55 minutes, cool 10 minutes in the pan, then turn it out onto a rack. Tinted cells are the ones with heat.",
+      rule: "Read the chain one cell at a time.",
+      beats: [{ at: 0, hl: ["bake"] }, { at: 1700, hl: ["bake", "cool"] }, { at: 3400, hl: ["bake", "cool", "rack"] }] },
+    { part: 1, chart: "banana", title: "The dark column is the finished dish",
+      body: "If you lose your place, find the rightmost cell you've finished. The next cell to its right is what you do now.",
+      rule: "Lost? Look right of your last finished cell.",
+      beats: [{ at: 0, hl: ["rack"], tags: { rack: "Done" } }, { at: 2600, hl: [] }] },
+    { part: 2, chart: "v0", title: "Writing your own: list the ingredients",
+      body: "In the builder, add ingredients one per line, in the order you'll use them. Each becomes a row. Here's a vinaigrette.",
+      rule: "Amount first, metric in brackets.",
+      builder: { items: [["olive oil"], ["red wine vinegar"], ["Dijon mustard"], ["shallot"], ["salt and pepper"]] },
+      beats: [{ at: 0, hl: [] }] },
+    { part: 2, chart: "v0", title: "Tick one item to give it a prep step",
+      body: "Tick the shallot, type MINCE, press Combine. A cell appears beside it, just like MASH beside the bananas.",
+      rule: "One item ticked: a prep step.",
+      builder: { items: [["olive oil"], ["red wine vinegar"], ["Dijon mustard"], ["shallot", true], ["salt and pepper"]], action: "mince" },
+      beats: [{ at: 0, hl: ["shal"] }, { at: 2200, chart: "v1", hl: ["shal", "mince"] }] },
+    { part: 2, chart: "v1", title: "Tick several to combine them",
+      body: "Tick the vinegar, the mustard and the minced shallot, then type WHISK. One tall cell now spans all three rows.",
+      rule: "Several ticked: one cell spans them.",
+      builder: { items: [["olive oil"], ["red wine vinegar", true], ["Dijon mustard", true], ["mince", true, true], ["salt and pepper"]], action: "whisk" },
+      beats: [{ at: 0, hl: ["vin", "dij", "mince"] }, { at: 2200, chart: "v2", hl: ["whisk"] }] },
+    { part: 2, chart: "v2", title: "Keep going until one step is left",
+      body: "Whisk in the oil slowly, then season with salt and pepper. When a single cell spans every row, the sheet is complete and it can be saved.",
+      rule: "Finished = one final cell spanning everything.",
+      builder: { items: [["olive oil", true], ["whisk", true, true], ["salt and pepper"]], action: "whisk in slowly" },
+      beats: [{ at: 0, hl: ["oil", "whisk"] }, { at: 2000, chart: "v3", hl: ["slowly"] },
+              { at: 4000, chart: "v4", hl: ["season"], tags: { season: "Done" }, builder: { items: [["whisk in slowly", true, true], ["salt and pepper", true]], action: "season to taste" } },
+              { at: 6200, hl: [] }] },
+  ];
+  const BASE = 6500;
+  chapters.forEach((c) => { c.duration = Math.max(BASE, c.beats[c.beats.length - 1].at + 3600); });
+
+  // ----- Narration and builder strip -----
+  const $ = (id) => document.getElementById(id);
+  const textEl = $("text"), builderEl = $("builder");
+
+  function renderBuilder(b) {
+    builderEl.hidden = !b;
+    if (!b) return;
+    builderEl.replaceChildren(
+      ...b.items.map(([label, on, step]) => {
+        const item = document.createElement("span");
+        item.className = "item" + (on ? " on" : "");
+        const box = document.createElement("span");
+        box.className = "box";
+        const t = document.createElement("span");
+        t.textContent = step ? label.toUpperCase() : label;
+        if (step) t.style.cssText = "font-family: var(--display); font-weight: 600; letter-spacing: .04em";
+        item.append(box, t);
+        return item;
+      })
+    );
+    if (b.action) {
+      const a = document.createElement("span");
+      a.className = "action";
+      a.innerHTML = "<span></span><b>Combine</b>";
+      a.firstChild.textContent = b.action;
+      builderEl.append(a);
+    }
+  }
+
+  let index = 0, elapsed = 0, playing = false, last = 0, beatIdx = -1;
+
+  function applyBeat(ch, i) {
+    const beat = ch.beats[i];
+    if (beat.chart && beat.chart !== current.key) renderChart(beat.chart);
+    if (beat.builder) renderBuilder(beat.builder);
+    const hl = typeof beat.hl === "function" ? beat.hl() : beat.hl;
+    applyFocus(hl, beat.tags);
+  }
+
+  function show(i, keepTime) {
+    index = (i + chapters.length) % chapters.length;
+    const ch = chapters[index];
+    if (!keepTime) elapsed = 0;
+    beatIdx = -1;
+    textEl.classList.add("swap");
+    setTimeout(() => {
+      $("chapter-no").textContent = String(index + 1).padStart(2, "0");
+      $("chapter-title").textContent = ch.title;
+      $("chapter-body").textContent = ch.body;
+      $("chapter-rule").innerHTML = "<b>Rule</b>";
+      $("chapter-rule").append(ch.rule);
+      textEl.classList.remove("swap");
+    }, reduce ? 0 : 180);
+    $("slate-part").textContent = ch.part === 1 ? "Part 1 · Reading a sheet" : "Part 2 · Writing one";
+    $("slate-count").textContent = `Chapter ${String(index + 1).padStart(2, "0")} / ${chapters.length}`;
+    $("screen-title").textContent = ch.part === 1 ? "Banana Nut Bread" : "House Vinaigrette";
+    $("screen-sub").textContent = ch.part === 1 ? "About 10 servings" : "Built in the recipe builder";
+    if (ch.chart !== current.key) renderChart(ch.chart);
+    renderBuilder(ch.builder);
+    tick(true);
+    updateTicks();
+  }
+
+  function tick(force) {
+    const ch = chapters[index];
+    let b = 0;
+    for (let i = 0; i < ch.beats.length; i++) if (ch.beats[i].at <= elapsed) b = i;
+    if (force || b !== beatIdx) {
+      // Replay intermediate beats in order so chart changes are not skipped.
+      for (let i = force ? 0 : beatIdx + 1; i <= b; i++) applyBeat(ch, i);
+      beatIdx = b;
+    }
+    const fill = ticksEl.children[index]?.querySelector("i");
+    if (fill) fill.style.width = Math.min(100, (elapsed / ch.duration) * 100) + "%";
+  }
+
+  function loop(now) {
+    if (!playing) return;
+    elapsed += now - last;
+    last = now;
+    if (elapsed >= chapters[index].duration) {
+      if (index === chapters.length - 1) { setPlaying(false); elapsed = chapters[index].duration; tick(); return; }
+      show(index + 1);
+    } else tick();
+    requestAnimationFrame(loop);
+  }
+
+  function setPlaying(on) {
+    playing = on;
+    $("player").classList.toggle("playing", on);
+    $("play-label").textContent = on ? "Pause" : index === chapters.length - 1 && elapsed >= chapters[index].duration ? "Replay" : "Play";
+    if (on) {
+      if (index === chapters.length - 1 && elapsed >= chapters[index].duration) show(0);
+      last = performance.now();
+      requestAnimationFrame(loop);
+    }
+  }
+
+  const ticksEl = $("ticks");
+  chapters.forEach((ch, i) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("aria-label", `Chapter ${i + 1}: ${ch.title}`);
+    b.title = ch.title;
+    b.innerHTML = "<span><i></i></span>";
+    b.addEventListener("click", () => show(i));
+    ticksEl.append(b);
+  });
+  function updateTicks() {
+    [...ticksEl.children].forEach((b, i) => {
+      b.classList.toggle("done", i < index);
+      b.querySelector("i").style.width = i < index ? "100%" : "0";
+      if (i === index) b.setAttribute("aria-current", "step");
+      else b.removeAttribute("aria-current");
+    });
+  }
+
+  $("play").addEventListener("click", () => setPlaying(!playing));
+  $("prev").addEventListener("click", () => show(index - 1));
+  $("next").addEventListener("click", () => show(index + 1));
+  $("player").addEventListener("keydown", (e) => {
+    if (e.target.closest("button") && (e.key === " " || e.key === "Enter")) return;
+    if (e.key === "ArrowRight") { show(index + 1); e.preventDefault(); }
+    if (e.key === "ArrowLeft") { show(index - 1); e.preventDefault(); }
+  });
+  $("player").tabIndex = -1;
+
+  show(0);
+  if (!reduce) setPlaying(true);
+})();
+</script>
+</body>
+</html>

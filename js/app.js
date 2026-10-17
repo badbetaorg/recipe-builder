@@ -162,7 +162,8 @@
             { class: "hero-copy" },
             h("p", { class: "eyebrow" }, `${recipes.length} recipes · one sheet each`),
             h("h1", { class: "display" }, "Every recipe", h("br"), "on one sheet."),
-            h("p", { class: "lede" }, "Ingredients down the side. Each step spans exactly what it combines. Read left to right — the last column is dinner.")
+            h("p", { class: "lede" }, "Ingredients down the side. Each step spans exactly what it combines. Read left to right — the last column is dinner."),
+            h("a", { class: "guide-link", href: "walkthrough.html" }, "New to this? Watch the 2-minute walkthrough", h("span", { "aria-hidden": "true" }, " →"))
           ),
           h(
             "form",
@@ -251,7 +252,7 @@
         h(
           "div",
           { class: "legend" },
-          h("p", {}, "Read left → right. Each step spans what it combines."),
+          h("p", {}, "Read left → right. Each step spans what it combines.", h("a", { class: "guide-link small", href: "walkthrough.html" }, "How to read a sheet")),
           h(
             "p",
             { class: "keys" },

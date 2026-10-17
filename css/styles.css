@@ -171,6 +171,12 @@ input::placeholder, textarea::placeholder { color: var(--muted); opacity: 0.85; 
 input:focus, select:focus, textarea:focus { outline: 2px solid var(--ink); outline-offset: 0; border-color: var(--ink); }
 label { display: block; margin-bottom: 4px; }
 
+.guide-link {
+  display: inline-flex; align-items: center; min-height: 44px; margin-top: 12px;
+  font-weight: 600; color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px;
+}
+.guide-link.small { min-height: 0; margin: 0 0 0 4px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
+
 /* Library */
 .hero { border-bottom: 1px solid var(--hairline); }
 .hero .wrap { padding-top: 56px; padding-bottom: 40px; display: flex; flex-wrap: wrap; gap: 32px 40px; align-items: flex-end; justify-content: space-between; }
@@ -375,6 +381,8 @@ table.chart { border-collapse: collapse; width: 100%; }
   .header-row { min-height: 60px; }
   .site-header nav a:not(.button) { padding: 10px 8px; }
   .site-header nav .button { margin-left: 4px; padding: 0 12px; }
+  .site-header nav .new-recipe { width: 44px; padding: 0; font-size: 28px; font-weight: 500; }
+  .new-recipe .label { display: none; }
   .hero .wrap { padding-top: 32px; padding-bottom: 28px; }
   .stats div { padding-left: 0; padding-right: 8px; border-left: 0; }
   .chart td { min-width: 84px; padding: 8px; }

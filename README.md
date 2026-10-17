@@ -23,6 +23,9 @@ npm start        # python3 -m http.server 8000, then visit http://localhost:8000
 
 It also works as-is on GitHub Pages.
 
+New to the format? `walkthrough.html` is an animated two-minute guide to reading
+a sheet and building one; the app links to it from the header.
+
 ## Writing your own recipes
 
 Click **+ New recipe**, then:

@@ -34,7 +34,7 @@ jobs:
       - name: Collect site files
         run: |
           mkdir _site
-          cp -r index.html css js data _site/
+          cp -r index.html walkthrough.html css js data _site/
           rm -rf _site/data/batches
       - uses: actions/configure-pages@v5
         with:
