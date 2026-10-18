@@ -34,13 +34,17 @@ recipe into a sheet, then opens it in the builder to check before saving:
   straight from the browser to Anthropic and billed to your account (usually a
   few cents per recipe). Get a key at https://console.anthropic.com/settings/keys.
   The key is only saved on the device if you tick "Remember it".
-- **Quick convert** needs no key and works offline. It reads pasted text,
-  joins each ingredient in at the first step that mentions it, and starts a
-  new branch when a step uses a new bowl or pan. Browsers block reading other
-  sites, so it can't open links.
+- **Quick convert** needs no key and works offline (`js/quick-convert.js`). It
+  strips blog clutter, rewrites amounts in house style with metric added,
+  turns prep in the ingredient list ("1 onion, diced") into its own cell, picks
+  each step's action from a cooking-verb vocabulary, and tracks separate bowls
+  and pans through the method, joining them where the recipe does ("the flour
+  mixture", "return the chicken"). Browsers block reading other sites, so it
+  takes pasted text, not links. `test/fixtures/` holds the pasted recipes it is
+  tested against.
 
-The conversion logic lives in `js/import-core.js` (tested in
-`test/import.test.cjs`); the page is `js/importer.js`. Claude replies with a
+The Claude route lives in `js/import-core.js` (tested in `test/import.test.cjs`);
+the page is `js/importer.js`. Claude replies with a
 flat list of ingredients and steps that `flatToTree` assembles and repairs,
 listing anything it had to fix.
 

@@ -189,14 +189,14 @@
       aiButton.disabled = !value;
       quickHint.textContent = url
         ? "Quick convert can't open web pages (browsers block that). Paste the recipe text instead, or convert the link with Claude."
-        : "Quick convert works offline and needs no key. It follows the order of the steps, so you may want to regroup a few cells afterwards.";
+        : "Quick convert works offline and needs no key. It reads the ingredients and method, pulls out prep like “diced”, and keeps separate bowls and pans apart.";
     }
     input.addEventListener("input", refreshButtons);
 
     quickButton.addEventListener("click", () => {
       try {
-        const result = Core.quickConvert(input.value);
-        handOff(result, "Converted with quick import. Check the steps against the original before saving.");
+        const result = root.RecipeQuickConvert.convert(input.value);
+        handOff(result, "Converted with quick convert. Check the steps against the original before saving.");
       } catch (err) {
         setStatus(err.message, "error");
       }
@@ -279,7 +279,7 @@
                 "ul",
                 { class: "how" },
                 h("li", {}, h("strong", {}, "With Claude: "), "it reads the page or text, works out which ingredients are prepared and mixed together, and lays out the sheet with real parallel steps."),
-                h("li", {}, h("strong", {}, "Quick convert: "), "no AI and no key. It reads the ingredient list and joins each one in at the first step that mentions it."),
+                h("li", {}, h("strong", {}, "Quick convert: "), "no AI and no key. It tidies amounts into house style with metric, turns prep like “1 onion, diced” into its own cell, and tracks separate bowls and pans through the method."),
                 h("li", {}, "Either way the sheet opens in the builder for you to check. Nothing is saved until you press Save.")
               )
             ),
