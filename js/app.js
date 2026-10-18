@@ -183,7 +183,8 @@
           h(
             "div",
             { class: "actions" },
-            h("button", { type: "button", class: "quiet", onclick: importFile }, "Import"),
+            h("a", { class: "button", href: "#/import" }, "Import a recipe"),
+            h("button", { type: "button", class: "quiet", onclick: importFile, title: "Load recipes from an exported JSON file" }, "Open backup"),
             h("button", { type: "button", class: "quiet", onclick: () => download("my-recipes.json", Store.userRecipes()), title: "Download your own recipes as JSON" }, "Export mine")
           )
         ),
@@ -299,6 +300,18 @@
     } else if (parts[0] === "new") {
       markNav("new");
       closeEditor = root.RecipeEditor.open(app, null, false, done);
+    } else if (parts[0] === "import") {
+      markNav("new");
+      root.RecipeImporter.open(app);
+    } else if (parts[0] === "review") {
+      markNav("new");
+      const pending = root.RecipeImporter.takeHandoff();
+      if (!pending) location.replace("#/import");
+      else
+        closeEditor = root.RecipeEditor.open(app, pending.recipe, "import", (id) => {
+          if (id) root.RecipeImporter.clearHandoff();
+          location.hash = id ? "#/recipe/" + encodeURIComponent(id) : "#/import";
+        }, pending.notes);
     } else if (parts[0] === "edit" && parts[1]) {
       markNav(null);
       const r = Store.get(parts[1]);

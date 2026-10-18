@@ -2,7 +2,7 @@
 // opens with no signal. Online, files come from the network first (so a new
 // deploy shows up straight away) unless the network is slow, in which case
 // the cached copy is used. Google Fonts are cached the first time they load.
-const CACHE = "recipe-grid-v1";
+const CACHE = "recipe-grid-v2";
 const FONT_CACHE = "recipe-grid-fonts";
 const SHELL = [
   "./",
@@ -16,6 +16,8 @@ const SHELL = [
   "js/render.js",
   "js/editor.js",
   "js/app.js",
+  "js/import-core.js",
+  "js/importer.js",
   "js/pwa.js",
   "icons/icon-192.png",
   "icons/icon-512.png",

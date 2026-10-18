@@ -23,6 +23,27 @@ npm start        # python3 -m http.server 8000, then visit http://localhost:8000
 
 It also works as-is on GitHub Pages.
 
+## Importing a recipe you already have
+
+**Import a recipe** (on the recipes page, or from the builder) turns an ordinary
+recipe into a sheet, then opens it in the builder to check before saving:
+
+- **Convert with Claude** takes a link or pasted text. Claude fetches the page,
+  works out which ingredients are prepped and mixed together, and returns the
+  sheet with real parallel steps. It uses your own Anthropic API key, sent
+  straight from the browser to Anthropic and billed to your account (usually a
+  few cents per recipe). Get a key at https://console.anthropic.com/settings/keys.
+  The key is only saved on the device if you tick "Remember it".
+- **Quick convert** needs no key and works offline. It reads pasted text,
+  joins each ingredient in at the first step that mentions it, and starts a
+  new branch when a step uses a new bowl or pan. Browsers block reading other
+  sites, so it can't open links.
+
+The conversion logic lives in `js/import-core.js` (tested in
+`test/import.test.cjs`); the page is `js/importer.js`. Claude replies with a
+flat list of ingredients and steps that `flatToTree` assembles and repairs,
+listing anything it had to fix.
+
 ## Installing it on a phone
 
 Recipe Grid is an installable web app and works offline once it has been

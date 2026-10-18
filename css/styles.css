@@ -63,6 +63,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 body {
   margin: 0;
@@ -381,6 +382,31 @@ table.chart { border-collapse: collapse; width: 100%; }
 .message { padding: 10px 14px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--rule); margin: 0 0 16px; }
 .message.error { color: var(--danger); border-color: var(--danger); }
 .form-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+
+/* Import */
+.import-main { flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.import-main textarea { font-size: 16px; line-height: 1.5; min-height: 220px; }
+.import-actions { flex-wrap: wrap; }
+.import-side { max-width: 420px; }
+.import-status { margin: 0; padding: 10px 14px; border-radius: var(--radius); background: var(--surface-2); border: 1px solid var(--hairline); font-weight: 500; }
+.import-status.working { background: var(--bar); color: var(--bar-ink); border-color: var(--bar); font-family: var(--mono); font-size: 14px; }
+.import-status.error { color: var(--danger); border-color: var(--danger); background: var(--surface); }
+.how { margin: 8px 0 0; padding-left: 18px; display: flex; flex-direction: column; gap: 8px; color: var(--ink-2); }
+.key-box { background: var(--surface); border: 1px solid var(--hairline); border-radius: 4px; padding: 0 20px; }
+.key-box summary {
+  cursor: pointer; min-height: 52px; display: flex; align-items: center;
+  font-family: var(--display); font-weight: 700; font-size: 20px; letter-spacing: 0.04em; text-transform: uppercase;
+}
+.key-box[open] { padding-bottom: 20px; }
+.key-fields { display: flex; flex-direction: column; gap: 8px; }
+.key-fields label { font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0; }
+.key-fields label.check { display: flex; align-items: center; gap: 8px; min-height: 44px; font-family: var(--body); font-size: 15px; letter-spacing: 0; text-transform: none; color: var(--ink); }
+.key-fields label.check input { width: 20px; min-height: 0; height: 20px; accent-color: var(--accent); }
+.hint.small { font-size: 13px; }
+.link-button { border: 0; background: none; padding: 0; min-height: 0; color: var(--danger); text-decoration: underline; font-weight: 600; font-size: inherit; }
+.link-button:hover { background: none; color: var(--danger); }
+.message-list { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; }
+@media (max-width: 960px) { .import-side { max-width: none; } }
 
 /* Phones: freeze the ingredient column while the steps scroll sideways. */
 @media (max-width: 720px) {

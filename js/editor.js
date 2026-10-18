@@ -51,15 +51,18 @@
   }
 
   // Open the editor in `container`. `existing` is a recipe to edit, or null
-  // for a new one. `copyOf` marks an edit of a built-in, saved as a new recipe.
-  function open(container, existing, copyOf, onDone) {
+  // for a new one. `copyOf` marks an edit of a built-in, saved as a new
+  // recipe; "import" marks a freshly imported recipe to review, also saved as
+  // new. `notes` are lines shown above the form (e.g. what the import fixed).
+  function open(container, existing, copyOf, onDone, notes) {
     const isNew = !existing || copyOf;
+    const imported = copyOf === "import";
     let restored = false;
     let draft;
     if (existing) {
       draft = {
         id: copyOf ? null : existing.id,
-        title: copyOf ? existing.title + " (my version)" : existing.title,
+        title: copyOf && !imported ? existing.title + " (my version)" : existing.title,
         category: existing.category,
         servings: existing.servings || "",
         prep: (existing.prep || []).join("\n"),
@@ -424,8 +427,12 @@
       onDone(recipe.id);
     }
 
-    const heading = existing ? (copyOf ? existing.title : "Edit " + existing.title) : "New recipe";
-    const eyebrow = existing ? (copyOf ? "Your copy of a built-in recipe" : "Editing your recipe") : "Draft · saved in this browser";
+    const heading = imported ? "Check the import" : existing ? (copyOf ? existing.title : "Edit " + existing.title) : "New recipe";
+    const eyebrow = imported
+      ? "Imported · not saved yet"
+      : existing
+        ? copyOf ? "Your copy of a built-in recipe" : "Editing your recipe"
+        : "Draft · saved in this browser";
     const panel = (no, title, hint, cls, ...body) =>
       h("section", { class: "panel" + (cls ? " " + cls : "") }, h("h2", {}, h("span", { class: "step-no" }, no), title), hint ? h("p", { class: "hint" }, hint) : null, ...body);
 
@@ -444,7 +451,8 @@
             h("button", { type: "button", class: "solid", onclick: finish }, "Save recipe")
           )
         ),
-        isNew && copyOf ? h("p", { class: "message" }, "Built-in recipes can't be changed, so this will be saved as your own copy.") : null,
+        isNew && copyOf && !imported ? h("p", { class: "message" }, "Built-in recipes can't be changed, so this will be saved as your own copy.") : null,
+        notes && notes.length ? h("div", { class: "message" }, notes.length === 1 ? notes[0] : h("ul", { class: "message-list" }, notes.map((n) => h("li", {}, n)))) : null,
         restored
           ? h(
               "p",
@@ -478,7 +486,7 @@
             panel(
               "01",
               "Ingredients",
-              "Amount first, metric in brackets: “6 Tbs. (90 mL) butter”. Paste a list to add several.",
+              h("span", {}, "Amount first, metric in brackets: “6 Tbs. (90 mL) butter”. Paste a list to add several. Have it written down already? ", h("a", { href: "#/import" }, "Import it instead"), "."),
               "",
               h("div", { class: "row" }, ingredientInput, h("button", { type: "button", onclick: () => addIngredients(lines(ingredientInput.value)) }, "Add"))
             ),
